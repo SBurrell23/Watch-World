@@ -11,7 +11,7 @@ const STEPS = [
     { v: '40000', label: 'Up to $40,000', note: 'Precious metals and manufactures' },
     { v: '1000000', label: 'Sky’s the limit', note: 'Haute horlogerie and grand complications' },
   ] },
-  { key: 'o', q: 'Where will it be worn?', sub: 'Choose up to two.', type: 'multi', max: 2, options: [
+  { key: 'o', q: 'Where will it be worn most?', type: 'multi', max: 1, options: [
     { v: 'everyday', label: 'Every day', note: 'One watch for everything' },
     { v: 'dress', label: 'Dress & formal', note: 'Slim, under a cuff' },
     { v: 'sport', label: 'Sport & water', note: 'Divers and chronographs' },
@@ -33,7 +33,7 @@ const STEPS = [
     { v: 'l', label: 'Broad', note: 'Over 18 cm · 41–46 mm cases' },
     { v: 'any', label: 'Not sure', note: 'Size won’t count against a watch' },
   ] },
-  { key: 'p', q: 'What matters most to you?', sub: 'Choose up to three.', type: 'multi', max: 3, options: [
+  { key: 'p', q: 'What matters most to you?', type: 'multi', max: 1, options: [
     { v: 'heritage', label: 'Heritage', note: 'Long history and storied icons' },
     { v: 'value', label: 'Value retention', note: 'Holds or grows its worth' },
     { v: 'innovation', label: 'Innovation', note: 'In-house engineering and firsts' },
@@ -41,7 +41,7 @@ const STEPS = [
     { v: 'craft', label: 'Craft & prestige', note: 'Respected by connoisseurs' },
     { v: 'bang', label: 'Bang for the buck', note: 'Most watch for the money' },
   ] },
-  { key: 'r', q: 'Any regional preference?', sub: 'Choose any that appeal, or skip.', type: 'multi', max: 6, options: [
+  { key: 'r', q: 'Any regional preference?', type: 'multi', max: 1, options: [
     { v: 'CH', label: 'Swiss', note: 'The Jura, Geneva and Biel' },
     { v: 'DE', label: 'German', note: 'Glashütte precision' },
     { v: 'JP', label: 'Japanese', note: 'Seiko, Citizen, Casio & more' },
@@ -49,6 +49,7 @@ const STEPS = [
     { v: 'GB', label: 'British', note: 'A revival of English watchmaking' },
     { v: 'FR,IT,DK,SE,NL,AT', label: 'Elsewhere in Europe', note: 'French, Italian, Nordic…' },
     { v: 'CN,HK,IN,KR,SG,AU,TW', label: 'Asia-Pacific', note: 'Emerging makers' },
+    { v: '', label: 'No preference', note: 'Great watches come from everywhere' },
   ] },
 ];
 
@@ -163,6 +164,7 @@ export default {
     root.appendChild(wrap);
     let ans = decode(ctx.params || {});
     let step = 0;
+    let advancing = false;
     const done = ctx.params?.go === '1' && ans.b;
 
     wrap.innerHTML = `${header({ eyebrow: 'Personal consultation', title: 'Watch <em>Finder</em>', lede: 'Six questions, a few seconds each. We weigh every model in the guide against your budget, style and priorities — and tell you why.' })}
@@ -183,7 +185,6 @@ export default {
         </div>
         <div class="vw-quiz__nav">
           <button type="button" class="vw-btn" data-back ${step === 0 ? 'disabled' : ''}>← Back</button>
-          <button type="button" class="vw-btn vw-btn--gold" data-next>${step === STEPS.length - 1 ? 'See my matches' : (s.type === 'multi' && !sel.length ? 'Skip' : 'Next →')}</button>
         </div></section>`;
       body.querySelector('.vw-quiz__q').focus({ preventScroll: true });
     }
@@ -191,20 +192,14 @@ export default {
     body.addEventListener('click', e => {
       const opt = e.target.closest('.vw-opt');
       if (opt) {
+        // Every question is a single pick that advances on its own; 'multi' steps still store an array for scoring.
+        if (advancing) return;
         const s = STEPS[step];
-        if (s.type === 'single') {
-          ans[s.key] = opt.dataset.v;
-          body.querySelectorAll('.vw-opt').forEach(b => b.setAttribute('aria-pressed', String(b === opt)));
-          setTimeout(() => next(), prefersReducedMotion() ? 0 : 260);
-        } else {
-          const cur = new Set(ans[s.key] || []);
-          if (cur.has(opt.dataset.v)) cur.delete(opt.dataset.v);
-          else { if (cur.size >= s.max) cur.delete([...cur][0]); cur.add(opt.dataset.v); }
-          ans[s.key] = [...cur];
-          body.querySelectorAll('.vw-opt').forEach(b => b.setAttribute('aria-pressed', String(cur.has(b.dataset.v))));
-          const nb = body.querySelector('[data-next]');
-          if (step < STEPS.length - 1) nb.textContent = cur.size ? 'Next →' : 'Skip';
-        }
+        const v = opt.dataset.v;
+        ans[s.key] = s.type === 'multi' ? (v ? [v] : []) : v;
+        body.querySelectorAll('.vw-opt').forEach(b => b.setAttribute('aria-pressed', String(b === opt)));
+        advancing = true;
+        setTimeout(() => { advancing = false; next(); }, prefersReducedMotion() ? 0 : 260);
         return;
       }
       if (e.target.closest('[data-back]')) { step = Math.max(0, step - 1); renderStep(); }
