@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch World · view harness B</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  /* Fallback tokens, overridden by css/tokens.css when it exists */
+  :root {
+    --bg:#0d0c0a; --bg-elev:#15130f; --surface:#1b1914; --surface-2:#24211a; --text:#f1ebdd; --text-muted:#a39a88;
+    --border:rgba(212,175,95,.18); --gold:#d4af5f; --gold-soft:rgba(212,175,95,.14); --accent:#8fb3c9; --danger:#e06a5a;
+    --font-display:'Cormorant Garamond', Georgia, serif; --font-body:Inter, system-ui, sans-serif; --font-mono:'JetBrains Mono', monospace;
+    --radius:10px; --radius-lg:18px; --shadow:0 6px 20px rgba(0,0,0,.35); --shadow-lg:0 20px 60px rgba(0,0,0,.5); --ease:cubic-bezier(.2,.7,.2,1);
+    --tier-1:#6f8f7a; --tier-2:#7ea08a; --tier-3:#8fb3a0; --tier-4:#8fb3c9; --tier-5:#9aa7d6; --tier-6:#b39ad6; --tier-7:#d69ac4; --tier-8:#d6a88a; --tier-9:#d4af5f; --tier-10:#f0d58c;
+  }
+  [data-theme="light"] {
+    --bg:#f7f3ea; --bg-elev:#fffdf8; --surface:#ffffff; --surface-2:#f1ece0; --text:#1d1a14; --text-muted:#6b6354;
+    --border:rgba(140,110,50,.22); --gold:#9c7a2e; --gold-soft:rgba(156,122,46,.12); --accent:#2f5d7c; --danger:#b3412f;
+    --shadow:0 6px 20px rgba(60,40,10,.08); --shadow-lg:0 20px 60px rgba(60,40,10,.14);
+    --tier-1:#4f7a5e; --tier-2:#5b8a6c; --tier-3:#3f7f76; --tier-4:#2f6f9c; --tier-5:#4b5fb0; --tier-6:#7a4fb0; --tier-7:#a8467f; --tier-8:#b0663a; --tier-9:#9c7a2e; --tier-10:#7a5a10;
+  }
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body)}
+  .hb-bar{position:sticky;top:0;z-index:50;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;padding:.5rem 1rem;background:var(--bg-elev);border-bottom:1px solid var(--border);font-size:.8rem}
+  .hb-bar a{color:var(--text-muted);text-decoration:none}.hb-bar a[aria-current]{color:var(--gold)}
+  .hb-bar button{background:none;border:1px solid var(--border);color:var(--text);border-radius:99px;padding:.2rem .7rem;cursor:pointer}
+  #app{display:block}
+</style>
+<link rel="stylesheet" href="../css/tokens.css" onerror="this.remove()">
+<link rel="stylesheet" href="../css/app.css" onerror="this.remove()">
+<link rel="stylesheet" href="../css/views.css">
+</head>
+<body>
+<nav class="hb-bar" id="bar"></nav>
+<main id="app"></main>
+<script type="module">
+const VIEWS = ['map', 'prices', 'timeline', 'groups', 'models', 'finder', 'learn'];
+const qs = new URLSearchParams(location.search);
+const view = qs.get('view') || 'map';
+const bar = document.getElementById('bar');
+bar.innerHTML = VIEWS.map(v => `<a href="?view=${v}" ${v === view ? 'aria-current="page"' : ''}>${v}</a>`).join(' · ') +
+  ` <button id="theme">Toggle theme</button> <span id="src" style="color:var(--text-muted)"></span>`;
+const saved = localStorage.getItem('hb-theme'); if (saved) document.documentElement.dataset.theme = saved;
+document.getElementById('theme').onclick = () => {
+  const t = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+  document.documentElement.dataset.theme = t; localStorage.setItem('hb-theme', t);
+};
+
+async function loadData() {
+  const files = qs.get('data') ? [qs.get('data')] : ['brands.json', 'sample.json', 'sample-b.json'];
+  for (const f of files) {
+    try { const r = await fetch('../data/' + f); if (r.ok) { const j = await r.json(); if (Array.isArray(j) && j.length) { document.getElementById('src').textContent = 'data: ' + f + ' (' + j.length + ')'; return j; } } } catch {}
+  }
+  return [];
+}
+async function loadRenderer() {
+  try { return await import('../js/watch-render.js'); } catch (e) {
+    console.info('watch-render.js missing, using stub');
+    return {
+      fallbackVisual: (seed) => ({ caseShape: 'round', caseMetal: 'steel', dialColor: '#1f3a5f', hands: 'baton', indices: 'baton', handColor: '#eee', indexColor: '#eee', strap: 'leather', strapColor: '#3b2a1d', complications: [] }),
+      renderWatch(v, { size = 160, showStrap = true, title = '' } = {}) {
+        const metal = { 'yellow-gold': '#d9b45a', 'rose-gold': '#d49a82', black: '#222', 'ceramic-white': '#eee' }[v.caseMetal] || '#c9c9c9';
+        const sq = ['rectangular', 'square', 'tonneau', 'cushion'].includes(v.caseShape);
+        const c = sq ? `<rect x="22" y="${v.caseShape === 'rectangular' ? 16 : 22}" width="56" height="${v.caseShape === 'rectangular' ? 68 : 56}" rx="10" fill="${metal}"/><rect x="28" y="${v.caseShape === 'rectangular' ? 22 : 28}" width="44" height="${v.caseShape === 'rectangular' ? 56 : 44}" rx="6" fill="${v.dialColor}"/>`
+          : `<circle cx="50" cy="50" r="30" fill="${metal}"/><circle cx="50" cy="50" r="25" fill="${v.dialColor}"/>`;
+        return `<svg viewBox="0 0 100 100" width="${size}" height="${size}" role="img" aria-label="${title}">${showStrap ? `<rect x="38" y="0" width="24" height="100" fill="${v.strapColor || '#333'}"/>` : ''}${c}<line x1="50" y1="50" x2="50" y2="32" stroke="${v.handColor || '#fff'}" stroke-width="2"/><line x1="50" y1="50" x2="64" y2="54" stroke="${v.handColor || '#fff'}" stroke-width="2"/></svg>`;
+      },
+    };
+  }
+}
+
+const [brands, R] = await Promise.all([loadData(), loadRenderer()]);
+const brandById = new Map(brands.map(b => [b.id, b]));
+const set = (k) => { const s = new Set(JSON.parse(localStorage.getItem(k) || '[]')); return {
+  has: id => s.has(id), toggle: id => { s.has(id) ? s.delete(id) : s.add(id); localStorage.setItem(k, JSON.stringify([...s])); return s.has(id); }, list: () => [...s] }; };
+function parseHash() {
+  const h = location.hash.replace(/^#\/?/, ''); const [path, q] = h.split('?');
+  return Object.fromEntries(new URLSearchParams(q || ''));
+}
+const ctx = {
+  brands, brandById, params: parseHash(),
+  go: (h) => { location.hash = h; },
+  renderWatch: R.renderWatch, fallbackVisual: R.fallbackVisual,
+  startLiveHands: R.startLiveHands || (() => () => {}),
+  favorites: set('hb-fav'), compare: set('hb-cmp'),
+};
+const mod = (await import(`../js/views/${view}.js`)).default;
+document.title = mod.title + ' · harness';
+const root = document.getElementById('app');
+mod.render(root, ctx);
+window.__view = mod; window.__ctx = ctx;
+</script>
+</body>
+</html>

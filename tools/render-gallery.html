@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch World · render gallery</title>
+<style>
+  :root { --dark:#0b0d12; --light:#f6f3ee; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#15171c; color:#ddd; font:13px/1.4 Inter, system-ui, sans-serif; }
+  header { padding:18px 24px; display:flex; gap:16px; align-items:baseline; flex-wrap:wrap; }
+  header h1 { font:500 22px Georgia, serif; margin:0; color:#f1ebdd; }
+  header label { color:#aaa; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)); gap:0; }
+  .card { padding:14px 10px 12px; display:flex; flex-direction:column; align-items:center; }
+  .card.dark { background:var(--dark); color:#cfd3da; }
+  .card.light { background:var(--light); color:#2a2620; }
+  .card .name { font-weight:600; margin-top:4px; text-align:center; }
+  .card .meta { font-size:11px; opacity:.6; text-align:center; max-width:230px; }
+  .card .size.bad { color:#e0533f; font-weight:700; opacity:1; }
+  .live { display:flex; gap:24px; padding:24px; align-items:center; justify-content:center; flex-wrap:wrap; }
+  .live > div { padding:16px; border-radius:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Watch World · procedural render gallery</h1>
+  <label><input type="checkbox" id="swap"> swap backgrounds</label>
+  <span id="stats"></span>
+</header>
+<section class="live" id="live"></section>
+<section class="live" id="mini" title="showStrap:false thumbnails"></section>
+<main class="grid" id="grid"></main>
+<script type="module">
+import { renderWatch, startLiveHands, fallbackVisual } from '../js/watch-render.js';
+
+const W = (name, v) => ({ name, v });
+const base = { caseShape: 'round', caseMetal: 'steel', dialTexture: 'sunburst', bezel: 'smooth', bezelColor: null, bezelColor2: null, hands: 'baton', handColor: '#e8e8e8', indices: 'baton', indexColor: '#e8e8e8', accentColor: null, complications: [], strap: 'leather', strapColor: '#3b2a1d', crown: 'normal', lumeColor: null };
+const M = (o) => { const r = { ...base, ...o }; if (['bracelet', 'integrated-bracelet', 'mesh'].includes(r.strap) && !('strapColor' in o)) r.strapColor = null; return r; };
+
+const list = [
+  W('Submariner Date', M({ dialColor: '#0c0d10', dialTexture: 'matte', bezel: 'dive', bezelColor: '#101114', hands: 'mercedes', handColor: '#e6e6e2', indices: 'applied-mixed', indexColor: '#e6e6e2', complications: ['date'], strap: 'bracelet', crown: 'crown-guard', lumeColor: '#e9f0dc' })),
+  W('GMT-Master II "Pepsi"', M({ dialColor: '#0c0d10', dialTexture: 'matte', bezel: 'gmt', bezelColor: '#b0212b', bezelColor2: '#1d3a8a', hands: 'mercedes', handColor: '#e6e6e2', indices: 'applied-mixed', indexColor: '#e6e6e2', accentColor: '#c8372d', complications: ['gmt', 'date'], strap: 'bracelet', crown: 'crown-guard', lumeColor: '#e9f0dc', caseMetal: 'white-gold' })),
+  W('Royal Oak 15510', M({ caseShape: 'octagon', dialColor: '#1d2b4f', dialTexture: 'tapisserie', bezel: 'octagon-screws', hands: 'baton', indices: 'baton', complications: ['date'], strap: 'integrated-bracelet', lumeColor: '#e9f0dc' })),
+  W('Nautilus 5811', M({ caseShape: 'cushion', caseMetal: 'white-gold', dialColor: '#1f3a5f', dialTexture: 'textured', bezel: 'smooth', hands: 'baton', indices: 'baton', complications: ['date'], strap: 'integrated-bracelet', lumeColor: '#e9f0dc' })),
+  W('Speedmaster Moonwatch', M({ dialColor: '#0e0f11', dialTexture: 'matte', bezel: 'tachymeter', bezelColor: '#101114', hands: 'baton', handColor: '#f0f0ec', indices: 'baton', indexColor: '#f0f0ec', complications: ['chronograph'], strap: 'bracelet', lumeColor: '#e9f0dc' })),
+  W('Santos de Cartier', M({ caseShape: 'square', dialColor: '#efece5', dialTexture: 'matte', bezel: 'octagon-screws', hands: 'sword', handColor: '#1e3a8a', indices: 'roman', indexColor: '#1c1c1c', complications: ['date'], strap: 'bracelet' })),
+  W('Reverso Tribute', M({ caseShape: 'rectangular', dialColor: '#e9e2d0', dialTexture: 'linen', bezel: 'none', hands: 'dauphine', handColor: '#23252a', indices: 'arabic', indexColor: '#23252a', complications: ['small-seconds'], strap: 'leather', strapColor: '#5a3a22' })),
+  W('Grand Seiko "Snowflake"', M({ caseMetal: 'titanium', dialColor: '#eef0f2', dialTexture: 'textured', bezel: 'smooth', hands: 'dauphine', handColor: '#b9bec6', indices: 'baton', indexColor: '#b9bec6', accentColor: '#2a5bd7', complications: ['power-reserve', 'date'], strap: 'bracelet' })),
+  W('Casio F-91W', M({ caseShape: 'rectangular', caseMetal: 'plastic', dialColor: '#9aa392', dialTexture: 'digital', bezel: 'digital', bezelColor: '#111111', handColor: '#1a1a1a', indices: 'none', accentColor: '#2b6fd6', complications: ['digital'], strap: 'resin', strapColor: '#141414' })),
+  W('Apple Watch Ultra', M({ caseShape: 'rectangular', caseMetal: 'titanium', dialColor: '#000000', dialTexture: 'digital', bezel: 'none', handColor: '#ffffff', indices: 'none', accentColor: '#ff7a1a', complications: ['digital'], strap: 'fabric', strapColor: '#d9632b' })),
+  W('Navitimer B01 43', M({ dialColor: '#101217', dialTexture: 'sunburst', bezel: 'slide-rule', hands: 'baton', indices: 'baton', complications: ['chronograph', 'date'], strap: 'leather', strapColor: '#4a2e1f', lumeColor: '#e9f0dc' })),
+  W('Tank Louis Cartier', M({ caseShape: 'rectangular', caseMetal: 'yellow-gold', dialColor: '#f3efe6', dialTexture: 'matte', bezel: 'none', hands: 'sword', handColor: '#1e3a8a', indices: 'roman', indexColor: '#161616', strap: 'leather', strapColor: '#1c1c1e' })),
+  W('Big Crown Pointer Date', M({ caseMetal: 'bronze', dialColor: '#1f3a5f', dialTexture: 'matte', bezel: 'fluted', hands: 'cathedral', handColor: '#e9e4d6', indices: 'arabic', indexColor: '#e9e4d6', accentColor: '#c8372d', complications: ['date'], strap: 'leather', strapColor: '#6a4a2a', crown: 'onion', lumeColor: '#f0e6c8' })),
+  W('Datejust 41 fluted', M({ caseMetal: 'two-tone', dialColor: '#1a3a6a', dialTexture: 'sunburst', bezel: 'fluted', hands: 'baton', indices: 'baton', complications: ['date'], strap: 'bracelet', lumeColor: '#e9f0dc' })),
+  W('Day-Date 40', M({ caseMetal: 'yellow-gold', dialColor: '#1d4d3a', dialTexture: 'sunburst', bezel: 'fluted', hands: 'baton', handColor: '#f0d27e', indices: 'roman', indexColor: '#f0d27e', complications: ['day-date'], strap: 'bracelet' })),
+  W('Explorer I', M({ dialColor: '#0c0d10', dialTexture: 'matte', hands: 'mercedes', indices: 'explorer', strap: 'bracelet', lumeColor: '#e9f0dc' })),
+  W('Black Bay 58', M({ caseMetal: 'bronze', dialColor: '#3a2a1c', dialTexture: 'matte', bezel: 'dive', bezelColor: '#4a3322', hands: 'snowflake', handColor: '#e0c89a', indices: 'applied-mixed', indexColor: '#e0c89a', strap: 'fabric', strapColor: '#5a4a35', lumeColor: '#f0e6c8' })),
+  W('Calatrava 6119', M({ caseMetal: 'rose-gold', dialColor: '#f1ede4', dialTexture: 'guilloche', bezel: 'none', hands: 'dauphine', handColor: '#7a4433', indices: 'baton', indexColor: '#9a5a44', complications: ['small-seconds'], strap: 'leather', strapColor: '#2a1c14' })),
+  W('Breguet Classique 7137', M({ caseMetal: 'yellow-gold', dialColor: '#e7e1d2', dialTexture: 'guilloche', bezel: 'fluted', hands: 'breguet', handColor: '#1f3fa0', indices: 'roman', indexColor: '#222', complications: ['moonphase', 'power-reserve', 'small-seconds'], strap: 'leather', strapColor: '#2a1c14' })),
+  W('Lange 1', M({ caseMetal: 'platinum', dialColor: '#f4efe4', dialTexture: 'matte', bezel: 'none', hands: 'leaf', handColor: '#2a2d33', indices: 'roman', indexColor: '#2a2d33', complications: ['big-date', 'small-seconds', 'power-reserve'], strap: 'leather', strapColor: '#1c1c1e' })),
+  W('Perpetual 5320G', M({ caseMetal: 'white-gold', dialColor: '#e8e0cc', dialTexture: 'matte', bezel: 'smooth', hands: 'leaf', handColor: '#3a2a1a', indices: 'breguet-numerals', indexColor: '#3a2a1a', complications: ['perpetual-calendar', 'moonphase'], strap: 'leather', strapColor: '#3a2419' })),
+  W('World Time 5231', M({ caseMetal: 'rose-gold', dialColor: '#1d2b4f', dialTexture: 'enamel', bezel: 'none', hands: 'leaf', handColor: '#f0d2b5', indices: 'none', indexColor: '#f0d2b5', complications: ['world-time'], strap: 'leather', strapColor: '#2a1c14' })),
+  W('Tourbillon RM-style', M({ caseShape: 'tonneau', caseMetal: 'carbon', dialColor: '#1a1c20', dialTexture: 'skeleton', bezel: 'octagon-screws', hands: 'skeleton', handColor: '#e84a2a', indices: 'arabic', indexColor: '#e84a2a', accentColor: '#e84a2a', complications: ['tourbillon'], strap: 'rubber', strapColor: '#c8372d' })),
+  W('Open Heart', M({ caseMetal: 'rose-gold', dialColor: '#f3efe6', dialTexture: 'guilloche', bezel: 'smooth', hands: 'leaf', handColor: '#8a5a3a', indices: 'roman', indexColor: '#2a2a2a', complications: ['open-heart'], strap: 'leather', strapColor: '#4a2e1f' })),
+  W('Skeleton dress', M({ caseMetal: 'yellow-gold', dialColor: '#1c1a17', dialTexture: 'skeleton', bezel: 'none', hands: 'breguet', handColor: '#f0d27e', indices: 'roman', indexColor: '#f0d27e', strap: 'leather', strapColor: '#1c1c1e' })),
+  W('Meteorite Daytona', M({ caseMetal: 'white-gold', dialColor: '#8b8e92', dialTexture: 'meteorite', bezel: 'tachymeter', bezelColor: '#111', hands: 'baton', handColor: '#f4f4f4', indices: 'baton', indexColor: '#f4f4f4', complications: ['chronograph'], strap: 'rubber', strapColor: '#111', crown: 'crown-guard', accentColor: '#c8372d' })),
+  W('G-Shock DW-5600', M({ caseShape: 'square', caseMetal: 'plastic', dialColor: '#8d9486', dialTexture: 'digital', bezel: 'digital', bezelColor: '#111111', indices: 'none', accentColor: '#c8322f', complications: ['digital'], strap: 'resin', strapColor: '#111111' })),
+  W('GA-2100 "CasiOak"', M({ caseShape: 'octagon', caseMetal: 'black', dialColor: '#141414', dialTexture: 'matte', bezel: 'smooth', hands: 'baton', handColor: '#d0d0d0', indices: 'baton', indexColor: '#9a9a9a', accentColor: '#d14b2b', complications: ['digital'], strap: 'resin', strapColor: '#111111' })),
+  W('Flieger Type A', M({ caseMetal: 'titanium', dialColor: '#16181b', dialTexture: 'matte', bezel: 'none', hands: 'sword', handColor: '#e9e4d6', indices: 'arabic', indexColor: '#e9e4d6', strap: 'leather', strapColor: '#5a3a22', crown: 'onion', lumeColor: '#e9e4d6' })),
+  W('Field NATO', M({ dialColor: '#2b3a2e', dialTexture: 'matte', bezel: 'none', hands: 'pencil', handColor: '#ece6d4', indices: 'arabic', indexColor: '#ece6d4', accentColor: '#e0a526', complications: ['date'], strap: 'nato', strapColor: '#394232', lumeColor: '#f0e6c8' })),
+  W('Compass diver', M({ caseMetal: 'black', dialColor: '#0e1a2a', dialTexture: 'sunburst', bezel: 'compass', bezelColor: '#101114', hands: 'arrow', handColor: '#f0f0ec', indices: 'dots', indexColor: '#f0f0ec', accentColor: '#e0a526', strap: 'rubber', strapColor: '#101114', crown: 'left', lumeColor: '#dfeee4' })),
+  W('Mesh minimal', M({ caseShape: 'round', dialColor: '#dfe3e6', dialTexture: 'matte', bezel: 'none', hands: 'pencil', handColor: '#23262d', indices: 'none', strap: 'mesh' })),
+  W('Enamel Villeret', M({ caseMetal: 'rose-gold', dialColor: '#fbf8f1', dialTexture: 'enamel', bezel: 'none', hands: 'breguet', handColor: '#1f3fa0', indices: 'breguet-numerals', indexColor: '#2a2a2a', complications: ['retrograde'], strap: 'leather', strapColor: '#1c1c1e' })),
+  W('Jumping hour', M({ caseShape: 'cushion', caseMetal: 'white-gold', dialColor: '#26272c', dialTexture: 'guilloche', bezel: 'none', hands: 'leaf', handColor: '#dcdcdc', indices: 'none', complications: ['jumping-hour'], strap: 'leather', strapColor: '#233049' })),
+  W('Oval dress', M({ caseShape: 'oval', caseMetal: 'yellow-gold', dialColor: '#e8dcc2', dialTexture: 'sunburst', bezel: 'smooth', hands: 'dauphine', handColor: '#6b4a1e', indices: 'dots', indexColor: '#9a7a3e', strap: 'leather', strapColor: '#5a3a22' })),
+  W('Ceramic white', M({ caseMetal: 'ceramic-white', dialColor: '#f6f6f4', dialTexture: 'matte', bezel: 'dive', bezelColor: '#f2f2f0', hands: 'sword', handColor: '#1c1f26', indices: 'dots', indexColor: '#1c1f26', accentColor: '#c8372d', strap: 'rubber', strapColor: '#efefed', lumeColor: '#e9f0dc' })),
+  W('Tonneau chronograph', M({ caseShape: 'tonneau', caseMetal: 'rose-gold', dialColor: '#f4efe4', dialTexture: 'guilloche', bezel: 'none', hands: 'breguet', handColor: '#1f3fa0', indices: 'arabic', indexColor: '#222', complications: ['chronograph', 'date'], strap: 'leather', strapColor: '#2a1c14' })),
+  W('Pilot chrono (bicompax)', M({ caseShape: 'cushion', caseMetal: 'black', dialColor: '#1a1c1f', dialTexture: 'linen', bezel: 'smooth', hands: 'sword', handColor: '#f0e6c8', indices: 'arabic', indexColor: '#f0e6c8', accentColor: '#e0a526', complications: ['chronograph', 'day-date'], strap: 'fabric', strapColor: '#394232', lumeColor: '#f0e6c8' })),
+  W('Missing / unknown data', { caseShape: 'hexagon', caseMetal: 'unobtainium', dialColor: 'blue', hands: 42 }),
+  W('fallbackVisual("rolex")', fallbackVisual('rolex')),
+  W('fallbackVisual("patek")', fallbackVisual('patek')),
+  W('fallbackVisual("sinn")', fallbackVisual('sinn')),
+];
+
+const qs = new URLSearchParams(location.search);
+const SIZE = +qs.get('size') || 230, FROM = +qs.get('from') || 0, N = +qs.get('n') || list.length;
+if (qs.has('from')) { document.querySelector('.grid').style.gridTemplateColumns = `repeat(auto-fill, minmax(${SIZE + 20}px, 1fr))`; }
+const grid = document.getElementById('grid');
+let total = 0, max = 0, t0 = performance.now();
+list.forEach((w, i) => {
+  if (i < FROM || i >= FROM + N) return;
+  const svg = renderWatch(w.v, { size: SIZE, title: w.name });
+  total += svg.length; max = Math.max(max, svg.length);
+  const card = document.createElement('div');
+  const row = Math.floor(i / 5);
+  card.className = 'card ' + ((i + row) % 2 ? 'light' : 'dark');
+  const kb = (svg.length / 1024).toFixed(1);
+  card.innerHTML = svg + `<div class="name">${w.name}</div><div class="meta size${svg.length > 25600 ? ' bad' : ''}">${kb} KB · ${[w.v.caseShape, w.v.dialTexture, w.v.bezel, w.v.hands, w.v.indices].join(' · ')}${(w.v.complications || []).length ? ' · ' + w.v.complications.join(', ') : ''}</div>`;
+  grid.appendChild(card);
+});
+document.getElementById('stats').textContent = `${list.length} renders · avg ${(total / list.length / 1024).toFixed(1)} KB · max ${(max / 1024).toFixed(1)} KB · ${(performance.now() - t0).toFixed(0)} ms`;
+document.getElementById('swap').addEventListener('change', (e) => document.querySelectorAll('.card').forEach((c) => { c.classList.toggle('dark'); c.classList.toggle('light'); }));
+
+// live watches
+if (!qs.has('from')) {
+const live = document.getElementById('live');
+[[list[0].v, '#0b0d12'], [list[2].v, '#f6f3ee'], [list[8].v, '#0b0d12'], [list[9].v, '#f6f3ee']].forEach(([v, bg], k) => {
+  const d = document.createElement('div');
+  d.style.background = bg;
+  d.innerHTML = renderWatch(v, { size: k ? 220 : 340, live: true, title: 'Live watch' });
+  live.appendChild(d);
+  startLiveHands(d.querySelector('svg'));
+});
+const mini = document.getElementById('mini');
+list.slice(0, 14).forEach((w, k) => { const d = document.createElement('div'); d.style.background = k % 2 ? '#f6f3ee' : '#0b0d12'; d.style.padding = '6px'; d.innerHTML = renderWatch(w.v, { size: 64, showStrap: false, title: w.name }); mini.appendChild(d); });
+}
+</script>
+</body>
+</html>

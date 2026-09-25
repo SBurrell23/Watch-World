@@ -1,0 +1,84 @@
+/* Watch World design tokens. Variable names are a shared contract with css/views.css; do not rename. */
+:root {
+  color-scheme: dark;
+
+  /* Surfaces: near-black with a warm undertone */
+  --bg: #0b0a08;
+  --bg-elev: #121110;
+  --surface: #171512;
+  --surface-2: #211e19;
+  --text: #f2ece0;
+  --text-muted: #a69d8c;
+  --border: rgba(214, 180, 110, 0.16);
+  --gold: #d4b06a;
+  --gold-soft: rgba(212, 176, 106, 0.13);
+  --accent: #9fb7c8;
+  --danger: #e2735f;
+
+  /* Type */
+  --font-display: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Consolas, monospace;
+
+  /* Shape and depth */
+  --radius: 10px;
+  --radius-lg: 18px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 30px 80px rgba(0, 0, 0, 0.55);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  /* Price tiers: cool steel (1) through gold to warm garnet (10) */
+  --tier-1: #7d93b2;
+  --tier-2: #74a3b9;
+  --tier-3: #72b0a6;
+  --tier-4: #8fba8e;
+  --tier-5: #b6bd7b;
+  --tier-6: #d6bb6c;
+  --tier-7: #e3a55d;
+  --tier-8: #df8a56;
+  --tier-9: #d26d55;
+  --tier-10: #c2525f;
+
+  /* Extras used by app.css (safe for other modules to use too) */
+  --gold-line: linear-gradient(90deg, transparent, var(--gold) 20%, var(--gold) 80%, transparent);
+  --text-soft: #cfc7b6;
+  --hairline: rgba(212, 176, 106, 0.28);
+  --overlay: rgba(6, 5, 4, 0.72);
+  --maxw: 1320px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --nav-h: 68px;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --bg: #f6f1e7;
+  --bg-elev: #fbf8f1;
+  --surface: #fffdf8;
+  --surface-2: #efe8da;
+  --text: #1c1813;
+  --text-muted: #6d6453;
+  --border: rgba(125, 94, 40, 0.2);
+  --gold: #946f25;
+  --gold-soft: rgba(148, 111, 37, 0.1);
+  --accent: #2f5d7c;
+  --danger: #b3412f;
+
+  --shadow: 0 1px 2px rgba(60, 40, 10, 0.05), 0 8px 24px rgba(60, 40, 10, 0.07);
+  --shadow-lg: 0 2px 6px rgba(60, 40, 10, 0.06), 0 30px 70px rgba(60, 40, 10, 0.14);
+
+  --tier-1: #4a6388;
+  --tier-2: #3e728b;
+  --tier-3: #2f7a72;
+  --tier-4: #4c7c4b;
+  --tier-5: #75772b;
+  --tier-6: #92751f;
+  --tier-7: #a5651e;
+  --tier-8: #a64f24;
+  --tier-9: #9a3b2c;
+  --tier-10: #862a3d;
+
+  --text-soft: #3e372c;
+  --hairline: rgba(148, 111, 37, 0.35);
+  --overlay: rgba(40, 32, 20, 0.35);
+}

@@ -1,0 +1,3725 @@
+{
+  "entities": [
+    {
+      "id": "swatch-group",
+      "name": "Swatch Group",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "World's largest watch group by volume, formed in 1983 from the SSIH/ASUAG merger; owns Omega, Breguet, Longines, Tissot, ETA and more."
+    },
+    {
+      "id": "richemont",
+      "name": "Richemont",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "Geneva-based luxury conglomerate whose Specialist Watchmakers include Cartier, Vacheron Constantin, Jaeger-LeCoultre, IWC, Panerai and A. Lange & Söhne."
+    },
+    {
+      "id": "lvmh",
+      "name": "LVMH",
+      "kind": "group",
+      "country": "France",
+      "description": "Luxury group whose Watches division includes TAG Heuer, Zenith, Hublot, Bulgari and Louis Vuitton; also owns Tiffany & Co. and Chaumet."
+    },
+    {
+      "id": "kering",
+      "name": "Kering",
+      "kind": "group",
+      "country": "France",
+      "description": "French luxury group (formerly PPR) that owned Girard-Perregaux and Ulysse Nardin until 2022 and still runs Gucci watches."
+    },
+    {
+      "id": "hans-wilsdorf-foundation",
+      "name": "Hans Wilsdorf Foundation",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "Private Geneva foundation created by Rolex founder Hans Wilsdorf in 1945; the sole owner of Rolex."
+    },
+    {
+      "id": "seiko-group",
+      "name": "Seiko Group",
+      "kind": "group",
+      "country": "Japan",
+      "description": "Japanese group descended from K. Hattori (1881), parent of Seiko, Grand Seiko, Credor and King Seiko."
+    },
+    {
+      "id": "seiko-epson",
+      "name": "Seiko Epson",
+      "kind": "company",
+      "country": "Japan",
+      "description": "Seiko-family electronics company (Suwa Seikosha lineage) that took control of Orient in 2009 and absorbed it in 2017."
+    },
+    {
+      "id": "citizen-group",
+      "name": "Citizen Watch Co.",
+      "kind": "group",
+      "country": "Japan",
+      "description": "Tokyo-based group owning Citizen, Bulova, Frederique Constant, Alpina, Arnold & Son, Angelus and movement makers Miyota and La Joux-Perret."
+    },
+    {
+      "id": "fossil-group",
+      "name": "Fossil Group",
+      "kind": "group",
+      "country": "United States",
+      "description": "Texas fashion-watch group that owns Fossil, Skagen and Zodiac and makes licensed watches for Michael Kors, Emporio Armani and others."
+    },
+    {
+      "id": "movado-group",
+      "name": "Movado Group",
+      "kind": "group",
+      "country": "United States",
+      "description": "New Jersey watch group owning Movado, Ebel, Concord, MVMT and Olivia Burton and holding licences such as Hugo Boss and Tommy Hilfiger."
+    },
+    {
+      "id": "timex-group",
+      "name": "Timex Group",
+      "kind": "group",
+      "country": "United States",
+      "description": "Parent of Timex that also produces licensed watches for Guess (via Sequel) and Versace (via Vertime)."
+    },
+    {
+      "id": "festina-group",
+      "name": "Festina Group",
+      "kind": "group",
+      "country": "Spain",
+      "description": "Barcelona-based group of Miguel Rodríguez owning Festina, Lotus, Jaguar, Perrelet and movement maker Soprod."
+    },
+    {
+      "id": "sowind-group",
+      "name": "Sowind Group",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds holding of Girard-Perregaux and Ulysse Nardin, independent again since a 2022 management buyout from Kering."
+    },
+    {
+      "id": "citychamp",
+      "name": "Citychamp Watch & Jewellery Group",
+      "kind": "group",
+      "country": "Hong Kong",
+      "description": "Hong Kong-listed group owning Eterna and a controlling stake in Ernest Borel; owned Corum from 2013 to 2025."
+    },
+    {
+      "id": "tata-group",
+      "name": "Tata Group",
+      "kind": "group",
+      "country": "India",
+      "description": "Indian conglomerate whose Titan Company (a joint venture with Tamil Nadu's TIDCO) is India's largest watchmaker."
+    },
+    {
+      "id": "dksh",
+      "name": "DKSH",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "Swiss market-expansion services group that has held Maurice Lacroix since 2011 and briefly owned Glycine."
+    },
+    {
+      "id": "partners-group",
+      "name": "Partners Group",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "Swiss private-equity firm that became Breitling's majority owner in 2022."
+    },
+    {
+      "id": "cvc-capital-partners",
+      "name": "CVC Capital Partners",
+      "kind": "company",
+      "country": "Luxembourg",
+      "description": "Private-equity firm that bought Breitling from the Schneider family in 2017."
+    },
+    {
+      "id": "damiani-group",
+      "name": "Damiani Group",
+      "kind": "group",
+      "country": "Italy",
+      "description": "Italian jewellery group that bought Baume & Mercier from Richemont, completing the deal in July 2026."
+    },
+    {
+      "id": "ssih",
+      "name": "SSIH",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "Société Suisse pour l'Industrie Horlogère, formed in 1930 by Omega and Tissot; merged with ASUAG in 1983 to create what became the Swatch Group."
+    },
+    {
+      "id": "asuag",
+      "name": "ASUAG",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "Allgemeine Schweizerische Uhrenindustrie AG, the 1931 holding of ébauche makers including ETA; merged with SSIH in 1983."
+    },
+    {
+      "id": "lmh",
+      "name": "Les Manufactures Horlogères (LMH)",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "VDO/Mannesmann-controlled holding of IWC, Jaeger-LeCoultre and A. Lange & Söhne, sold to Richemont in 2000."
+    },
+    {
+      "id": "tag-group",
+      "name": "TAG Group (Techniques d'Avant Garde)",
+      "kind": "company",
+      "country": "Luxembourg",
+      "description": "Mansour Ojjeh's investment group that bought Heuer in 1985, creating TAG Heuer, before selling it to LVMH in 1999."
+    },
+    {
+      "id": "investcorp",
+      "name": "Investcorp",
+      "kind": "company",
+      "country": "Bahrain",
+      "description": "Investment firm that owned Breguet and Nouvelle Lemania from the late 1980s until selling them to the Swatch Group in 1999."
+    },
+    {
+      "id": "chaumet",
+      "name": "Chaumet",
+      "kind": "company",
+      "country": "France",
+      "description": "Parisian jeweller (LVMH-owned since 1999) whose Chaumet brothers owned Breguet from 1970 to 1987."
+    },
+    {
+      "id": "sandoz-family-foundation",
+      "name": "Sandoz Family Foundation",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "Swiss family foundation that owns Parmigiani Fleurier and the Vaucher Manufacture Fleurier movement maker."
+    },
+    {
+      "id": "melb-holding",
+      "name": "MELB Holding",
+      "kind": "group",
+      "country": "Switzerland",
+      "description": "Meylan-family holding that has owned H. Moser & Cie since 2012."
+    },
+    {
+      "id": "veb-gub",
+      "name": "VEB Glashütter Uhrenbetriebe (GUB)",
+      "kind": "company",
+      "country": "Germany",
+      "description": "East German state combine that absorbed Glashütte's nationalised watch firms from 1951; its privatisation produced Glashütte Original."
+    },
+    {
+      "id": "nokia",
+      "name": "Nokia",
+      "kind": "company",
+      "country": "Finland",
+      "description": "Finnish telecoms company that bought Withings in 2016 and sold it back to co-founder Éric Carreel in 2018."
+    },
+    {
+      "id": "tiffany-and-co",
+      "name": "Tiffany & Co.",
+      "kind": "retailer",
+      "country": "United States",
+      "description": "New York jeweller and retailer (LVMH-owned since 2021) famous for co-signed Patek Philippe and Rolex dials."
+    },
+    {
+      "id": "bucherer",
+      "name": "Bucherer",
+      "kind": "retailer",
+      "country": "Switzerland",
+      "description": "Lucerne-based watch and jewellery retailer, the world's largest Rolex retailer, bought by Rolex in 2023."
+    },
+    {
+      "id": "watches-of-switzerland",
+      "name": "Watches of Switzerland Group",
+      "kind": "retailer",
+      "country": "United Kingdom",
+      "description": "UK-listed luxury watch retailer that acquired Hodinkee in 2024."
+    },
+    {
+      "id": "hodinkee",
+      "name": "Hodinkee",
+      "kind": "company",
+      "country": "United States",
+      "description": "New York watch media and commerce company (founded 2008 by Ben Clymer) known for limited-edition collaborations."
+    },
+    {
+      "id": "crown-and-caliber",
+      "name": "Crown & Caliber",
+      "kind": "retailer",
+      "country": "United States",
+      "description": "Atlanta pre-owned watch e-tailer bought by Hodinkee in 2021; its digital assets went to European Watch Company in 2024."
+    },
+    {
+      "id": "ethos",
+      "name": "Ethos Watch Boutiques",
+      "kind": "retailer",
+      "country": "India",
+      "description": "India's largest luxury watch retailer, which acquired the Favre-Leuba brand from Titan in 2023."
+    },
+    {
+      "id": "eta",
+      "name": "ETA SA",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Swatch Group's ébauche giant (spun out of Eterna in 1932), maker of the 2824, 2892 and Valjoux 7750 families."
+    },
+    {
+      "id": "sellita",
+      "name": "Sellita",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds movement maker, long an ETA assembler, whose SW200/SW300 families became the main alternative to ETA."
+    },
+    {
+      "id": "kenissi",
+      "name": "Kenissi",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Tudor's movement manufacture (20% owned by Chanel), supplying Tudor, Breitling, Chanel, Norqain, Fortis and Bell & Ross."
+    },
+    {
+      "id": "vaucher",
+      "name": "Vaucher Manufacture Fleurier",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "High-end movement maker in Fleurier owned by the Sandoz Family Foundation and 25% by Hermès; supplies Parmigiani, Hermès, Richard Mille and Corum."
+    },
+    {
+      "id": "valjoux",
+      "name": "Valjoux",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Historic Vallée de Joux chronograph specialist (Valjoux 72, 7750), absorbed into ETA in the 1980s."
+    },
+    {
+      "id": "lemania",
+      "name": "Lemania",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Vallée de Joux chronograph maker behind the Lemania 2310 used by Omega, Patek Philippe and Vacheron; became Manufacture Breguet."
+    },
+    {
+      "id": "la-joux-perret",
+      "name": "La Joux-Perret",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds movement maker (formerly Jaquet SA), owned by Citizen since 2012."
+    },
+    {
+      "id": "soprod",
+      "name": "Soprod",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Swiss movement maker owned by the Festina Group since 2008, known for the M100 and P024 calibres."
+    },
+    {
+      "id": "dubois-depraz",
+      "name": "Dubois Dépraz",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Vallée de Joux complication-module specialist that co-developed the 1969 Chronomatic Calibre 11."
+    },
+    {
+      "id": "renaud-et-papi",
+      "name": "Audemars Piguet Renaud & Papi",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Le Locle complications workshop founded by Dominique Renaud and Giulio Papi, majority-owned by Audemars Piguet; a training ground for many independents."
+    },
+    {
+      "id": "frederic-piguet",
+      "name": "Frédéric Piguet",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Vallée de Joux fine-movement maker acquired with Blancpain by Swatch Group in 1992 and merged into Blancpain in 2010."
+    },
+    {
+      "id": "miyota",
+      "name": "Miyota",
+      "kind": "movement-maker",
+      "country": "Japan",
+      "description": "Citizen's movement subsidiary, whose 8215, 9015/9039 and 90S5 calibres power countless microbrands."
+    },
+    {
+      "id": "seiko-instruments",
+      "name": "Seiko Instruments (SII/TMI)",
+      "kind": "movement-maker",
+      "country": "Japan",
+      "description": "Seiko Group movement arm whose Time Module unit sells the NH35 automatic and VK meca-quartz calibres to third parties."
+    },
+    {
+      "id": "ronda",
+      "name": "Ronda",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Swiss quartz and mechanical movement maker, the main supplier of Shinola's movements."
+    },
+    {
+      "id": "agenhor",
+      "name": "Agenhor",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Jean-Marc Wiederrecht's Geneva complication house behind Van Cleef & Arpels' Poetic Complications and many Hermès modules."
+    },
+    {
+      "id": "concepto",
+      "name": "Concepto Watch Factory",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds movement developer and Jacob & Co.'s main partner for complications such as the Astronomia."
+    },
+    {
+      "id": "dimier-1738",
+      "name": "Dimier 1738",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Movement manufacture acquired by Bovet owner Pascal Raffy in 2006; makes Bovet's calibres and balance springs."
+    },
+    {
+      "id": "minerva",
+      "name": "Minerva",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Villeret chronograph manufacture founded 1858, acquired by Richemont in 2006 and run as Montblanc's Villeret workshop."
+    },
+    {
+      "id": "tha",
+      "name": "Techniques Horlogères Appliquées (THA)",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Complications workshop founded 1989 by Vianney Halter, F.P. Journe and Denis Flageollet; bought by Bucherer in 2007."
+    },
+    {
+      "id": "aegler",
+      "name": "Aegler (Rolex Bienne)",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Bienne movement maker that supplied Rolex from its early years and was merged into Rolex in 2004."
+    },
+    {
+      "id": "la-fabrique-du-temps",
+      "name": "La Fabrique du Temps Louis Vuitton",
+      "kind": "movement-maker",
+      "country": "Switzerland",
+      "description": "Geneva complications workshop founded by ex-Gérald Genta watchmakers, owned by Louis Vuitton since 2011."
+    },
+    {
+      "id": "mb-microtec",
+      "name": "mb-microtec",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "Bernese inventor of tritium gas light sources (Trigalight), owner of the Traser brand and supplier to Luminox."
+    },
+    {
+      "id": "g-and-f-chatelain",
+      "name": "G&F Châtelain",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds case and component maker bought by Chanel in 1993; the base of Chanel's watchmaking."
+    },
+    {
+      "id": "donze-cadrans",
+      "name": "Donzé Cadrans",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "Le Locle enamel-dial workshop acquired by Ulysse Nardin in 2011."
+    },
+    {
+      "id": "nateber",
+      "name": "Natéber",
+      "kind": "company",
+      "country": "Switzerland",
+      "description": "La Chaux-de-Fonds dial maker acquired by Hermès in 2012."
+    },
+    {
+      "id": "gerald-genta",
+      "name": "Gérald Genta",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Designer (1931–2011) of the Royal Oak, Nautilus, Ingenieur SL, Polerouter, Pasha and Bulgari Bulgari."
+    },
+    {
+      "id": "jorg-hysek",
+      "name": "Jörg Hysek",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Designer of the Vacheron Constantin 222, Breguet Marine, TAG Heuer Kirium and Seiko Arctura."
+    },
+    {
+      "id": "eric-giroud",
+      "name": "Eric Giroud",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Geneva designer behind many MB&F Horological Machines, Harry Winston's Opus 9 and work for Vacheron, Van Cleef & Arpels and Tissot."
+    },
+    {
+      "id": "emmanuel-gueit",
+      "name": "Emmanuel Gueit",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Designer of the 1993 Audemars Piguet Royal Oak Offshore; later revived Rolex's Cellini line."
+    },
+    {
+      "id": "jean-claude-biver",
+      "name": "Jean-Claude Biver",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Executive who revived Blancpain, repositioned Omega, created Hublot's Big Bang and led TAG Heuer and LVMH's watch division."
+    },
+    {
+      "id": "nicolas-hayek",
+      "name": "Nicolas G. Hayek",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Engineer-consultant (1928–2010) who merged SSIH and ASUAG, launched Swatch and led the Swatch Group."
+    },
+    {
+      "id": "hans-wilsdorf",
+      "name": "Hans Wilsdorf",
+      "kind": "person",
+      "country": "Germany",
+      "description": "Founder of Rolex (1905, as Wilsdorf & Davis) and Tudor, and of the foundation that owns them."
+    },
+    {
+      "id": "max-busser",
+      "name": "Maximilian Büsser",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Created Harry Winston's Opus series as head of its watch division (1998–2005), then founded MB&F in 2005."
+    },
+    {
+      "id": "george-daniels",
+      "name": "George Daniels",
+      "kind": "person",
+      "country": "United Kingdom",
+      "description": "English watchmaker (1926–2011), inventor of the co-axial escapement and mentor of Roger W. Smith."
+    },
+    {
+      "id": "ludwig-oechslin",
+      "name": "Ludwig Oechslin",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Horologist-scholar behind Ulysse Nardin's astronomical Trilogy of Time and the Freak."
+    },
+    {
+      "id": "max-bill",
+      "name": "Max Bill",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Bauhaus-trained designer whose 1960s Junghans clocks and watches remain in production."
+    },
+    {
+      "id": "roger-tallon",
+      "name": "Roger Tallon",
+      "kind": "person",
+      "country": "France",
+      "description": "French industrial designer (TGV) who created Lip's Mach 2000 collection in 1973."
+    },
+    {
+      "id": "hans-hilfiker",
+      "name": "Hans Hilfiker",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "SBB engineer who designed the 1944 Swiss railway clock, licensed to Mondaine since 1986."
+    },
+    {
+      "id": "jacques-helleu",
+      "name": "Jacques Helleu",
+      "kind": "person",
+      "country": "France",
+      "description": "Chanel artistic director who designed the J12."
+    },
+    {
+      "id": "walter-lange",
+      "name": "Walter Lange",
+      "kind": "person",
+      "country": "Germany",
+      "description": "Great-grandson of Ferdinand Adolph Lange who re-founded A. Lange & Söhne in 1990 with Günter Blümlein."
+    },
+    {
+      "id": "guillaume-laidet",
+      "name": "Guillaume Laidet",
+      "kind": "person",
+      "country": "France",
+      "description": "French entrepreneur who relaunched Nivada Grenchen (2018) and Vulcain (2021)."
+    },
+    {
+      "id": "tom-kartsotis",
+      "name": "Tom Kartsotis",
+      "kind": "person",
+      "country": "United States",
+      "description": "Co-founder of Fossil (1984) and founder of Shinola (2011) via Bedrock Manufacturing."
+    },
+    {
+      "id": "webb-c-ball",
+      "name": "Webb C. Ball",
+      "kind": "person",
+      "country": "United States",
+      "description": "Cleveland jeweller who set US railroad timekeeping standards after the 1891 Kipton wreck and founded Ball Watch Co."
+    },
+    {
+      "id": "vianney-halter",
+      "name": "Vianney Halter",
+      "kind": "person",
+      "country": "France",
+      "description": "Independent watchmaker, THA co-founder, creator of Harry Winston Opus 3 and Louis Erard collaborator."
+    },
+    {
+      "id": "max-hetzel",
+      "name": "Max Hetzel",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Engineer who invented the tuning-fork Accutron movement for Bulova (1960)."
+    }
+  ],
+  "edges": [
+    {
+      "source": "ssih",
+      "target": "swatch-group",
+      "type": "lineage",
+      "label": "Merged with ASUAG into SMH (Swatch Group)",
+      "year": 1983,
+      "detail": "SSIH's brands, including Omega and Tissot, passed into SMH, renamed Swatch Group in 1998.",
+      "current": true
+    },
+    {
+      "source": "asuag",
+      "target": "swatch-group",
+      "type": "lineage",
+      "label": "Merged with SSIH into SMH (Swatch Group)",
+      "year": 1983,
+      "detail": "ASUAG contributed ETA and its ébauche makers plus Longines and Rado.",
+      "current": true
+    },
+    {
+      "source": "nicolas-hayek",
+      "target": "swatch-group",
+      "type": "founder-link",
+      "label": "Architect of the 1983 merger; CEO and chairman",
+      "year": 1983,
+      "detail": "Hayek's consultancy engineered the SSIH/ASUAG rescue and he later took control and led the group until 2010.",
+      "current": true
+    },
+    {
+      "source": "nicolas-hayek",
+      "target": "swatch",
+      "type": "founder-link",
+      "label": "Championed the launch of Swatch",
+      "year": 1983,
+      "detail": "Hayek drove the Swatch plastic watch as the Swiss answer to cheap Asian quartz.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "omega",
+      "type": "owns",
+      "label": "Owner since the 1983 SSIH/ASUAG merger",
+      "year": 1983,
+      "detail": "Omega is the group's flagship brand.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "longines",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Longines came in via ASUAG.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "tissot",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Tissot came in via SSIH.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "rado",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Rado is the group's high-tech-ceramics specialist.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "certina",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Certina sits in the group's mid-range segment.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "mido",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Mido sits in the group's mid-range segment.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "hamilton",
+      "type": "owns",
+      "label": "Owner since the 1983 merger",
+      "year": 1983,
+      "detail": "Hamilton came in via SSIH, which bought it in 1974.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "swatch",
+      "type": "owns",
+      "label": "Group brand launched 1983",
+      "year": 1983,
+      "detail": "The plastic Swatch gave the group its name.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "blancpain",
+      "type": "owns",
+      "label": "Acquired Blancpain",
+      "year": 1992,
+      "detail": "SMH bought Blancpain (with Frédéric Piguet) from Jean-Claude Biver and Jacques Piguet.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "breguet",
+      "type": "owns",
+      "label": "Acquired Breguet from Investcorp",
+      "year": 1999,
+      "detail": "The purchase included Nouvelle Lemania, which became Breguet's manufacture.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "glashutte-original",
+      "type": "owns",
+      "label": "Acquired Glashütte Original",
+      "year": 2000,
+      "detail": "Swatch bought the privatised successor of GUB.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "union-glashutte",
+      "type": "owns",
+      "label": "Acquired Union Glashütte",
+      "year": 2000,
+      "detail": "Acquired together with Glashütte Original.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "harry-winston",
+      "type": "owns",
+      "label": "Bought Harry Winston's watch and jewellery business",
+      "year": 2013,
+      "detail": "Swatch paid about $750m for Harry Winston Inc.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "eta",
+      "type": "owns",
+      "label": "Owns ETA",
+      "year": 1983,
+      "detail": "ETA, ASUAG's ébauche arm, became the group's movement supplier.",
+      "current": true
+    },
+    {
+      "source": "swatch-group",
+      "target": "frederic-piguet",
+      "type": "owns",
+      "label": "Acquired with Blancpain; merged into Blancpain in 2010",
+      "year": 1992,
+      "detail": "Frédéric Piguet's workshops now operate as Blancpain's manufacture.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "valjoux",
+      "type": "owns",
+      "label": "Absorbed Valjoux",
+      "year": null,
+      "detail": "Valjoux, maker of the 7750 chronograph, became part of ETA in the 1980s.",
+      "current": true
+    },
+    {
+      "source": "ssih",
+      "target": "omega",
+      "type": "former-owner",
+      "label": "Co-founded SSIH with Tissot",
+      "year": 1930,
+      "detail": "Omega and Tissot formed SSIH in 1930.",
+      "current": false
+    },
+    {
+      "source": "ssih",
+      "target": "tissot",
+      "type": "former-owner",
+      "label": "Co-founded SSIH with Omega",
+      "year": 1930,
+      "detail": "Tissot joined Omega in SSIH in 1930.",
+      "current": false
+    },
+    {
+      "source": "ssih",
+      "target": "hamilton",
+      "type": "former-owner",
+      "label": "Bought Hamilton's watch business",
+      "year": 1974,
+      "detail": "The American brand's watch operations passed to SSIH in 1974.",
+      "current": false
+    },
+    {
+      "source": "ssih",
+      "target": "blancpain",
+      "type": "former-owner",
+      "label": "Owned Blancpain (via Rayville-Blancpain)",
+      "year": 1961,
+      "detail": "SSIH sold the dormant name to Biver and Piguet in 1982/83.",
+      "current": false
+    },
+    {
+      "source": "ssih",
+      "target": "lemania",
+      "type": "former-owner",
+      "label": "Acquired Lemania",
+      "year": 1932,
+      "detail": "Lemania supplied SSIH's Omega with chronograph calibres.",
+      "current": false
+    },
+    {
+      "source": "asuag",
+      "target": "eta",
+      "type": "former-owner",
+      "label": "ETA's holding company",
+      "year": 1932,
+      "detail": "ETA was part of ASUAG from the 1930s until the 1983 merger.",
+      "current": false
+    },
+    {
+      "source": "asuag",
+      "target": "longines",
+      "type": "former-owner",
+      "label": "Took over Longines",
+      "year": 1971,
+      "detail": "Longines joined ASUAG in 1971.",
+      "current": false
+    },
+    {
+      "source": "asuag",
+      "target": "oris",
+      "type": "former-owner",
+      "label": "Controlled Oris until a management buyout",
+      "year": 1970,
+      "detail": "Rolf Portmann and Ulrich Herzog bought Oris out of ASUAG in 1982.",
+      "current": false
+    },
+    {
+      "source": "richemont",
+      "target": "cartier",
+      "type": "owns",
+      "label": "Founding house of Richemont",
+      "year": 1988,
+      "detail": "Cartier Monde was folded into Richemont at its creation.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "piaget",
+      "type": "owns",
+      "label": "Owner since 1988",
+      "year": 1988,
+      "detail": "Piaget joined Richemont's Vendôme luxury group in 1988.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "montblanc",
+      "type": "owns",
+      "label": "Owner",
+      "year": 1993,
+      "detail": "Montblanc, bought by Dunhill in 1977, came under Richemont's Vendôme in 1993.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "vacheron-constantin",
+      "type": "owns",
+      "label": "Acquired Vacheron Constantin",
+      "year": 1996,
+      "detail": "Bought from the Saudi owners Sheikh Yamani's group.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "panerai",
+      "type": "owns",
+      "label": "Acquired Panerai",
+      "year": 1997,
+      "detail": "Vendôme bought Panerai and launched it internationally.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "van-cleef-and-arpels",
+      "type": "owns",
+      "label": "Acquired Van Cleef & Arpels",
+      "year": 1999,
+      "detail": "Richemont completed full ownership in 2003.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "jaeger-lecoultre",
+      "type": "owns",
+      "label": "Acquired via LMH and AP's 40% stake",
+      "year": 2000,
+      "detail": "Richemont bought LMH and the outstanding 40% held by Audemars Piguet.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "iwc-schaffhausen",
+      "type": "owns",
+      "label": "Acquired via LMH",
+      "year": 2000,
+      "detail": "Part of the CHF 2.8bn LMH purchase.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "a-lange-and-sohne",
+      "type": "owns",
+      "label": "Acquired via LMH",
+      "year": 2000,
+      "detail": "Part of the LMH purchase.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "roger-dubuis",
+      "type": "owns",
+      "label": "Acquired Roger Dubuis",
+      "year": 2008,
+      "detail": "Richemont took a 60% stake in 2008 and later full ownership.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "minerva",
+      "type": "owns",
+      "label": "Acquired Minerva",
+      "year": 2006,
+      "detail": "Minerva became the Montblanc Montre SA Villeret workshop.",
+      "current": true
+    },
+    {
+      "source": "richemont",
+      "target": "baume-and-mercier",
+      "type": "former-owner",
+      "label": "Owned Baume & Mercier 1988–2026",
+      "year": 1988,
+      "detail": "Richemont sold the brand to the Damiani Group; completion was announced 1 July 2026.",
+      "current": false
+    },
+    {
+      "source": "richemont",
+      "target": "greubel-forsey",
+      "type": "stake",
+      "label": "20% shareholder 2006–2022",
+      "year": 2006,
+      "detail": "Richemont sold its stake back to the founders and CEO in March 2022.",
+      "current": false
+    },
+    {
+      "source": "damiani-group",
+      "target": "baume-and-mercier",
+      "type": "owns",
+      "label": "Acquired 100% from Richemont",
+      "year": 2026,
+      "detail": "Deal signed January 2026 and completed July 2026.",
+      "current": true
+    },
+    {
+      "source": "piaget",
+      "target": "baume-and-mercier",
+      "type": "former-owner",
+      "label": "Took over Baume & Mercier",
+      "year": 1965,
+      "detail": "Piaget's control brought Baume & Mercier into Vendôme/Richemont in 1988.",
+      "current": false
+    },
+    {
+      "source": "lmh",
+      "target": "iwc-schaffhausen",
+      "type": "former-owner",
+      "label": "Holding company of IWC",
+      "year": 1991,
+      "detail": "VDO bought IWC in 1978 and grouped it into LMH with JLC and Lange.",
+      "current": false
+    },
+    {
+      "source": "lmh",
+      "target": "jaeger-lecoultre",
+      "type": "former-owner",
+      "label": "60% holding of Jaeger-LeCoultre",
+      "year": null,
+      "detail": "LMH controlled JLC until Richemont's 2000 purchase.",
+      "current": false
+    },
+    {
+      "source": "lmh",
+      "target": "a-lange-and-sohne",
+      "type": "former-owner",
+      "label": "Backed Lange's 1990 revival",
+      "year": 1990,
+      "detail": "Günter Blümlein of IWC/JLC co-founded the new Lange within the VDO group.",
+      "current": false
+    },
+    {
+      "source": "lmh",
+      "target": "richemont",
+      "type": "lineage",
+      "label": "Sold to Richemont",
+      "year": 2000,
+      "detail": "Richemont paid about CHF 2.8bn for LMH.",
+      "current": false
+    },
+    {
+      "source": "audemars-piguet",
+      "target": "jaeger-lecoultre",
+      "type": "stake",
+      "label": "40% shareholder until 2000",
+      "year": null,
+      "detail": "AP sold its 40% of JLC to Richemont for CHF 280m.",
+      "current": false
+    },
+    {
+      "source": "walter-lange",
+      "target": "a-lange-and-sohne",
+      "type": "founder-link",
+      "label": "Re-founded the family firm",
+      "year": 1990,
+      "detail": "Walter Lange and Günter Blümlein registered Lange Uhren GmbH in December 1990.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "louis-vuitton",
+      "type": "owns",
+      "label": "Founding house of LVMH",
+      "year": 1987,
+      "detail": "Louis Vuitton merged with Moët Hennessy in 1987.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "tag-heuer",
+      "type": "owns",
+      "label": "Acquired TAG Heuer",
+      "year": 1999,
+      "detail": "LVMH bought TAG Heuer from TAG Group and public shareholders.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "zenith",
+      "type": "owns",
+      "label": "Acquired Zenith",
+      "year": 1999,
+      "detail": "Bought from Dixi, which had saved Zenith in 1978.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "hublot",
+      "type": "owns",
+      "label": "Acquired Hublot",
+      "year": 2008,
+      "detail": "Bought under Jean-Claude Biver's leadership of Hublot.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "bulgari",
+      "type": "owns",
+      "label": "Acquired Bulgari",
+      "year": 2011,
+      "detail": "LVMH bought Bulgari in a €4.3bn share deal.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "chaumet",
+      "type": "owns",
+      "label": "Acquired Chaumet",
+      "year": 1999,
+      "detail": "The Paris jeweller joined LVMH in 1999.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "tiffany-and-co",
+      "type": "owns",
+      "label": "Acquired Tiffany & Co.",
+      "year": 2021,
+      "detail": "Completed in January 2021 for about $15.8bn.",
+      "current": true
+    },
+    {
+      "source": "lvmh",
+      "target": "ebel",
+      "type": "former-owner",
+      "label": "Owned Ebel 1999–2004",
+      "year": 1999,
+      "detail": "LVMH sold Ebel to Movado Group, completing in 2004.",
+      "current": false
+    },
+    {
+      "source": "tag-group",
+      "target": "tag-heuer",
+      "type": "former-owner",
+      "label": "Bought Heuer, creating TAG Heuer",
+      "year": 1985,
+      "detail": "Mansour Ojjeh's TAG Group sold to LVMH in 1999.",
+      "current": false
+    },
+    {
+      "source": "louis-vuitton",
+      "target": "la-fabrique-du-temps",
+      "type": "owns",
+      "label": "Acquired La Fabrique du Temps",
+      "year": 2011,
+      "detail": "The workshop now develops Louis Vuitton's complications.",
+      "current": true
+    },
+    {
+      "source": "chaumet",
+      "target": "breguet",
+      "type": "former-owner",
+      "label": "Owned Breguet 1970–1987",
+      "year": 1970,
+      "detail": "The Chaumet brothers revived Breguet as a wristwatch brand.",
+      "current": false
+    },
+    {
+      "source": "investcorp",
+      "target": "breguet",
+      "type": "former-owner",
+      "label": "Owned Breguet until 1999",
+      "year": 1987,
+      "detail": "Investcorp's Groupe Horloger Breguet was sold to Swatch Group.",
+      "current": false
+    },
+    {
+      "source": "investcorp",
+      "target": "lemania",
+      "type": "former-owner",
+      "label": "Owned Nouvelle Lemania within Groupe Horloger Breguet",
+      "year": null,
+      "detail": "Sold to Swatch Group with Breguet in 1999.",
+      "current": false
+    },
+    {
+      "source": "kering",
+      "target": "girard-perregaux",
+      "type": "former-owner",
+      "label": "Owned Sowind (Girard-Perregaux) 2011–2022",
+      "year": 2011,
+      "detail": "PPR took control of Sowind in 2011; Kering sold it to management in 2022.",
+      "current": false
+    },
+    {
+      "source": "kering",
+      "target": "ulysse-nardin",
+      "type": "former-owner",
+      "label": "Owned Ulysse Nardin 2014–2022",
+      "year": 2014,
+      "detail": "Sold with Girard-Perregaux in a 2022 management buyout.",
+      "current": false
+    },
+    {
+      "source": "kering",
+      "target": "gucci",
+      "type": "owns",
+      "label": "Gucci watches are made in-house by Kering",
+      "year": 1999,
+      "detail": "Gucci Timepieces is part of Kering's Gucci house.",
+      "current": true
+    },
+    {
+      "source": "sowind-group",
+      "target": "girard-perregaux",
+      "type": "owns",
+      "label": "Parent company",
+      "year": 1992,
+      "detail": "Sowind, built by Luigi Macaluso from 1992, is again independent since 2022.",
+      "current": true
+    },
+    {
+      "source": "sowind-group",
+      "target": "ulysse-nardin",
+      "type": "owns",
+      "label": "Parent company since the 2022 buyout",
+      "year": 2022,
+      "detail": "Ulysse Nardin joined Sowind when management bought both brands from Kering.",
+      "current": true
+    },
+    {
+      "source": "ulysse-nardin",
+      "target": "donze-cadrans",
+      "type": "owns",
+      "label": "Acquired enamel-dial maker Donzé Cadrans",
+      "year": 2011,
+      "detail": "Donzé still makes dials for other brands.",
+      "current": true
+    },
+    {
+      "source": "hans-wilsdorf-foundation",
+      "target": "rolex",
+      "type": "owns",
+      "label": "Sole owner of Rolex",
+      "year": 1945,
+      "detail": "Wilsdorf left his shares to the foundation, which has owned Rolex since his death in 1960.",
+      "current": true
+    },
+    {
+      "source": "hans-wilsdorf",
+      "target": "rolex",
+      "type": "founder-link",
+      "label": "Founded Wilsdorf & Davis, later Rolex",
+      "year": 1905,
+      "detail": "Wilsdorf registered the Rolex name in 1908.",
+      "current": true
+    },
+    {
+      "source": "hans-wilsdorf",
+      "target": "tudor",
+      "type": "founder-link",
+      "label": "Founded Tudor",
+      "year": 1926,
+      "detail": "The Tudor name was registered for Wilsdorf in 1926; Montres Tudor SA followed in 1946.",
+      "current": true
+    },
+    {
+      "source": "hans-wilsdorf",
+      "target": "hans-wilsdorf-foundation",
+      "type": "founder-link",
+      "label": "Created the foundation",
+      "year": 1945,
+      "detail": "Set up after his wife's death to own Rolex and fund charities.",
+      "current": true
+    },
+    {
+      "source": "rolex",
+      "target": "tudor",
+      "type": "owns",
+      "label": "Sister brand under Rolex",
+      "year": 1946,
+      "detail": "Tudor shares Rolex's ownership and distribution.",
+      "current": true
+    },
+    {
+      "source": "rolex",
+      "target": "bucherer",
+      "type": "owns",
+      "label": "Acquired Bucherer",
+      "year": 2023,
+      "detail": "Announced August 2023 and closed after regulatory approval; includes Tourneau in the US.",
+      "current": true
+    },
+    {
+      "source": "rolex",
+      "target": "aegler",
+      "type": "owns",
+      "label": "Merged its Bienne movement maker",
+      "year": 2004,
+      "detail": "Aegler became Rolex's Bienne manufacture.",
+      "current": true
+    },
+    {
+      "source": "rolex",
+      "target": "carl-f-bucherer",
+      "type": "former-owner",
+      "label": "Owned the brand via Bucherer until its closure",
+      "year": 2023,
+      "detail": "Rolex decided in 2025 to wind down Carl F. Bucherer.",
+      "current": false
+    },
+    {
+      "source": "bucherer",
+      "target": "carl-f-bucherer",
+      "type": "owns",
+      "label": "Family watch brand of Bucherer",
+      "year": 1888,
+      "detail": "Carl F. Bucherer was the retailer's own brand until it was wound down in 2025.",
+      "current": false
+    },
+    {
+      "source": "carl-f-bucherer",
+      "target": "tha",
+      "type": "owns",
+      "label": "Bought THA to build a manufacture",
+      "year": 2007,
+      "detail": "THA became Carl F. Bucherer Technologies and developed the CFB A1000.",
+      "current": false
+    },
+    {
+      "source": "tudor",
+      "target": "kenissi",
+      "type": "owns",
+      "label": "Tudor's movement manufacture",
+      "year": null,
+      "detail": "Kenissi makes Tudor's calibres and supplies other brands.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "kenissi",
+      "type": "stake",
+      "label": "20% shareholder",
+      "year": 2019,
+      "detail": "Chanel invested in Kenissi, which supplies the J12's Calibre 12.1.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "f-p-journe",
+      "type": "stake",
+      "label": "20% shareholder",
+      "year": 2018,
+      "detail": "Journe keeps control of his manufacture.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "romain-gauthier",
+      "type": "stake",
+      "label": "Minority shareholder",
+      "year": 2011,
+      "detail": "Chanel's 25% stake supports Gauthier's component-making.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "mb-and-f",
+      "type": "stake",
+      "label": "25% shareholder",
+      "year": 2024,
+      "detail": "Max Büsser kept 60% and Serge Kriknoff 15%.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "bell-and-ross",
+      "type": "stake",
+      "label": "Minority shareholder since 1998",
+      "year": 1998,
+      "detail": "Chanel's backing helped Bell & Ross move production to Switzerland.",
+      "current": true
+    },
+    {
+      "source": "chanel",
+      "target": "g-and-f-chatelain",
+      "type": "owns",
+      "label": "Acquired case and component maker",
+      "year": 1993,
+      "detail": "Châtelain became Chanel's watch manufacture in La Chaux-de-Fonds.",
+      "current": true
+    },
+    {
+      "source": "hermes",
+      "target": "vaucher",
+      "type": "stake",
+      "label": "25% shareholder",
+      "year": 2006,
+      "detail": "Hermès bought a quarter of Vaucher to secure movement supply.",
+      "current": true
+    },
+    {
+      "source": "hermes",
+      "target": "nateber",
+      "type": "owns",
+      "label": "Acquired dial maker",
+      "year": 2012,
+      "detail": "Now part of Les Ateliers d'Hermès Horloger.",
+      "current": true
+    },
+    {
+      "source": "sandoz-family-foundation",
+      "target": "parmigiani-fleurier",
+      "type": "owns",
+      "label": "Owner and financier",
+      "year": 1996,
+      "detail": "The foundation backed Michel Parmigiani's brand launch.",
+      "current": true
+    },
+    {
+      "source": "sandoz-family-foundation",
+      "target": "vaucher",
+      "type": "owns",
+      "label": "Owner",
+      "year": 2003,
+      "detail": "Vaucher was created from Parmigiani's movement operations.",
+      "current": true
+    },
+    {
+      "source": "audemars-piguet",
+      "target": "renaud-et-papi",
+      "type": "owns",
+      "label": "Majority owner",
+      "year": 1992,
+      "detail": "Renaud & Papi became Audemars Piguet Renaud & Papi, later AP Le Locle.",
+      "current": true
+    },
+    {
+      "source": "audemars-piguet",
+      "target": "richard-mille",
+      "type": "stake",
+      "label": "About 10% shareholder",
+      "year": null,
+      "detail": "AP's stake in Richard Mille goes back to the brand's early years, when APRP supplied its movements.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "seiko",
+      "type": "owns",
+      "label": "Core brand",
+      "year": 1881,
+      "detail": "Kintaro Hattori opened his shop in 1881 and launched Seiko products in 1924.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "grand-seiko",
+      "type": "owns",
+      "label": "Owner",
+      "year": 1960,
+      "detail": "Grand Seiko has been a separate brand since 2017.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "credor",
+      "type": "owns",
+      "label": "Owner",
+      "year": 1974,
+      "detail": "Seiko's luxury dress and jewellery-watch line.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "king-seiko",
+      "type": "owns",
+      "label": "Owner",
+      "year": 1961,
+      "detail": "King Seiko was revived in 2022.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "seiko-instruments",
+      "type": "owns",
+      "label": "Group movement maker",
+      "year": 1937,
+      "detail": "Founded as Daini Seikosha.",
+      "current": true
+    },
+    {
+      "source": "seiko-group",
+      "target": "yema",
+      "type": "former-owner",
+      "label": "Owned Yema 1988–c.2004",
+      "year": 1988,
+      "detail": "Hattori/Seiko bought Yema from Matra and later sold it.",
+      "current": false
+    },
+    {
+      "source": "seiko-epson",
+      "target": "orient",
+      "type": "owns",
+      "label": "Took control 2009; merged in 2017",
+      "year": 2009,
+      "detail": "Orient became a Seiko Epson brand.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "citizen",
+      "type": "owns",
+      "label": "Core brand",
+      "year": 1918,
+      "detail": "Founded in Tokyo as the Shokosha Watch Research Institute.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "bulova",
+      "type": "owns",
+      "label": "Acquired Bulova",
+      "year": 2008,
+      "detail": "Citizen bought Bulova from Loews Corp. for about $250m.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "frederique-constant",
+      "type": "owns",
+      "label": "Acquired Frederique Constant group",
+      "year": 2016,
+      "detail": "The deal included Alpina and Ateliers deMonaco.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "alpina",
+      "type": "owns",
+      "label": "Acquired via Frederique Constant",
+      "year": 2016,
+      "detail": "Alpina came with the Frederique Constant Holding purchase.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "arnold-and-son",
+      "type": "owns",
+      "label": "Acquired via Prothor Holding",
+      "year": 2012,
+      "detail": "The CHF 64m deal included La Joux-Perret.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "la-joux-perret",
+      "type": "owns",
+      "label": "Acquired via Prothor Holding",
+      "year": 2012,
+      "detail": "La Joux-Perret became Citizen's Swiss movement arm.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "angelus",
+      "type": "owns",
+      "label": "Owned via La Joux-Perret",
+      "year": 2015,
+      "detail": "La Joux-Perret relaunched Angelus in 2015.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "miyota",
+      "type": "owns",
+      "label": "Movement subsidiary",
+      "year": 1959,
+      "detail": "Miyota sells Citizen-designed movements to other brands.",
+      "current": true
+    },
+    {
+      "source": "citizen-group",
+      "target": "accutron",
+      "type": "owns",
+      "label": "Owned via Bulova",
+      "year": 2008,
+      "detail": "Accutron became a separate brand in 2020.",
+      "current": true
+    },
+    {
+      "source": "frederique-constant",
+      "target": "alpina",
+      "type": "owns",
+      "label": "Bought Alpina",
+      "year": 2002,
+      "detail": "Peter and Aletta Stas revived Alpina as a sports-watch sister brand.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "angelus",
+      "type": "lineage",
+      "label": "Relaunched Angelus",
+      "year": 2015,
+      "detail": "The dormant brand returned at Baselworld 2015.",
+      "current": true
+    },
+    {
+      "source": "casio",
+      "target": "g-shock",
+      "type": "owns",
+      "label": "Casio's shock-resistant line",
+      "year": 1983,
+      "detail": "Kikuo Ibe's G-Shock DW-5000C launched in 1983.",
+      "current": true
+    },
+    {
+      "source": "fossil-group",
+      "target": "fossil",
+      "type": "owns",
+      "label": "Core brand",
+      "year": 1984,
+      "detail": "Founded by Tom and Kosta Kartsotis.",
+      "current": true
+    },
+    {
+      "source": "fossil-group",
+      "target": "skagen",
+      "type": "owns",
+      "label": "Acquired Skagen Designs",
+      "year": 2012,
+      "detail": "The Danish minimalist brand joined Fossil.",
+      "current": true
+    },
+    {
+      "source": "fossil-group",
+      "target": "zodiac",
+      "type": "owns",
+      "label": "Acquired Zodiac",
+      "year": 2001,
+      "detail": "Zodiac remains a Fossil-owned Swiss brand.",
+      "current": true
+    },
+    {
+      "source": "fossil-group",
+      "target": "michael-kors",
+      "type": "collaboration",
+      "label": "Watch licensee",
+      "year": null,
+      "detail": "Fossil's Michael Kors watch licence was renewed in 2025 and runs to the end of 2027.",
+      "current": true
+    },
+    {
+      "source": "fossil-group",
+      "target": "emporio-armani",
+      "type": "collaboration",
+      "label": "Watch licensee",
+      "year": null,
+      "detail": "The Emporio Armani licence runs to the end of 2026.",
+      "current": true
+    },
+    {
+      "source": "tom-kartsotis",
+      "target": "fossil",
+      "type": "founder-link",
+      "label": "Co-founder",
+      "year": 1984,
+      "detail": "Started Fossil with his brother Kosta.",
+      "current": true
+    },
+    {
+      "source": "tom-kartsotis",
+      "target": "shinola",
+      "type": "founder-link",
+      "label": "Founder via Bedrock Manufacturing",
+      "year": 2011,
+      "detail": "Shinola assembles watches in Detroit.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "movado",
+      "type": "owns",
+      "label": "Namesake brand",
+      "year": 1983,
+      "detail": "North American Watch Corp. bought the Movado brand and renamed itself Movado Group in 1996.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "ebel",
+      "type": "owns",
+      "label": "Acquired Ebel from LVMH",
+      "year": 2004,
+      "detail": "Deal agreed in late 2003 for about $47m.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "olivia-burton",
+      "type": "owns",
+      "label": "Acquired Olivia Burton",
+      "year": 2017,
+      "detail": "Bought with parent JLB Brands for £60m.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "mvmt",
+      "type": "owns",
+      "label": "Acquired MVMT",
+      "year": 2018,
+      "detail": "The direct-to-consumer brand was bought for about $100m.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "hugo-boss",
+      "type": "collaboration",
+      "label": "Watch licensee",
+      "year": null,
+      "detail": "Movado designs and distributes Hugo Boss watches under licence.",
+      "current": true
+    },
+    {
+      "source": "movado-group",
+      "target": "tommy-hilfiger",
+      "type": "collaboration",
+      "label": "Watch licensee",
+      "year": null,
+      "detail": "Movado designs and distributes Tommy Hilfiger watches under licence.",
+      "current": true
+    },
+    {
+      "source": "timex-group",
+      "target": "timex",
+      "type": "owns",
+      "label": "Core brand",
+      "year": 1854,
+      "detail": "Traces its lineage to the Waterbury Clock Company.",
+      "current": true
+    },
+    {
+      "source": "timex-group",
+      "target": "guess",
+      "type": "collaboration",
+      "label": "Watch licensee via Sequel",
+      "year": null,
+      "detail": "Timex Group's Sequel division has exclusive worldwide rights to Guess and Gc watches.",
+      "current": true
+    },
+    {
+      "source": "festina-group",
+      "target": "perrelet",
+      "type": "owns",
+      "label": "Acquired Perrelet",
+      "year": 2004,
+      "detail": "Miguel Rodríguez bought the brand.",
+      "current": true
+    },
+    {
+      "source": "festina-group",
+      "target": "soprod",
+      "type": "owns",
+      "label": "Acquired Soprod",
+      "year": 2008,
+      "detail": "Bought from Peace Mark's troubled STM Holdings.",
+      "current": true
+    },
+    {
+      "source": "tata-group",
+      "target": "titan",
+      "type": "owns",
+      "label": "Titan Company, Tata's watch business",
+      "year": 1984,
+      "detail": "A joint venture of Tata and TIDCO.",
+      "current": true
+    },
+    {
+      "source": "titan",
+      "target": "favre-leuba",
+      "type": "former-owner",
+      "label": "Owned Favre-Leuba 2011–2023",
+      "year": 2011,
+      "detail": "Titan stopped investing in 2020 and sold the brand to Ethos.",
+      "current": false
+    },
+    {
+      "source": "ethos",
+      "target": "favre-leuba",
+      "type": "owns",
+      "label": "Acquired the Favre-Leuba brand",
+      "year": 2023,
+      "detail": "Ethos bought it from Titan's Swiss subsidiary.",
+      "current": true
+    },
+    {
+      "source": "citychamp",
+      "target": "eterna",
+      "type": "owns",
+      "label": "Owner",
+      "year": 2011,
+      "detail": "Eterna has been under Citychamp's control since the early 2010s.",
+      "current": true
+    },
+    {
+      "source": "citychamp",
+      "target": "corum",
+      "type": "former-owner",
+      "label": "Owned Corum 2013–2025",
+      "year": 2013,
+      "detail": "Corum returned to Swiss hands in a 2025 management buyout.",
+      "current": false
+    },
+    {
+      "source": "citychamp",
+      "target": "ernest-borel",
+      "type": "owns",
+      "label": "Controlling shareholder",
+      "year": 2018,
+      "detail": "Citychamp raised its stake to 58% in 2018.",
+      "current": true
+    },
+    {
+      "source": "dksh",
+      "target": "maurice-lacroix",
+      "type": "owns",
+      "label": "Majority owner",
+      "year": 2011,
+      "detail": "Maurice Lacroix is run as DKSH's watch division.",
+      "current": true
+    },
+    {
+      "source": "dksh",
+      "target": "glycine",
+      "type": "former-owner",
+      "label": "Owned Glycine 2014–2016",
+      "year": 2014,
+      "detail": "Sold to Invicta Watch Group in August 2016.",
+      "current": false
+    },
+    {
+      "source": "invicta",
+      "target": "glycine",
+      "type": "owns",
+      "label": "Acquired Glycine",
+      "year": 2016,
+      "detail": "Glycine keeps its Airman and Combat lines.",
+      "current": true
+    },
+    {
+      "source": "mondaine",
+      "target": "luminox",
+      "type": "owns",
+      "label": "Owner via the Bernheim family's Mondaine Group",
+      "year": 2006,
+      "detail": "The Bernheims bought an initial 50% stake in 2006.",
+      "current": true
+    },
+    {
+      "source": "mb-microtec",
+      "target": "traser",
+      "type": "owns",
+      "label": "Own watch brand",
+      "year": null,
+      "detail": "Traser showcases mb-microtec's tritium light sources.",
+      "current": true
+    },
+    {
+      "source": "partners-group",
+      "target": "breitling",
+      "type": "owns",
+      "label": "Majority owner",
+      "year": 2022,
+      "detail": "Partners Group took control from CVC.",
+      "current": true
+    },
+    {
+      "source": "cvc-capital-partners",
+      "target": "breitling",
+      "type": "former-owner",
+      "label": "Majority owner 2017–2022",
+      "year": 2017,
+      "detail": "CVC bought Breitling from the Schneider family and installed Georges Kern.",
+      "current": false
+    },
+    {
+      "source": "breitling",
+      "target": "universal-geneve",
+      "type": "owns",
+      "label": "Acquired Universal Genève",
+      "year": 2023,
+      "detail": "Bought from Hong Kong's Stelux, which had owned the name since 1989.",
+      "current": true
+    },
+    {
+      "source": "breitling",
+      "target": "gallet",
+      "type": "owns",
+      "label": "Acquired Gallet",
+      "year": 2025,
+      "detail": "Positioned as Breitling's entry-level sister brand.",
+      "current": true
+    },
+    {
+      "source": "melb-holding",
+      "target": "h-moser-and-cie",
+      "type": "owns",
+      "label": "Owner",
+      "year": 2012,
+      "detail": "The Meylan family bought Moser in 2012.",
+      "current": true
+    },
+    {
+      "source": "bovet",
+      "target": "dimier-1738",
+      "type": "owns",
+      "label": "Movement manufacture of Bovet",
+      "year": 2006,
+      "detail": "Bought by Pascal Raffy in 2006.",
+      "current": true
+    },
+    {
+      "source": "fiyta",
+      "target": "beijing-watch-factory",
+      "type": "owns",
+      "label": "Took over Beijing Watch Factory",
+      "year": 2016,
+      "detail": "Fiyta is part of the state-owned AVIC group.",
+      "current": true
+    },
+    {
+      "source": "orient",
+      "target": "orient-star",
+      "type": "owns",
+      "label": "Premium line of Orient",
+      "year": 1951,
+      "detail": "Orient Star launched in 1951.",
+      "current": true
+    },
+    {
+      "source": "watches-of-switzerland",
+      "target": "hodinkee",
+      "type": "owns",
+      "label": "Acquired Hodinkee",
+      "year": 2024,
+      "detail": "Closed on 3 October 2024; Ben Clymer returned as CEO.",
+      "current": true
+    },
+    {
+      "source": "hodinkee",
+      "target": "crown-and-caliber",
+      "type": "former-owner",
+      "label": "Owned Crown & Caliber 2021–2024",
+      "year": 2021,
+      "detail": "European Watch Company bought its digital assets in 2024.",
+      "current": false
+    },
+    {
+      "source": "nokia",
+      "target": "withings",
+      "type": "former-owner",
+      "label": "Owned Withings 2016–2018",
+      "year": 2016,
+      "detail": "Co-founder Éric Carreel bought the business back in 2018.",
+      "current": false
+    },
+    {
+      "source": "montblanc",
+      "target": "minerva",
+      "type": "owns",
+      "label": "Montblanc's Villeret manufacture",
+      "year": 2006,
+      "detail": "Minerva was placed under Montblanc after Richemont's purchase.",
+      "current": true
+    },
+    {
+      "source": "guillaume-laidet",
+      "target": "nivada-grenchen",
+      "type": "founder-link",
+      "label": "Relaunched Nivada Grenchen",
+      "year": 2018,
+      "detail": "Revived with Rémi Chabrat.",
+      "current": true
+    },
+    {
+      "source": "guillaume-laidet",
+      "target": "vulcain",
+      "type": "founder-link",
+      "label": "Relaunched Vulcain",
+      "year": 2021,
+      "detail": "Laidet revived the Cricket alarm-watch maker.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "tissot",
+      "type": "movement-supplier",
+      "label": "ETA-based calibres incl. Powermatic 80",
+      "year": null,
+      "detail": "Tissot relies on ETA movements such as the Powermatic 80.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "hamilton",
+      "type": "movement-supplier",
+      "label": "ETA-based H-series calibres",
+      "year": null,
+      "detail": "Hamilton's H-10 and H-21 are ETA-derived exclusives.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "longines",
+      "type": "movement-supplier",
+      "label": "ETA-built exclusive calibres",
+      "year": null,
+      "detail": "Longines' calibres, including its column-wheel chronographs, are made by ETA.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "mido",
+      "type": "movement-supplier",
+      "label": "ETA-based Caliber 80",
+      "year": null,
+      "detail": "Mido uses the ETA C07/Powermatic 80 family.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "certina",
+      "type": "movement-supplier",
+      "label": "ETA-based Powermatic 80",
+      "year": null,
+      "detail": "Certina's automatics use ETA movements.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "rado",
+      "type": "movement-supplier",
+      "label": "ETA-based calibres",
+      "year": null,
+      "detail": "Rado's mechanical models use ETA movements.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "omega",
+      "type": "movement-supplier",
+      "label": "ETA 2892-based calibres (e.g. Cal. 1120)",
+      "year": null,
+      "detail": "Omega used ETA-based automatics before switching to in-house Co-Axial Master Chronometer calibres.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "tudor",
+      "type": "movement-supplier",
+      "label": "ETA 2824 and 2892 bases",
+      "year": null,
+      "detail": "Tudor used ETA movements until its in-house MT5612 arrived in 2015.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "panerai",
+      "type": "movement-supplier",
+      "label": "Unitas 6497/6498 hand-wound calibres",
+      "year": 1997,
+      "detail": "Early Richemont-era Luminor and Radiomir models used ETA/Unitas movements.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "tag-heuer",
+      "type": "movement-supplier",
+      "label": "ETA 2824 and 7750 bases (Calibre 5, Calibre 16)",
+      "year": null,
+      "detail": "TAG Heuer's workhorse calibres were ETA-based.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "nomos-glashutte",
+      "type": "movement-supplier",
+      "label": "Peseux 7001 base",
+      "year": 1992,
+      "detail": "Nomos refined ETA/Peseux 7001 movements before developing its own calibres from 2005.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "sinn",
+      "type": "movement-supplier",
+      "label": "ETA 2824, 2892 and 7750 bases",
+      "year": null,
+      "detail": "Sinn's pilot and diver models use ETA or Sellita movements.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "stowa",
+      "type": "movement-supplier",
+      "label": "ETA and Unitas movements",
+      "year": null,
+      "detail": "Stowa's Flieger and Antea use ETA-family movements.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "laco",
+      "type": "movement-supplier",
+      "label": "ETA and Unitas movements",
+      "year": null,
+      "detail": "Laco's pilot watches use ETA-family movements.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "doxa",
+      "type": "movement-supplier",
+      "label": "ETA 2824 in the SUB",
+      "year": null,
+      "detail": "Doxa's revived SUB dive watches use ETA automatics.",
+      "current": true
+    },
+    {
+      "source": "valjoux",
+      "target": "rolex",
+      "type": "movement-supplier",
+      "label": "Valjoux 72-based Daytona calibres",
+      "year": 1963,
+      "detail": "Hand-wound Daytonas (Cal. 722, 727) used Valjoux 72 bases until 1988.",
+      "current": false
+    },
+    {
+      "source": "valjoux",
+      "target": "breitling",
+      "type": "movement-supplier",
+      "label": "Valjoux 7750 in the B13 family",
+      "year": null,
+      "detail": "Breitling's chronographs were long based on the 7750.",
+      "current": false
+    },
+    {
+      "source": "valjoux",
+      "target": "iwc-schaffhausen",
+      "type": "movement-supplier",
+      "label": "Valjoux 7750 base for the Doppelchronograph",
+      "year": 1992,
+      "detail": "Richard Habring built IWC's split-seconds module on a 7750.",
+      "current": false
+    },
+    {
+      "source": "valjoux",
+      "target": "poljot",
+      "type": "lineage",
+      "label": "Poljot 3133 derived from Valjoux 7734 tooling",
+      "year": 1974,
+      "detail": "The First Moscow Watch Factory bought the Swiss tooling for its 3133 chronograph.",
+      "current": false
+    },
+    {
+      "source": "eta",
+      "target": "sellita",
+      "type": "lineage",
+      "label": "Sellita grew as an ETA assembler",
+      "year": 1950,
+      "detail": "When ETA restricted supplies, Sellita launched its own ETA-pattern SW200 around 2003.",
+      "current": true
+    },
+    {
+      "source": "eterna",
+      "target": "eta",
+      "type": "lineage",
+      "label": "ETA was spun off from Eterna",
+      "year": 1932,
+      "detail": "Eterna's ébauche division became ETA and joined ASUAG.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "oris",
+      "type": "movement-supplier",
+      "label": "SW200-1 and SW220 bases",
+      "year": null,
+      "detail": "Oris' non-manufacture calibres (e.g. Oris 733) are Sellita-based.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "christopher-ward",
+      "type": "movement-supplier",
+      "label": "SW200-1 and SW300",
+      "year": null,
+      "detail": "Christopher Ward offers COSC versions of the SW200-1.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "marathon",
+      "type": "movement-supplier",
+      "label": "SW200 and SW220; Marathon M2",
+      "year": null,
+      "detail": "Marathon's automatics are Sellita-based.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "halios",
+      "type": "movement-supplier",
+      "label": "SW200-1 in the Seaforth IV",
+      "year": null,
+      "detail": "Earlier Seaforths used Miyota and ETA movements.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "unimatic",
+      "type": "movement-supplier",
+      "label": "SW200-1 in the S-Series",
+      "year": null,
+      "detail": "Unimatic moved to Sellita for its S-Series.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "tag-heuer",
+      "type": "movement-supplier",
+      "label": "SW200 in the Calibre 5",
+      "year": null,
+      "detail": "TAG Heuer's Calibre 5 is sourced from Sellita and ETA.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "iwc-schaffhausen",
+      "type": "movement-supplier",
+      "label": "SW300 base for Cal. 35111",
+      "year": null,
+      "detail": "IWC uses Sellita-based calibres in some entry models.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "raymond-weil",
+      "type": "movement-supplier",
+      "label": "SW200/SW300-based calibres",
+      "year": null,
+      "detail": "Raymond Weil's automatics use Sellita bases.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "maurice-lacroix",
+      "type": "movement-supplier",
+      "label": "SW200-based calibres",
+      "year": null,
+      "detail": "Maurice Lacroix combines Sellita bases with its own manufacture calibres.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "muhle-glashutte",
+      "type": "movement-supplier",
+      "label": "SW200 base with Mühle's woodpecker-neck regulation",
+      "year": null,
+      "detail": "Mühle refines Sellita movements in Glashütte.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "frederique-constant",
+      "type": "movement-supplier",
+      "label": "SW200-based FC calibres",
+      "year": null,
+      "detail": "Frederique Constant uses Sellita alongside its in-house movements.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "tudor",
+      "type": "movement-supplier",
+      "label": "MT56xx manufacture calibres",
+      "year": 2015,
+      "detail": "Kenissi produces Tudor's in-house movements.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "breitling",
+      "type": "movement-supplier",
+      "label": "MT5612-based Breitling B20",
+      "year": 2017,
+      "detail": "Part of Breitling and Tudor's movement swap.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "chanel",
+      "type": "movement-supplier",
+      "label": "Calibre 12.1 for the J12",
+      "year": 2019,
+      "detail": "Chanel's J12 automatic uses a Kenissi movement.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "norqain",
+      "type": "movement-supplier",
+      "label": "NN20 manufacture calibres",
+      "year": null,
+      "detail": "Norqain's in-house calibres are made by Kenissi.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "fortis",
+      "type": "movement-supplier",
+      "label": "Kenissi-based WERK calibres",
+      "year": null,
+      "detail": "Fortis uses the same Kenissi base as Tudor and Norqain.",
+      "current": true
+    },
+    {
+      "source": "kenissi",
+      "target": "bell-and-ross",
+      "type": "movement-supplier",
+      "label": "BR-CAL.323 in the BR-X5",
+      "year": 2022,
+      "detail": "Bell & Ross's first manufacture-grade movement comes from Kenissi.",
+      "current": true
+    },
+    {
+      "source": "breitling",
+      "target": "tudor",
+      "type": "movement-supplier",
+      "label": "B01 chronograph as Tudor MT5813",
+      "year": 2017,
+      "detail": "Breitling supplies its B01 to Tudor in exchange for Kenissi movements.",
+      "current": true
+    },
+    {
+      "source": "vaucher",
+      "target": "parmigiani-fleurier",
+      "type": "movement-supplier",
+      "label": "Sister-company movement maker",
+      "year": null,
+      "detail": "Vaucher makes Parmigiani's calibres.",
+      "current": true
+    },
+    {
+      "source": "vaucher",
+      "target": "hermes",
+      "type": "movement-supplier",
+      "label": "Base movements incl. H1837",
+      "year": null,
+      "detail": "Hermès' manufacture calibres are developed with Vaucher.",
+      "current": true
+    },
+    {
+      "source": "vaucher",
+      "target": "richard-mille",
+      "type": "movement-supplier",
+      "label": "Base movements incl. RMAC4 (VMF 6710)",
+      "year": null,
+      "detail": "Vaucher develops several Richard Mille automatic calibres.",
+      "current": true
+    },
+    {
+      "source": "vaucher",
+      "target": "corum",
+      "type": "movement-supplier",
+      "label": "Movement supply",
+      "year": null,
+      "detail": "Corum is among Vaucher's regular clients.",
+      "current": true
+    },
+    {
+      "source": "renaud-et-papi",
+      "target": "richard-mille",
+      "type": "movement-supplier",
+      "label": "Tourbillon and complicated calibres",
+      "year": 2001,
+      "detail": "APRP engineered Richard Mille's early tourbillons, starting with the RM 001.",
+      "current": true
+    },
+    {
+      "source": "agenhor",
+      "target": "van-cleef-and-arpels",
+      "type": "movement-supplier",
+      "label": "Poetic Complications modules",
+      "year": null,
+      "detail": "Agenhor developed most of Van Cleef & Arpels' Poetic Complications.",
+      "current": true
+    },
+    {
+      "source": "agenhor",
+      "target": "hermes",
+      "type": "movement-supplier",
+      "label": "Complication modules",
+      "year": null,
+      "detail": "Agenhor modules sit on Vaucher bases in pieces like L'Heure Impatiente.",
+      "current": true
+    },
+    {
+      "source": "concepto",
+      "target": "jacob-and-co",
+      "type": "movement-supplier",
+      "label": "Astronomia and other complications",
+      "year": null,
+      "detail": "Concepto is Jacob & Co.'s main movement partner.",
+      "current": true
+    },
+    {
+      "source": "dimier-1738",
+      "target": "bovet",
+      "type": "movement-supplier",
+      "label": "In-house calibres and balance springs",
+      "year": 2006,
+      "detail": "Dimier makes nearly every movement component for Bovet.",
+      "current": true
+    },
+    {
+      "source": "minerva",
+      "target": "montblanc",
+      "type": "movement-supplier",
+      "label": "Villeret chronograph calibres",
+      "year": 2006,
+      "detail": "Minerva's calibres power Montblanc's 1858 and Villeret lines.",
+      "current": true
+    },
+    {
+      "source": "la-fabrique-du-temps",
+      "target": "louis-vuitton",
+      "type": "movement-supplier",
+      "label": "Complicated calibres",
+      "year": 2011,
+      "detail": "La Fabrique du Temps develops Louis Vuitton's tourbillons and complications.",
+      "current": true
+    },
+    {
+      "source": "aegler",
+      "target": "rolex",
+      "type": "movement-supplier",
+      "label": "Supplied Rolex movements until 2004",
+      "year": null,
+      "detail": "Aegler's Bienne factory made Rolex calibres before merging into Rolex.",
+      "current": false
+    },
+    {
+      "source": "frederic-piguet",
+      "target": "blancpain",
+      "type": "movement-supplier",
+      "label": "Movement supplier, merged in 2010",
+      "year": null,
+      "detail": "Frédéric Piguet built Blancpain's calibres before merging with it.",
+      "current": false
+    },
+    {
+      "source": "lemania",
+      "target": "omega",
+      "type": "movement-supplier",
+      "label": "Lemania 2310 base for Cal. 321 and 861",
+      "year": 1942,
+      "detail": "The Speedmaster's original calibres were Lemania-based.",
+      "current": false
+    },
+    {
+      "source": "lemania",
+      "target": "patek-philippe",
+      "type": "movement-supplier",
+      "label": "Lemania 2310 base for CH 27-70",
+      "year": null,
+      "detail": "Patek's classic manual chronographs used this base until 2009.",
+      "current": false
+    },
+    {
+      "source": "lemania",
+      "target": "vacheron-constantin",
+      "type": "movement-supplier",
+      "label": "Lemania 2310 base for Cal. 1141",
+      "year": null,
+      "detail": "Vacheron's manual chronographs used the Lemania base.",
+      "current": false
+    },
+    {
+      "source": "lemania",
+      "target": "breguet",
+      "type": "lineage",
+      "label": "Became Breguet's manufacture",
+      "year": 1999,
+      "detail": "Nouvelle Lemania was renamed Manufacture Breguet under Swatch Group.",
+      "current": true
+    },
+    {
+      "source": "jaeger-lecoultre",
+      "target": "patek-philippe",
+      "type": "movement-supplier",
+      "label": "JLC 920 base for Cal. 28-255 C",
+      "year": 1976,
+      "detail": "The first Nautilus 3700 used a JLC-derived ultra-thin automatic.",
+      "current": false
+    },
+    {
+      "source": "jaeger-lecoultre",
+      "target": "audemars-piguet",
+      "type": "movement-supplier",
+      "label": "JLC 920 base for Cal. 2121",
+      "year": 1972,
+      "detail": "The Royal Oak 5402 used the same JLC ébauche.",
+      "current": false
+    },
+    {
+      "source": "jaeger-lecoultre",
+      "target": "vacheron-constantin",
+      "type": "movement-supplier",
+      "label": "JLC 920 base for Cal. 1120",
+      "year": 1977,
+      "detail": "Vacheron's 222 and Overseas used the shared ébauche.",
+      "current": false
+    },
+    {
+      "source": "zenith",
+      "target": "rolex",
+      "type": "movement-supplier",
+      "label": "El Primero base for Cal. 4030",
+      "year": 1988,
+      "detail": "The first automatic Daytonas used a modified El Primero until 2000.",
+      "current": false
+    },
+    {
+      "source": "zenith",
+      "target": "ebel",
+      "type": "movement-supplier",
+      "label": "El Primero for Ebel chronographs",
+      "year": null,
+      "detail": "Ebel's 1980s chronographs used El Primero movements.",
+      "current": false
+    },
+    {
+      "source": "zenith",
+      "target": "tag-heuer",
+      "type": "movement-supplier",
+      "label": "El Primero-based Calibre 36",
+      "year": null,
+      "detail": "TAG Heuer used its LVMH sister's El Primero in Carrera models.",
+      "current": false
+    },
+    {
+      "source": "rolex",
+      "target": "panerai",
+      "type": "movement-supplier",
+      "label": "Rolex Cal. 618 movements for the first Radiomirs",
+      "year": 1936,
+      "detail": "Rolex supplied movements for the early Radiomir prototypes.",
+      "current": false
+    },
+    {
+      "source": "rolex",
+      "target": "panerai",
+      "type": "case-dial-supplier",
+      "label": "Oyster-derived 47mm cases",
+      "year": 1936,
+      "detail": "Rolex made Panerai's cases through the 1950s.",
+      "current": false
+    },
+    {
+      "source": "angelus",
+      "target": "panerai",
+      "type": "movement-supplier",
+      "label": "Angelus SF240 eight-day movement",
+      "year": null,
+      "detail": "Used in Panerai refs. 6152, 6152/1 and 6154.",
+      "current": false
+    },
+    {
+      "source": "seiko",
+      "target": "tag-heuer",
+      "type": "movement-supplier",
+      "label": "Licensed TC78 base for Calibre 1887",
+      "year": 2006,
+      "detail": "TAG Heuer bought European production rights to Seiko's column-wheel chronograph.",
+      "current": false
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "arnold-and-son",
+      "type": "movement-supplier",
+      "label": "Manufacture calibres",
+      "year": null,
+      "detail": "La Joux-Perret develops Arnold & Son's movements.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "angelus",
+      "type": "movement-supplier",
+      "label": "Chronograph and tourbillon calibres",
+      "year": 2015,
+      "detail": "The relaunched Angelus uses La Joux-Perret movements.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "bremont",
+      "type": "movement-supplier",
+      "label": "Long-term movement partner",
+      "year": null,
+      "detail": "La Joux-Perret supplied Bremont movements and helped develop its ENG300.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "farer",
+      "type": "movement-supplier",
+      "label": "G101 in the Lander",
+      "year": null,
+      "detail": "Farer uses La Joux-Perret G100-family movements.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "graham",
+      "type": "movement-supplier",
+      "label": "Movement supply",
+      "year": null,
+      "detail": "Graham is a long-standing La Joux-Perret client.",
+      "current": true
+    },
+    {
+      "source": "soprod",
+      "target": "serica",
+      "type": "movement-supplier",
+      "label": "M100 in the 5303 and 6190",
+      "year": null,
+      "detail": "All Serica models are COSC chronometers with Soprod movements.",
+      "current": true
+    },
+    {
+      "source": "soprod",
+      "target": "perrelet",
+      "type": "movement-supplier",
+      "label": "Festina sister-company movement maker",
+      "year": 2008,
+      "detail": "Soprod lets Perrelet control its movement supply.",
+      "current": true
+    },
+    {
+      "source": "dubois-depraz",
+      "target": "tag-heuer",
+      "type": "movement-supplier",
+      "label": "Chronomatic Calibre 11 module",
+      "year": 1969,
+      "detail": "The chronograph module of the first automatic chronograph.",
+      "current": false
+    },
+    {
+      "source": "dubois-depraz",
+      "target": "breitling",
+      "type": "movement-supplier",
+      "label": "Chronomatic Calibre 11 module",
+      "year": 1969,
+      "detail": "Breitling shared the Calibre 11 project.",
+      "current": false
+    },
+    {
+      "source": "dubois-depraz",
+      "target": "hamilton",
+      "type": "movement-supplier",
+      "label": "Chronomatic Calibre 11 module",
+      "year": 1969,
+      "detail": "Hamilton-Büren supplied the base micro-rotor movement.",
+      "current": false
+    },
+    {
+      "source": "miyota",
+      "target": "lorier",
+      "type": "movement-supplier",
+      "label": "Miyota 90S5",
+      "year": null,
+      "detail": "Lorier's Falcon and Neptune use Miyota automatics.",
+      "current": true
+    },
+    {
+      "source": "miyota",
+      "target": "halios",
+      "type": "movement-supplier",
+      "label": "Miyota 90S5 in the first Seaforth",
+      "year": null,
+      "detail": "Later Seaforths moved to ETA and Sellita.",
+      "current": false
+    },
+    {
+      "source": "miyota",
+      "target": "venezianico",
+      "type": "movement-supplier",
+      "label": "Miyota 9039",
+      "year": null,
+      "detail": "Venezianico's no-date models use the 9039.",
+      "current": true
+    },
+    {
+      "source": "miyota",
+      "target": "autodromo",
+      "type": "movement-supplier",
+      "label": "Miyota 9039 and 9015",
+      "year": null,
+      "detail": "Used in the Monoposto and Group B.",
+      "current": true
+    },
+    {
+      "source": "miyota",
+      "target": "kurono-tokyo",
+      "type": "movement-supplier",
+      "label": "Miyota automatics",
+      "year": null,
+      "detail": "Kurono Tokyo pairs Asaoka's designs with Miyota movements.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "invicta",
+      "type": "movement-supplier",
+      "label": "NH35 automatic",
+      "year": null,
+      "detail": "Invicta's Pro Diver uses the Seiko NH35.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "undone",
+      "type": "movement-supplier",
+      "label": "NH35 automatic",
+      "year": null,
+      "detail": "Undone's automatics, such as the Basecamp, use the NH35.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "unimatic",
+      "type": "movement-supplier",
+      "label": "NH35 automatic",
+      "year": null,
+      "detail": "Unimatic's core models use the NH35A.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "spinnaker",
+      "type": "movement-supplier",
+      "label": "NH35 automatic",
+      "year": null,
+      "detail": "Spinnaker's automatic divers use the NH35.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "dan-henry",
+      "type": "movement-supplier",
+      "label": "NH35 and VK meca-quartz",
+      "year": null,
+      "detail": "Dan Henry uses the NH35 and VK63/VK64.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "nodus",
+      "type": "movement-supplier",
+      "label": "NH35/NH38 automatic",
+      "year": null,
+      "detail": "All Nodus Sector models use Seiko NH movements.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "nezumi",
+      "type": "movement-supplier",
+      "label": "VK64 meca-quartz",
+      "year": null,
+      "detail": "Nezumi's chronographs use the VK64.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "straton",
+      "type": "movement-supplier",
+      "label": "VK64 meca-quartz",
+      "year": null,
+      "detail": "Straton's chronographs use the VK64.",
+      "current": true
+    },
+    {
+      "source": "seiko-instruments",
+      "target": "brew",
+      "type": "movement-supplier",
+      "label": "VK68 meca-quartz",
+      "year": null,
+      "detail": "Brew's Metric chronographs use Seiko VK movements.",
+      "current": true
+    },
+    {
+      "source": "sea-gull",
+      "target": "baltic",
+      "type": "movement-supplier",
+      "label": "ST1901 chronograph",
+      "year": null,
+      "detail": "Every Baltic Bicompax uses the Sea-Gull ST1901.",
+      "current": true
+    },
+    {
+      "source": "sea-gull",
+      "target": "studio-underd0g",
+      "type": "movement-supplier",
+      "label": "Exclusive ST-1901B chronograph",
+      "year": null,
+      "detail": "Studio Underd0g signed an exclusive contract for a bespoke version.",
+      "current": true
+    },
+    {
+      "source": "sea-gull",
+      "target": "ciga-design",
+      "type": "movement-supplier",
+      "label": "Custom Sea-Gull-based movements",
+      "year": null,
+      "detail": "Ciga Design partners with Sea-Gull on its skeleton calibres.",
+      "current": true
+    },
+    {
+      "source": "ronda",
+      "target": "shinola",
+      "type": "movement-supplier",
+      "label": "Quartz and Argomatic R-150 movements",
+      "year": null,
+      "detail": "Ronda supplies the parts that Shinola assembles in Detroit.",
+      "current": true
+    },
+    {
+      "source": "hamilton",
+      "target": "ball-watch",
+      "type": "movement-supplier",
+      "label": "Railroad-grade movements",
+      "year": null,
+      "detail": "Hamilton was the main maker of Ball-signed railroad watches.",
+      "current": false
+    },
+    {
+      "source": "waltham",
+      "target": "ball-watch",
+      "type": "movement-supplier",
+      "label": "Railroad-grade movements",
+      "year": null,
+      "detail": "Waltham was the first to meet Ball's railroad standard.",
+      "current": false
+    },
+    {
+      "source": "elgin",
+      "target": "ball-watch",
+      "type": "movement-supplier",
+      "label": "Railroad-grade movements",
+      "year": null,
+      "detail": "Elgin made Ball-standard movements.",
+      "current": false
+    },
+    {
+      "source": "hamilton",
+      "target": "vortic",
+      "type": "movement-supplier",
+      "label": "Repurposed vintage pocket-watch movements",
+      "year": null,
+      "detail": "Vortic builds wristwatches around restored American pocket-watch movements.",
+      "current": true
+    },
+    {
+      "source": "waltham",
+      "target": "vortic",
+      "type": "movement-supplier",
+      "label": "Repurposed vintage pocket-watch movements",
+      "year": null,
+      "detail": "Vortic reuses Waltham movements.",
+      "current": true
+    },
+    {
+      "source": "elgin",
+      "target": "vortic",
+      "type": "movement-supplier",
+      "label": "Repurposed vintage pocket-watch movements",
+      "year": null,
+      "detail": "Vortic reuses Elgin movements.",
+      "current": true
+    },
+    {
+      "source": "mb-microtec",
+      "target": "luminox",
+      "type": "case-dial-supplier",
+      "label": "Tritium gas light sources",
+      "year": 1989,
+      "detail": "mb-microtec's tubes lit the first Luminox watches.",
+      "current": true
+    },
+    {
+      "source": "g-and-f-chatelain",
+      "target": "chanel",
+      "type": "case-dial-supplier",
+      "label": "Cases and components",
+      "year": 1993,
+      "detail": "Châtelain is Chanel's in-house manufacture.",
+      "current": true
+    },
+    {
+      "source": "nateber",
+      "target": "hermes",
+      "type": "case-dial-supplier",
+      "label": "Dials",
+      "year": 2012,
+      "detail": "Natéber is part of Les Ateliers d'Hermès Horloger.",
+      "current": true
+    },
+    {
+      "source": "donze-cadrans",
+      "target": "ulysse-nardin",
+      "type": "case-dial-supplier",
+      "label": "Enamel dials",
+      "year": 2011,
+      "detail": "Donzé's grand feu enamel appears on Ulysse Nardin's Classico and Marine models.",
+      "current": true
+    },
+    {
+      "source": "sinn",
+      "target": "bell-and-ross",
+      "type": "collaboration",
+      "label": "Made the early 'Bell & Ross by Sinn' watches",
+      "year": 1992,
+      "detail": "The first Bell & Ross models were rebranded Sinn 142, 103 and Space 1 watches.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "audemars-piguet",
+      "type": "designer",
+      "label": "Designed the Royal Oak",
+      "year": 1972,
+      "detail": "The first luxury steel sports watch with an integrated bracelet.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "patek-philippe",
+      "type": "designer",
+      "label": "Designed the Nautilus",
+      "year": 1976,
+      "detail": "Ref. 3700, inspired by a porthole.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "iwc-schaffhausen",
+      "type": "designer",
+      "label": "Designed the Ingenieur SL",
+      "year": 1976,
+      "detail": "Ref. 1832, nicknamed the 'Jumbo'.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "omega",
+      "type": "designer",
+      "label": "Reworked the Constellation; designed Seamaster models",
+      "year": 1959,
+      "detail": "Omega asked Genta to update the Constellation in 1959; he also drew the Seamaster Polaris.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "universal-geneve",
+      "type": "designer",
+      "label": "Designed the Polerouter",
+      "year": 1954,
+      "detail": "His first famous design, made for SAS polar flights.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "bulgari",
+      "type": "designer",
+      "label": "Designed the Bulgari Roma, later Bulgari Bulgari",
+      "year": 1975,
+      "detail": "The bezel is engraved with the brand name, like a Roman coin.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "cartier",
+      "type": "designer",
+      "label": "Designed the modern Pasha de Cartier",
+      "year": 1985,
+      "detail": "Based on Louis Cartier's 1930s waterproof watch for the Pasha of Marrakech.",
+      "current": false
+    },
+    {
+      "source": "gerald-genta",
+      "target": "credor",
+      "type": "designer",
+      "label": "Designed the Credor Locomotive",
+      "year": 1979,
+      "detail": "Credor reissued the Locomotive in 2024.",
+      "current": false
+    },
+    {
+      "source": "jorg-hysek",
+      "target": "vacheron-constantin",
+      "type": "designer",
+      "label": "Designed the 222",
+      "year": 1977,
+      "detail": "Hysek's 222 was the ancestor of the Overseas.",
+      "current": false
+    },
+    {
+      "source": "jorg-hysek",
+      "target": "tag-heuer",
+      "type": "designer",
+      "label": "Designed the Kirium",
+      "year": 1997,
+      "detail": "A hit for the newly independent TAG Heuer.",
+      "current": false
+    },
+    {
+      "source": "jorg-hysek",
+      "target": "breguet",
+      "type": "designer",
+      "label": "Designed the Breguet Marine",
+      "year": null,
+      "detail": "Part of Breguet's Chaumet/Investcorp-era range.",
+      "current": false
+    },
+    {
+      "source": "jorg-hysek",
+      "target": "seiko",
+      "type": "designer",
+      "label": "Designed the Seiko Arctura",
+      "year": null,
+      "detail": "A Kinetic-era Seiko design.",
+      "current": false
+    },
+    {
+      "source": "eric-giroud",
+      "target": "mb-and-f",
+      "type": "designer",
+      "label": "Designed many Horological Machines",
+      "year": null,
+      "detail": "Giroud has worked with Max Büsser since the HM line began.",
+      "current": true
+    },
+    {
+      "source": "eric-giroud",
+      "target": "harry-winston",
+      "type": "designer",
+      "label": "Co-created Opus 9",
+      "year": 2009,
+      "detail": "With Jean-Marc Wiederrecht of Agenhor.",
+      "current": false
+    },
+    {
+      "source": "eric-giroud",
+      "target": "tissot",
+      "type": "designer",
+      "label": "Design work for Tissot",
+      "year": null,
+      "detail": "Listed among his roughly 60 brand clients.",
+      "current": false
+    },
+    {
+      "source": "eric-giroud",
+      "target": "van-cleef-and-arpels",
+      "type": "designer",
+      "label": "Design work for Van Cleef & Arpels",
+      "year": null,
+      "detail": "Listed among his brand clients.",
+      "current": false
+    },
+    {
+      "source": "eric-giroud",
+      "target": "vacheron-constantin",
+      "type": "designer",
+      "label": "Design work for Vacheron Constantin",
+      "year": null,
+      "detail": "Listed among his brand clients.",
+      "current": false
+    },
+    {
+      "source": "emmanuel-gueit",
+      "target": "audemars-piguet",
+      "type": "designer",
+      "label": "Designed the Royal Oak Offshore",
+      "year": 1993,
+      "detail": "Designed at 22 for CEO Stephen Urquhart.",
+      "current": false
+    },
+    {
+      "source": "emmanuel-gueit",
+      "target": "rolex",
+      "type": "designer",
+      "label": "Revived the Cellini line",
+      "year": null,
+      "detail": "Freelance design work on Rolex's dress collection.",
+      "current": false
+    },
+    {
+      "source": "jean-claude-biver",
+      "target": "hublot",
+      "type": "designer",
+      "label": "Created the Big Bang as CEO",
+      "year": 2005,
+      "detail": "Biver's 'art of fusion' concept turned Hublot around before the 2008 LVMH sale.",
+      "current": false
+    },
+    {
+      "source": "jean-claude-biver",
+      "target": "omega",
+      "type": "designer",
+      "label": "Head of marketing, 1990s repositioning",
+      "year": null,
+      "detail": "Biver's era brought James Bond and celebrity ambassadors.",
+      "current": false
+    },
+    {
+      "source": "jean-claude-biver",
+      "target": "tag-heuer",
+      "type": "designer",
+      "label": "CEO",
+      "year": 2014,
+      "detail": "He also ran LVMH's watch division until 2018.",
+      "current": false
+    },
+    {
+      "source": "jean-claude-biver",
+      "target": "blancpain",
+      "type": "founder-link",
+      "label": "Bought and relaunched Blancpain with Jacques Piguet",
+      "year": 1982,
+      "detail": "The dormant name cost about CHF 22,000; they sold it to SMH in 1992.",
+      "current": false
+    },
+    {
+      "source": "max-busser",
+      "target": "harry-winston",
+      "type": "designer",
+      "label": "Created the Opus series",
+      "year": 2001,
+      "detail": "Büsser ran Harry Winston's watch division from 1998 to 2005.",
+      "current": false
+    },
+    {
+      "source": "max-busser",
+      "target": "mb-and-f",
+      "type": "founder-link",
+      "label": "Founded MB&F",
+      "year": 2005,
+      "detail": "Maximilian Büsser & Friends.",
+      "current": true
+    },
+    {
+      "source": "george-daniels",
+      "target": "omega",
+      "type": "designer",
+      "label": "Invented the co-axial escapement adopted by Omega",
+      "year": 1999,
+      "detail": "The De Ville Co-Axial launched in 1999.",
+      "current": true
+    },
+    {
+      "source": "george-daniels",
+      "target": "roger-w-smith",
+      "type": "lineage",
+      "label": "Mentor; Smith was his only apprentice",
+      "year": null,
+      "detail": "Smith trained with Daniels on the Isle of Man and continues his methods.",
+      "current": true
+    },
+    {
+      "source": "ludwig-oechslin",
+      "target": "ulysse-nardin",
+      "type": "designer",
+      "label": "Designed the Trilogy of Time and Freak",
+      "year": 1985,
+      "detail": "Astrolabium, Planetarium and Tellurium, then the 2001 Freak.",
+      "current": false
+    },
+    {
+      "source": "max-bill",
+      "target": "junghans",
+      "type": "designer",
+      "label": "Designed the Max Bill line",
+      "year": 1961,
+      "detail": "Bill's clocks date from 1956–57 and his wristwatches from 1961.",
+      "current": true
+    },
+    {
+      "source": "roger-tallon",
+      "target": "lip",
+      "type": "designer",
+      "label": "Designed the Mach 2000",
+      "year": 1973,
+      "detail": "The Mach 2000 has been reissued by Lip.",
+      "current": true
+    },
+    {
+      "source": "hans-hilfiker",
+      "target": "mondaine",
+      "type": "designer",
+      "label": "1944 SBB railway clock licensed to Mondaine",
+      "year": 1986,
+      "detail": "Mondaine holds the official Swiss Railways licence.",
+      "current": true
+    },
+    {
+      "source": "jacques-helleu",
+      "target": "chanel",
+      "type": "designer",
+      "label": "Designed the J12",
+      "year": 2000,
+      "detail": "Chanel's first in-house watch icon.",
+      "current": false
+    },
+    {
+      "source": "max-hetzel",
+      "target": "accutron",
+      "type": "designer",
+      "label": "Invented the Accutron tuning-fork movement",
+      "year": 1960,
+      "detail": "Developed at Bulova.",
+      "current": false
+    },
+    {
+      "source": "max-hetzel",
+      "target": "bulova",
+      "type": "designer",
+      "label": "Designed the Accutron for Bulova",
+      "year": 1960,
+      "detail": "Bulova's tuning-fork watch launched in 1960.",
+      "current": false
+    },
+    {
+      "source": "webb-c-ball",
+      "target": "ball-watch",
+      "type": "founder-link",
+      "label": "Founded Ball Watch Co.",
+      "year": 1891,
+      "detail": "His railroad standards made 'Ball' a byword for accuracy.",
+      "current": true
+    },
+    {
+      "source": "f-p-journe",
+      "target": "tha",
+      "type": "founder-link",
+      "label": "Co-founded THA",
+      "year": 1989,
+      "detail": "With Vianney Halter and Denis Flageollet.",
+      "current": true
+    },
+    {
+      "source": "vianney-halter",
+      "target": "tha",
+      "type": "founder-link",
+      "label": "Co-founded THA",
+      "year": 1989,
+      "detail": "THA developed complications for other brands.",
+      "current": true
+    },
+    {
+      "source": "czapek",
+      "target": "patek-philippe",
+      "type": "founder-link",
+      "label": "François Czapek co-founded Patek, Czapek & Co.",
+      "year": 1839,
+      "detail": "Antoni Patek and Czapek split in 1845; Czapek was revived in 2015.",
+      "current": false
+    },
+    {
+      "source": "hajime-asaoka",
+      "target": "kurono-tokyo",
+      "type": "founder-link",
+      "label": "Founded Kurono Tokyo",
+      "year": null,
+      "detail": "An accessible line carrying Asaoka's designs.",
+      "current": true
+    },
+    {
+      "source": "andersen-geneve",
+      "target": "patek-philippe",
+      "type": "lineage",
+      "label": "Svend Andersen trained at Patek Philippe",
+      "year": null,
+      "detail": "He worked in Patek's complications workshop before going independent.",
+      "current": false
+    },
+    {
+      "source": "tha",
+      "target": "de-bethune",
+      "type": "lineage",
+      "label": "De Bethune co-founder Denis Flageollet came from THA",
+      "year": 2002,
+      "detail": "Flageollet co-founded De Bethune with David Zanetta.",
+      "current": true
+    },
+    {
+      "source": "renaud-et-papi",
+      "target": "greubel-forsey",
+      "type": "lineage",
+      "label": "Founders met at Renaud & Papi",
+      "year": 2004,
+      "detail": "Robert Greubel and Stephen Forsey worked there in the early 1990s.",
+      "current": true
+    },
+    {
+      "source": "renaud-et-papi",
+      "target": "gronefeld",
+      "type": "lineage",
+      "label": "Bart and Tim Grönefeld trained there",
+      "year": null,
+      "detail": "Both brothers worked at the complications specialist.",
+      "current": true
+    },
+    {
+      "source": "renaud-et-papi",
+      "target": "speake-marin",
+      "type": "lineage",
+      "label": "Peter Speake-Marin worked there",
+      "year": 1996,
+      "detail": "He worked on high-end complications before founding his brand in 2002.",
+      "current": true
+    },
+    {
+      "source": "f-p-journe",
+      "target": "simon-brette",
+      "type": "lineage",
+      "label": "Simon Brette worked at F.P. Journe",
+      "year": null,
+      "detail": "Brette spent years at Journe's manufacture before going independent.",
+      "current": true
+    },
+    {
+      "source": "f-p-journe",
+      "target": "akrivia",
+      "type": "lineage",
+      "label": "Rexhep Rexhepi worked at F.P. Journe",
+      "year": null,
+      "detail": "He founded Akrivia in 2012.",
+      "current": true
+    },
+    {
+      "source": "patek-philippe",
+      "target": "akrivia",
+      "type": "lineage",
+      "label": "Rexhep Rexhepi apprenticed at Patek Philippe",
+      "year": null,
+      "detail": "He joined Patek as a teenager.",
+      "current": true
+    },
+    {
+      "source": "patek-philippe",
+      "target": "laurent-ferrier",
+      "type": "lineage",
+      "label": "Laurent Ferrier spent 37 years at Patek Philippe",
+      "year": 2010,
+      "detail": "He founded his brand after retiring from Patek.",
+      "current": true
+    },
+    {
+      "source": "patek-philippe",
+      "target": "roger-dubuis",
+      "type": "lineage",
+      "label": "Roger Dubuis worked at Patek Philippe",
+      "year": 1995,
+      "detail": "He worked in Patek's complications workshop before co-founding his brand with Carlos Dias.",
+      "current": true
+    },
+    {
+      "source": "a-lange-and-sohne",
+      "target": "petermann-bedat",
+      "type": "lineage",
+      "label": "Gaël Petermann worked at A. Lange & Söhne",
+      "year": 2017,
+      "detail": "Petermann and Florian Bédat founded their brand after working in Glashütte.",
+      "current": true
+    },
+    {
+      "source": "glashutte-original",
+      "target": "kudoke",
+      "type": "lineage",
+      "label": "Stefan Kudoke worked at Glashütte Original",
+      "year": null,
+      "detail": "He also worked for Breguet, Blancpain and Omega.",
+      "current": true
+    },
+    {
+      "source": "iwc-schaffhausen",
+      "target": "habring2",
+      "type": "lineage",
+      "label": "Richard Habring developed the IWC Doppelchronograph",
+      "year": 1992,
+      "detail": "Habring later adapted the idea for Habring²'s Doppel-Felix.",
+      "current": true
+    },
+    {
+      "source": "audemars-piguet",
+      "target": "weiss",
+      "type": "lineage",
+      "label": "Cameron Weiss trained at Audemars Piguet",
+      "year": 2013,
+      "detail": "He also worked for Vacheron Constantin before founding Weiss in Los Angeles.",
+      "current": true
+    },
+    {
+      "source": "vacheron-constantin",
+      "target": "weiss",
+      "type": "lineage",
+      "label": "Cameron Weiss worked at Vacheron Constantin",
+      "year": 2013,
+      "detail": "Weiss Watch Company launched in 2013.",
+      "current": true
+    },
+    {
+      "source": "hamilton",
+      "target": "rgm",
+      "type": "lineage",
+      "label": "Roland G. Murphy worked in Hamilton product development",
+      "year": 1992,
+      "detail": "He founded RGM in Lancaster County, Pennsylvania.",
+      "current": true
+    },
+    {
+      "source": "a-lange-and-sohne",
+      "target": "veb-gub",
+      "type": "lineage",
+      "label": "Nationalised and merged into GUB",
+      "year": 1951,
+      "detail": "Expropriated in 1948; revived as a separate company in 1990.",
+      "current": false
+    },
+    {
+      "source": "veb-gub",
+      "target": "glashutte-original",
+      "type": "lineage",
+      "label": "Privatised as Glashütter Uhrenbetrieb GmbH",
+      "year": 1990,
+      "detail": "Renamed Glashütte Original in 1994.",
+      "current": false
+    },
+    {
+      "source": "veb-gub",
+      "target": "muhle-glashutte",
+      "type": "lineage",
+      "label": "Hans-Jürgen Mühle left GUB to re-found his family firm",
+      "year": 1994,
+      "detail": "Mühle started with marine chronometers and made wristwatches from 1996.",
+      "current": false
+    },
+    {
+      "source": "veb-gub",
+      "target": "union-glashutte",
+      "type": "lineage",
+      "label": "Union name revived by GUB's successor",
+      "year": 1996,
+      "detail": "Relaunched as a mid-priced Glashütte brand.",
+      "current": false
+    },
+    {
+      "source": "seiko",
+      "target": "grand-seiko",
+      "type": "lineage",
+      "label": "Grand Seiko spun off as a standalone brand",
+      "year": 2017,
+      "detail": "Grand Seiko dropped the Seiko logo from its dials in 2017.",
+      "current": true
+    },
+    {
+      "source": "seiko",
+      "target": "credor",
+      "type": "lineage",
+      "label": "Seiko's luxury sub-brand",
+      "year": 1974,
+      "detail": "Credor became a separate line in 1979.",
+      "current": true
+    },
+    {
+      "source": "seiko",
+      "target": "king-seiko",
+      "type": "lineage",
+      "label": "Seiko's second high-end line, revived",
+      "year": 1961,
+      "detail": "King Seiko returned in 2022.",
+      "current": true
+    },
+    {
+      "source": "bulova",
+      "target": "accutron",
+      "type": "lineage",
+      "label": "Accutron became a standalone brand",
+      "year": 2020,
+      "detail": "Accutron began as Bulova's 1960 tuning-fork watch.",
+      "current": true
+    },
+    {
+      "source": "waltham",
+      "target": "elgin",
+      "type": "lineage",
+      "label": "Elgin founded with Waltham-trained craftsmen",
+      "year": 1864,
+      "detail": "Elgin National Watch Co. recruited key Waltham workers.",
+      "current": true
+    },
+    {
+      "source": "tiffany-and-co",
+      "target": "patek-philippe",
+      "type": "collaboration",
+      "label": "Tiffany-signed Patek dials; Nautilus 5711/1A-018",
+      "year": 1851,
+      "detail": "The partnership dates to 1851; the Tiffany-blue Nautilus came in 2021.",
+      "current": true
+    },
+    {
+      "source": "tiffany-and-co",
+      "target": "rolex",
+      "type": "collaboration",
+      "label": "Tiffany & Co. co-signed Rolex dials",
+      "year": null,
+      "detail": "Tiffany-stamped Rolex dials are highly collectable.",
+      "current": false
+    },
+    {
+      "source": "jaeger-lecoultre",
+      "target": "cartier",
+      "type": "collaboration",
+      "label": "Edmond Jaeger's exclusive supply contract with Cartier",
+      "year": 1907,
+      "detail": "The two formed the European Watch & Clock Co. in 1919.",
+      "current": false
+    },
+    {
+      "source": "omega",
+      "target": "swatch",
+      "type": "collaboration",
+      "label": "Bioceramic MoonSwatch",
+      "year": 2022,
+      "detail": "A Speedmaster-inspired Swatch that sold out worldwide.",
+      "current": true
+    },
+    {
+      "source": "blancpain",
+      "target": "swatch",
+      "type": "collaboration",
+      "label": "Scuba Fifty Fathoms",
+      "year": 2023,
+      "detail": "Swatch's Bioceramic take on the Fifty Fathoms.",
+      "current": true
+    },
+    {
+      "source": "zenith",
+      "target": "movado",
+      "type": "collaboration",
+      "label": "Merged as Movado-Zenith-Mondia",
+      "year": 1969,
+      "detail": "The El Primero was also sold under the Movado name.",
+      "current": false
+    },
+    {
+      "source": "tag-heuer",
+      "target": "breitling",
+      "type": "collaboration",
+      "label": "Chronomatic Calibre 11 consortium",
+      "year": 1969,
+      "detail": "Heuer and Breitling co-launched the automatic chronograph.",
+      "current": false
+    },
+    {
+      "source": "hamilton",
+      "target": "tag-heuer",
+      "type": "collaboration",
+      "label": "Chronomatic Calibre 11 consortium",
+      "year": 1969,
+      "detail": "Hamilton-Büren supplied the micro-rotor base.",
+      "current": false
+    },
+    {
+      "source": "hamilton",
+      "target": "breitling",
+      "type": "collaboration",
+      "label": "Chronomatic Calibre 11 consortium",
+      "year": 1969,
+      "detail": "Part of the joint 'Project 99'.",
+      "current": false
+    },
+    {
+      "source": "hermes",
+      "target": "apple",
+      "type": "collaboration",
+      "label": "Apple Watch Hermès",
+      "year": 2015,
+      "detail": "Hermès straps and dials on the Apple Watch.",
+      "current": true
+    },
+    {
+      "source": "louis-vuitton",
+      "target": "akrivia",
+      "type": "collaboration",
+      "label": "LVRR-01 Chronographe à Sonnerie",
+      "year": 2023,
+      "detail": "Ten pieces; La Fabrique du Temps made the sapphire dial.",
+      "current": true
+    },
+    {
+      "source": "f-p-journe",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 1",
+      "year": 2001,
+      "detail": "Journe created the first Opus.",
+      "current": false
+    },
+    {
+      "source": "vianney-halter",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 3",
+      "year": 2003,
+      "detail": "Halter's digital-display Opus.",
+      "current": false
+    },
+    {
+      "source": "christophe-claret",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 4",
+      "year": 2004,
+      "detail": "A double-face tourbillon minute repeater.",
+      "current": false
+    },
+    {
+      "source": "urwerk",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 5",
+      "year": 2005,
+      "detail": "Felix Baumgartner's satellite-hour Opus.",
+      "current": false
+    },
+    {
+      "source": "greubel-forsey",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 6",
+      "year": 2006,
+      "detail": "A 30° double tourbillon Opus.",
+      "current": false
+    },
+    {
+      "source": "agenhor",
+      "target": "harry-winston",
+      "type": "collaboration",
+      "label": "Opus 9 movement",
+      "year": 2009,
+      "detail": "Jean-Marc Wiederrecht built Opus 9's linear display.",
+      "current": false
+    },
+    {
+      "source": "kari-voutilainen",
+      "target": "mb-and-f",
+      "type": "collaboration",
+      "label": "Legacy Machine No.1 finishing",
+      "year": 2011,
+      "detail": "LM1 was created with Kari Voutilainen and Jean-François Mojon.",
+      "current": false
+    },
+    {
+      "source": "philippe-dufour",
+      "target": "greubel-forsey",
+      "type": "collaboration",
+      "label": "Naissance d'une Montre",
+      "year": 2009,
+      "detail": "With Michel Boulanger, to preserve hand-made watchmaking.",
+      "current": false
+    },
+    {
+      "source": "konstantin-chaykin",
+      "target": "louis-erard",
+      "type": "collaboration",
+      "label": "Time Eater regulators",
+      "year": null,
+      "detail": "Several editions, including Time Eater III in 2025.",
+      "current": true
+    },
+    {
+      "source": "vianney-halter",
+      "target": "louis-erard",
+      "type": "collaboration",
+      "label": "Le Régulateur Louis Erard x Vianney Halter",
+      "year": null,
+      "detail": "Two chapters of steampunk-inspired regulators.",
+      "current": true
+    },
+    {
+      "source": "kudoke",
+      "target": "louis-erard",
+      "type": "collaboration",
+      "label": "Louis Erard x Kudoke",
+      "year": null,
+      "detail": "Part of Louis Erard's independent-watchmaker series.",
+      "current": true
+    },
+    {
+      "source": "hodinkee",
+      "target": "omega",
+      "type": "collaboration",
+      "label": "Speedmaster Hodinkee 10th Anniversary",
+      "year": 2018,
+      "detail": "Inspired by Ben Clymer's first watch.",
+      "current": false
+    },
+    {
+      "source": "hodinkee",
+      "target": "grand-seiko",
+      "type": "collaboration",
+      "label": "Automatic GMT limited edition",
+      "year": null,
+      "detail": "500 pieces with a 'Twilight blue' dial.",
+      "current": false
+    },
+    {
+      "source": "hodinkee",
+      "target": "zenith",
+      "type": "collaboration",
+      "label": "El Primero and Chronomaster limited editions",
+      "year": null,
+      "detail": "Three editions, starting with the El Primero Revival G381.",
+      "current": false
+    },
+    {
+      "source": "google",
+      "target": "tag-heuer",
+      "type": "collaboration",
+      "label": "TAG Heuer Connected (with Intel)",
+      "year": 2015,
+      "detail": "Android Wear luxury smartwatch.",
+      "current": true
+    },
+    {
+      "source": "google",
+      "target": "fossil-group",
+      "type": "collaboration",
+      "label": "Wear OS partner; bought Fossil's smartwatch IP",
+      "year": 2019,
+      "detail": "Google paid about $40m for Fossil technology and staff.",
+      "current": false
+    },
+    {
+      "source": "google",
+      "target": "samsung",
+      "type": "collaboration",
+      "label": "Unified Wear OS platform",
+      "year": 2021,
+      "detail": "Samsung's Galaxy Watch4 moved to Wear OS.",
+      "current": true
+    },
+    {
+      "source": "citizen",
+      "target": "hmt",
+      "type": "collaboration",
+      "label": "Technical collaboration on HMT's first watches",
+      "year": 1961,
+      "detail": "HMT's Bangalore factory began production with Citizen's help.",
+      "current": false
+    },
+    {
+      "source": "hajime-asaoka",
+      "target": "naoya-hida-and-co",
+      "type": "collaboration",
+      "label": "Production support",
+      "year": 2018,
+      "detail": "Asaoka's Precision Watch Tokyo supports Naoya Hida's production.",
+      "current": true
+    }
+  ]
+}

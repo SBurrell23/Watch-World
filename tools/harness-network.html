@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watch World · network harness</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  /* Fallback tokens, overridden by css/tokens.css when it exists */
+  :root {
+    --bg:#0d0c0a; --bg-elev:#15130f; --surface:#1b1914; --surface-2:#24211a; --text:#f1ebdd; --text-muted:#a39a88;
+    --border:rgba(212,175,95,.18); --gold:#d4af5f; --gold-soft:rgba(212,175,95,.14); --accent:#8fb3c9; --danger:#e06a5a;
+    --font-display:'Cormorant Garamond', Georgia, serif; --font-body:Inter, system-ui, sans-serif; --font-mono:'JetBrains Mono', monospace;
+    --radius:10px; --radius-lg:18px; --shadow:0 6px 20px rgba(0,0,0,.35); --shadow-lg:0 20px 60px rgba(0,0,0,.5); --ease:cubic-bezier(.2,.7,.2,1);
+    --tier-1:#6f8f7a; --tier-2:#7ea08a; --tier-3:#8fb3a0; --tier-4:#8fb3c9; --tier-5:#9aa7d6; --tier-6:#b39ad6; --tier-7:#d69ac4; --tier-8:#d6a88a; --tier-9:#d4af5f; --tier-10:#f0d58c;
+  }
+  [data-theme="light"] {
+    --bg:#f7f3ea; --bg-elev:#fffdf8; --surface:#ffffff; --surface-2:#f1ece0; --text:#1d1a14; --text-muted:#6b6354;
+    --border:rgba(140,110,50,.22); --gold:#9c7a2e; --gold-soft:rgba(156,122,46,.12); --accent:#2f5d7c; --danger:#b3412f;
+    --shadow:0 6px 20px rgba(60,40,10,.08); --shadow-lg:0 20px 60px rgba(60,40,10,.14);
+    --tier-1:#4f7a5e; --tier-2:#5b8a6c; --tier-3:#3f7f76; --tier-4:#2f6f9c; --tier-5:#4b5fb0; --tier-6:#7a4fb0; --tier-7:#a8467f; --tier-8:#b0663a; --tier-9:#9c7a2e; --tier-10:#7a5a10;
+  }
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body)}
+  .hb-bar{position:sticky;top:0;z-index:50;display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;padding:.5rem 1rem;background:var(--bg-elev);border-bottom:1px solid var(--border);font-size:.8rem}
+  .hb-bar button,.hb-bar a{background:none;border:1px solid var(--border);color:var(--text);border-radius:99px;padding:.2rem .7rem;cursor:pointer;text-decoration:none;font:inherit}
+  .hb-bar span{color:var(--text-muted)}
+  #app{max-width:1400px;margin:0 auto;padding:0 clamp(16px,3vw,40px) 4rem}
+</style>
+<link rel="stylesheet" href="../css/tokens.css" onerror="this.remove()">
+<link rel="stylesheet" href="../css/network.css">
+</head>
+<body>
+<nav class="hb-bar">
+  <strong>Network harness</strong>
+  <button id="theme" type="button">Toggle theme</button>
+  <button id="remount" type="button">Destroy + remount</button>
+  <a href="?focus=omega">?focus=omega</a>
+  <a href="?focus=richemont&hops=1">?focus=richemont&amp;hops=1</a>
+  <a href="?">no focus</a>
+  <span id="src"></span>
+</nav>
+<main id="app"></main>
+<script type="module">
+const saved = localStorage.getItem('hn-theme'); if (saved) document.documentElement.dataset.theme = saved;
+document.getElementById('theme').onclick = () => {
+  const t = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+  document.documentElement.dataset.theme = t; localStorage.setItem('hn-theme', t);
+};
+
+async function loadBrands() {
+  // brands.json wins; otherwise the larger of the samples (more realistic)
+  let best = { list: [], f: 'none' };
+  for (const f of ['brands.json', 'sample-b.json', 'sample.json']) {
+    try {
+      const r = await fetch('../data/' + f);
+      if (r.ok) { const j = await r.json(); if (Array.isArray(j) && j.length) { if (f === 'brands.json') return { list: j, f }; if (j.length > best.list.length) best = { list: j, f }; } }
+    } catch {}
+  }
+  return best;
+}
+async function loadRenderer() {
+  try { return await import('../js/watch-render.js'); } catch {
+    return {
+      fallbackVisual: () => ({ caseShape: 'round', caseMetal: 'steel', dialColor: '#1f3a5f' }),
+      renderWatch: () => '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor"/></svg>',
+    };
+  }
+}
+let [{ list: brands, f }, R] = await Promise.all([loadBrands(), loadRenderer()]);
+
+// ?synthetic=300 — stress test: N brands + ~1.5N edges served in place of connections.json
+const synth = +new URLSearchParams(location.search).get('synthetic');
+if (synth) {
+  const segs = ['Haute Horlogerie', 'Luxury', 'Premium', 'Mid-range', 'Affordable', 'Fashion', 'Independent', 'Microbrand', 'Smartwatch'];
+  const kinds = ['group', 'movement-maker', 'person', 'company', 'retailer'];
+  const types = ['owns', 'stake', 'movement-supplier', 'designer', 'lineage', 'collaboration', 'founder-link', 'former-owner', 'case-dial-supplier'];
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const pick = (a) => a[Math.floor(rnd() * a.length)];
+  brands = Array.from({ length: synth - 40 }, (_, i) => ({ id: 'brand-' + i, name: 'Brand ' + i, segment: pick(segs), priceTier: 1 + Math.floor(rnd() * 10), popularity: 1 + Math.floor(rnd() * 10), country: 'Switzerland' }));
+  const entities = Array.from({ length: 40 }, (_, i) => ({ id: 'ent-' + i, name: (i < 12 ? 'Group ' : 'Entity ') + i, kind: i < 12 ? 'group' : pick(kinds.slice(1)), description: 'Synthetic entity.' }));
+  const edges = [];
+  brands.forEach((b, i) => { if (rnd() < 0.8) edges.push({ source: 'ent-' + (i % 12), target: b.id, type: 'owns', label: 'Owner', year: 1990, current: true }); });
+  while (edges.length < synth * 1.5) edges.push({ source: rnd() < 0.5 ? 'ent-' + Math.floor(12 + rnd() * 28) : pick(brands).id, target: pick(brands).id, type: pick(types), label: 'Synthetic', year: 2000, current: rnd() < 0.75 });
+  const payload = JSON.stringify({ entities, edges });
+  const realFetch = window.fetch.bind(window);
+  window.fetch = (u, o) => String(u).includes('/data/connections') ? Promise.resolve(new Response(payload, { status: 200, headers: { 'content-type': 'application/json' } })) : realFetch(u, o);
+  f = 'synthetic';
+}
+const brandById = new Map(brands.map(b => [b.id, b]));
+const set = () => { const s = new Set(); return { has: id => s.has(id), toggle: id => (s.has(id) ? s.delete(id) : s.add(id), s.has(id)), list: () => [...s] }; };
+const params = Object.fromEntries(new URLSearchParams(location.search));
+const ctx = {
+  brands, brandById, params,
+  go: (h) => { console.log('[go]', h); location.hash = h; },
+  renderWatch: R.renderWatch, fallbackVisual: R.fallbackVisual,
+  startLiveHands: R.startLiveHands || (() => () => {}),
+  favorites: set(), compare: set(),
+};
+const mod = (await import('../js/views/network.js')).default;
+const root = document.getElementById('app');
+const mount = () => { mod.destroy?.(); root.innerHTML = ''; mod.render(root, ctx); };
+mount();
+document.getElementById('remount').onclick = mount;
+setTimeout(() => {
+  const src = root.querySelector('.net')?.dataset.source;
+  document.getElementById('src').textContent = `brands: ${f} (${brands.length}) · connections: ${src || '…'}`;
+}, 1500);
+window.__view = mod; window.__ctx = ctx;
+</script>
+</body>
+</html>
