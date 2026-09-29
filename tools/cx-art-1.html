@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Complication art 1–12</title>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/complications-art.css">
+<style>
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--text); font: 12px/1.4 var(--font-body); }
+  header { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, calc(var(--l, 160px) + 120px)), 1fr)); gap: 14px; }
+  .card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px; border: 1px solid color-mix(in srgb, var(--text) 12%, transparent); border-radius: 10px; }
+  .row { display: flex; align-items: flex-end; gap: 10px; }
+  .cx-art.l { width: var(--l, 160px); } .cx-art.s { width: 90px; }
+  .meta { color: var(--text-muted); font-size: 11px; }
+</style>
+</head>
+<body>
+<header>
+  <button id="t">Toggle theme</button><span id="stats"></span>
+</header>
+<main class="grid" id="g"></main>
+<script type="module">
+import art from '../js/complications/art-1.js';
+const g = document.getElementById('g');
+const q = new URLSearchParams(location.search);
+if (q.get('l')) document.documentElement.style.setProperty('--l', q.get('l') + 'px');
+if (q.get('theme')) document.documentElement.dataset.theme = q.get('theme');
+const only = q.get('only');
+let n = 0;
+const sizes = [];
+for (const [id, draw] of Object.entries(art)) {
+  if (only && !only.split(',').includes(id)) continue;
+  const a = draw({ uid: `t${++n}` }), b = draw({ uid: `t${++n}` });
+  sizes.push(a.length);
+  g.insertAdjacentHTML('beforeend', `<div class="card" data-id="${id}"><div class="row"><div class="cx-art l">${a}</div><div class="cx-art s">${b}</div></div><div>${id}</div><div class="meta">${(a.length / 1024).toFixed(1)} KB</div></div>`);
+}
+const ids = [...document.querySelectorAll('[id]')].map((e) => e.id);
+const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
+document.getElementById('stats').textContent = `${Object.keys(art).length} drawings · max ${(Math.max(...sizes) / 1024).toFixed(1)} KB · duplicate ids: ${dup.length ? dup.join(',') : 'none'}`;
+document.getElementById('t').onclick = () => {
+  const h = document.documentElement;
+  if (h.dataset.theme === 'light') delete h.dataset.theme; else h.dataset.theme = 'light';
+};
+</script>
+</body>
+</html>

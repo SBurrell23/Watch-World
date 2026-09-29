@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Complication art 4</title>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/complications-art.css">
+<style>
+  body { margin: 0; padding: 20px; background: var(--bg); color: var(--text); font: 13px var(--font-body); }
+  :root[data-theme="light"] body { background: #f4efe6; color: #1d1d20; }
+  header { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 18px; }
+  figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .row { display: flex; align-items: end; gap: 12px; }
+  .s160 { width: 160px; } .s90 { width: 90px; }
+  figcaption { font-size: 11px; opacity: .7; }
+  #report { font: 12px var(--font-mono); opacity: .8; }
+</style>
+</head>
+<body>
+<header>
+  <button id="theme" type="button">Toggle theme</button>
+  <span id="report"></span>
+</header>
+<div class="grid" id="grid"></div>
+<script type="module">
+  import art from '../js/complications/art-4.js';
+  const grid = document.getElementById('grid');
+  let n = 0;
+  for (const [id, draw] of Object.entries(art)) {
+    const f = document.createElement('figure');
+    f.innerHTML = `<div class="row"><div class="cx-art s160">${draw({ uid: `t${++n}` })}</div><div class="cx-art s90">${draw({ uid: `t${++n}` })}</div></div><figcaption>${id}</figcaption>`;
+    grid.append(f);
+  }
+  const ids = [...document.querySelectorAll('[id]')].map((e) => e.id);
+  const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
+  document.getElementById('report').textContent = `${Object.keys(art).length} drawings · duplicate ids: ${dup.length ? dup.join(',') : 'none'}`;
+  const root = document.documentElement;
+  const q = new URLSearchParams(location.search).get('theme');
+  if (q) root.dataset.theme = q;
+  const big = new URLSearchParams(location.search).get('big');
+  if (big) document.head.insertAdjacentHTML('beforeend', `<style>.grid{grid-template-columns:repeat(auto-fill,minmax(${big}px,1fr))}.s160{width:${big}px}.s90{display:none}</style>`);
+  document.getElementById('theme').onclick = () => {
+    if (root.dataset.theme === 'light') delete root.dataset.theme; else root.dataset.theme = 'light';
+  };
+</script>
+</body>
+</html>

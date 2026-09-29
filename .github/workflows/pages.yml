@@ -32,7 +32,7 @@ jobs:
           mkdir -p _site
           cp -r index.html css js data _site/
           for f in 404.html favicon.svg; do [ -f "$f" ] && cp "$f" _site/; done
-          rm -rf _site/data/raw _site/data/sample-b.json _site/data/SCHEMA.md
+          rm -rf _site/data/raw _site/data/sample-b.json _site/data/SCHEMA.md _site/data/COMPLICATIONS.md _site/data/complications-sample.json
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

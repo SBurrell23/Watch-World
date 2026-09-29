@@ -165,6 +165,7 @@ export default {
 
       <section class="vw-sec" id="learn-glossary" aria-labelledby="h-glossary">
         <p class="vw-eyebrow">02</p><h2 class="vw-h2 vw-h2--big" id="h-glossary">Glossary</h2>
+        <p class="vw-prose vw-prose--wide">The essential vocabulary, from movements to materials. For the mechanisms themselves, see the illustrated <a class="vw-link" href="#/complications">Complications compendium →</a>, where every complication is drawn, explained and rated.</p>
         <div class="vw-gloss__bar">
           <label class="vw-search"><span class="vw-sr">Search the glossary</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
             <input type="search" placeholder="Search ${GLOSSARY.length} terms…" data-gq></label>

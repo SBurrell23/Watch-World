@@ -559,6 +559,13 @@
       "kind": "person",
       "country": "Switzerland",
       "description": "Engineer who invented the tuning-fork Accutron movement for Bulova (1960)."
+    },
+    {
+      "id": "guy-bove",
+      "name": "Guy Bove",
+      "kind": "person",
+      "country": "Switzerland",
+      "description": "Watch designer and former creative director at IWC and TAG Heuer, now working with independent brands."
     }
   ],
   "edges": [
@@ -3719,6 +3726,60 @@
       "label": "Production support",
       "year": 2018,
       "detail": "Asaoka's Precision Watch Tokyo supports Naoya Hida's production.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "circula",
+      "type": "movement-supplier",
+      "label": "SW200-1 and SW200-2 Power+ Elaboré calibres",
+      "year": null,
+      "detail": "Sellita SW200-family movements, regulated in Pforzheim, power the AquaSport, ProTrail, ProFlight and ProSea.",
+      "current": true
+    },
+    {
+      "source": "la-joux-perret",
+      "target": "circula",
+      "type": "movement-supplier",
+      "label": "G100 Soigné calibre for the Facet",
+      "year": 2024,
+      "detail": "The Facet sports watch uses the La Joux-Perret G100 automatic with 68-hour power reserve.",
+      "current": true
+    },
+    {
+      "source": "guy-bove",
+      "target": "circula",
+      "type": "designer",
+      "label": "Designer of the ProFlight, Facet and ProSea",
+      "year": 2024,
+      "detail": "Circula worked with Guy Bove on its pilot, sports and dive watches from 2024 onward.",
+      "current": true
+    },
+    {
+      "source": "sellita",
+      "target": "bruno-sohnle",
+      "type": "movement-supplier",
+      "label": "SW200 base for Atelier calibre BS175",
+      "year": null,
+      "detail": "Bruno Söhnle's automatic models use the BS175, a refined Sellita SW200.",
+      "current": true
+    },
+    {
+      "source": "eta",
+      "target": "bruno-sohnle",
+      "type": "movement-supplier",
+      "label": "Unitas 6498 base for hand-wound calibre BS 283",
+      "year": null,
+      "detail": "The Stuttgart Handaufzug II uses the BS 283, based on the Unitas 6498 hand-wound movement.",
+      "current": true
+    },
+    {
+      "source": "ronda",
+      "target": "bruno-sohnle",
+      "type": "movement-supplier",
+      "label": "Quartz movements since 2000",
+      "year": 2000,
+      "detail": "The atelier's quartz models, its core range since founding, use refined Ronda movements such as the 7003.L.",
       "current": true
     }
   ]

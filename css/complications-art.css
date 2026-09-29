@@ -1,0 +1,49 @@
+/* Shared palette + animation vocabulary for complication illustrations (see data/COMPLICATIONS.md). */
+:root {
+  --cx-case: #b9b3a7;
+  --cx-dial: #15171d;
+  --cx-line: #ece6da;
+  --cx-muted: #7d7a74;
+  --cx-gold: #d4b06a;
+  --cx-blue: #9fb7c8;
+  --cx-red: #d0675c;
+  --cx-night: #1c2a4a;
+  --cx-font: var(--font-body, 'Inter', system-ui, sans-serif);
+}
+:root[data-theme="light"] {
+  --cx-case: #8d877b;
+  --cx-dial: #fbf8f2;
+  --cx-line: #1d1d20;
+  --cx-muted: #9a958c;
+  --cx-gold: #a77d2c;
+  --cx-blue: #2f5d7c;
+  --cx-red: #b3463b;
+  --cx-night: #22335a;
+}
+
+.cx-art svg { display: block; width: 100%; height: auto; overflow: visible; }
+.cx-art svg * { transform-box: view-box; }
+
+@keyframes cx-spin { to { transform: rotate(360deg); } }
+@keyframes cx-spin-rev { to { transform: rotate(-360deg); } }
+@keyframes cx-retro { 0% { transform: rotate(0deg); } 88% { transform: rotate(120deg); } 92%, 100% { transform: rotate(0deg); } }
+@keyframes cx-swing { from { transform: rotate(-200deg); } to { transform: rotate(200deg); } }
+@keyframes cx-pulse { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+@keyframes cx-slide { 0%, 30% { transform: translateY(0); } 33%, 63% { transform: translateY(-12px); } 66%, 96% { transform: translateY(-24px); } 100% { transform: translateY(0); } }
+
+.cx-spin-60s { animation: cx-spin 60s linear infinite; }
+.cx-spin-12s { animation: cx-spin 12s linear infinite; }
+.cx-spin-6s { animation: cx-spin 6s linear infinite; }
+.cx-spin-2s { animation: cx-spin 2s linear infinite; }
+.cx-spin-rev-12s { animation: cx-spin-rev 12s linear infinite; }
+.cx-orbit-12s { animation: cx-spin 12s linear infinite; }
+.cx-tick-60 { animation: cx-spin 60s steps(60) infinite; }
+.cx-jump { animation: cx-spin 36s steps(12) infinite; } /* a cumulative 30° snap every 3s */
+.cx-sweep-retro { animation: cx-retro 6s ease-in-out infinite; }
+.cx-swing { animation: cx-swing .4s ease-in-out infinite alternate; }
+.cx-pulse { animation: cx-pulse 1.6s ease-in-out infinite; }
+.cx-slide { animation: cx-slide 6s steps(1, end) infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cx-art [class*="cx-"] { animation: none !important; }
+}

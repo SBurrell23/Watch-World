@@ -17,6 +17,7 @@ const ROUTES = {
   groups: { file: 'groups', label: 'Groups' },
   network: { file: 'network', label: 'Network' },
   models: { file: 'models', label: 'Models' },
+  complications: { file: 'complications', label: 'Complications' },
   finder: { file: 'finder', label: 'Watch Finder' },
   learn: { file: 'learn', label: 'Learn' },
 };
@@ -32,6 +33,7 @@ export const SECTIONS = [
   { id: 'groups', label: 'Groups', blurb: 'Who owns whom: Swatch, Richemont, LVMH and the independents.' },
   { id: 'network', label: 'Network', blurb: 'Owners, movement suppliers, designers and lineages, connected.' },
   { id: 'models', label: 'Models', blurb: 'A gallery of iconic references, rendered in fine line.' },
+  { id: 'complications', label: 'Complications', blurb: 'Forty-eight mechanisms, from the date to the minute repeater, illustrated and rated.' },
   { id: 'finder', label: 'Watch Finder', blurb: 'Answer a few questions and meet your next watch.' },
   { id: 'learn', label: 'Learn', blurb: 'Movements, complications and the vocabulary of horology.' },
   { id: 'compare', label: 'Compare', blurb: 'Put up to four houses side by side.' },

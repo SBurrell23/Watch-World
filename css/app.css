@@ -202,9 +202,13 @@ hr { border: 0; height: 1px; background: var(--gold-line); opacity: 0.5; margin:
 .mobile-menu a[aria-current="page"] { color: var(--gold); }
 .mobile-menu .num { font-family: var(--font-mono); font-size: 0.7rem; color: var(--gold); }
 
-@media (max-width: 1240px) {
+@media (max-width: 1440px) {
   .primary-nav { display: none; }
   .menu-toggle { display: inline-grid; }
+}
+@media (min-width: 1441px) {
+  .primary-nav ul { gap: clamp(0.8rem, 1vw, 1.2rem); }
+  .primary-nav a { letter-spacing: 0.12em; }
 }
 @media (max-width: 720px) {
   .search-trigger__text, .search-trigger__kbd { display: none; }
@@ -545,7 +549,9 @@ body.has-tray .site-footer { padding-bottom: calc(110px + env(safe-area-inset-bo
 }
 @media (max-width: 520px) { .hero__stage { max-width: 300px; } }
 
-.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
+/* Hairlines drawn per tile, so an uneven tile count leaves blank cells rather than filled gaps. */
+.tiles > .tile { box-shadow: 0 0 0 1px var(--border); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 1px; background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; }
 .tile {
   position: relative; display: flex; flex-direction: column; gap: 0.6rem; min-height: 210px;
   padding: 1.5rem 1.4rem; background: var(--bg-elev); text-decoration: none; overflow: hidden;

@@ -1,0 +1,2609 @@
+[
+  {
+    "id": "small-seconds",
+    "name": "Small seconds",
+    "aka": [
+      "Petite seconde",
+      "Subsidiary seconds"
+    ],
+    "category": "time-display",
+    "tagline": "A little sub-dial where the seconds hand lives on its own.",
+    "summary": "Instead of a long central seconds hand, the seconds run on a small sub-dial, usually at 6 or 9 o'clock. It is the classic layout of dress watches and vintage pocket watches, and it keeps the main dial clean.",
+    "howItWorks": "In many traditional movements the fourth wheel, the wheel in the going train that turns exactly once a minute, does not sit in the centre of the movement. Watchmakers simply extend its arbor through the dial and fit a short hand to it, so the seconds are shown wherever that wheel happens to be, most often above 6 o'clock. No extra wheels are needed, which is why the layout is so old and so economical. A central seconds hand, by contrast, needs the seconds motion re-routed to the centre through an extra wheel or an indirect drive. Small seconds therefore adds almost no complexity: the design work is mainly in placing the sub-dial so it balances the dial and in keeping the short hand light so it does not disturb the train.",
+    "history": "Seconds hands appeared on watches in the late 17th and early 18th centuries, once the balance spring made them accurate enough for seconds to matter. Because the fourth wheel was off-centre in most pocket-watch calibres, a subsidiary seconds dial at 6 o'clock became the standard for two centuries. Central seconds only became common on wristwatches from the 1930s to the 1950s, driven by military and medical demand for easy reading. Small seconds survived as a hallmark of elegant hand-wound dress watches, from the Patek Philippe Calatrava to the Lange 1, and it remains a favourite of independent watchmakers.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 1,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 200,
+    "usefulness": 5,
+    "usefulnessType": "daily-practical",
+    "commonness": 7,
+    "commonnessLabel": "Common",
+    "partsCount": "0–2 extra parts (often just a hand)",
+    "funFact": "Many 'upgraded' movements lose their small seconds: moving seconds to the centre usually adds parts, not removes them.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Calatrava 96"
+      },
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "1815"
+      },
+      {
+        "brand": "Orient",
+        "brandId": "orient",
+        "model": "Bambino Small Seconds"
+      }
+    ],
+    "pairsWith": [
+      "power-reserve",
+      "date",
+      "moonphase"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://en.wikipedia.org/wiki/Mechanical_watch"
+    ]
+  },
+  {
+    "id": "deadbeat-seconds",
+    "name": "Deadbeat (jumping) seconds",
+    "aka": [
+      "Seconde morte",
+      "Jumping seconds",
+      "Seconde foudroyante (related)"
+    ],
+    "category": "time-display",
+    "tagline": "A mechanical watch whose seconds hand ticks once a second, like quartz.",
+    "summary": "A mechanical movement normally sweeps its seconds hand in several small steps per second. A deadbeat seconds mechanism stores that energy and releases it once per second, so the hand jumps in crisp one-second steps.",
+    "howItWorks": "The going train keeps running at its usual beat, but the seconds hand is decoupled from it. A small spring or a star wheel is tensioned a little with every vibration of the balance. Once per second a detent, often a lever resting on a star or a pallet on a fast-turning 'flirt' wheel, lets go, and the seconds wheel advances exactly one step before being locked again. Some designs use an independent train with its own mainspring, released by the main movement each second. The challenge is to do this without starving the balance of energy or making the hand bounce when it lands, which calls for very light parts, careful spring tuning and precise locking surfaces.",
+    "history": "The seconde morte was developed in the 18th century for doctors and astronomers who needed to count whole seconds. Jean Moïse Pouzait of Geneva is credited with an independent dead-seconds watch around 1776, and English makers built 'independent seconds' pocket watches through the 19th century. Quartz watches made the one-second tick ordinary in the 1970s, so the mechanical version became a connoisseur's irony. Revivals include Habring2, which has made it a house speciality since 2005, the Grönefeld 1941 Remontoire and the Jaeger-LeCoultre Geophysic True Second.",
+    "invented": {
+      "year": 1776,
+      "by": "Jean Moïse Pouzait (independent dead seconds)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 3800,
+    "usefulness": 3,
+    "usefulnessType": "aesthetic",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 15–40 extra components",
+    "funFact": "Owners of deadbeat watches are regularly asked whether their very expensive mechanical watch is quartz.",
+    "famousExamples": [
+      {
+        "brand": "Habring²",
+        "brandId": "habring2",
+        "model": "Erwin"
+      },
+      {
+        "brand": "Grönefeld",
+        "brandId": "gronefeld",
+        "model": "1941 Remontoire"
+      },
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Geophysic True Second"
+      }
+    ],
+    "pairsWith": [
+      "constant-force-escapement",
+      "power-reserve",
+      "regulator-dial"
+    ],
+    "sources": [
+      "https://watchesbysjx.com/2020/05/jumping-deadbeat-seconds-explained.html",
+      "https://wornandwound.com/horological-irony-dead-beat-seconds/",
+      "https://monochrome-watches.com/habring-jumping-seconds/"
+    ]
+  },
+  {
+    "id": "jumping-hour",
+    "name": "Jumping hour",
+    "aka": [
+      "Heure sautante",
+      "Jump hour"
+    ],
+    "category": "time-display",
+    "tagline": "The hour appears as a number in a window and snaps forward on the hour.",
+    "summary": "The hour is shown as a numeral in a small aperture rather than by an hour hand. At the top of each hour the disc jumps instantly to the next number, while the minutes are usually read from a normal hand or a sweeping scale.",
+    "howItWorks": "An hour disc printed with twelve numerals sits under the dial. The minute train turns a cam once an hour, slowly loading a spring-driven lever against it. At the end of the hour the lever falls off the cam's step and kicks a star wheel on the hour disc forward by exactly one twelfth of a turn, and a jumper spring then locks the disc in its new position. Because all the energy is stored and released in a fraction of a second, the design must manage the torque drain carefully so that the watch does not lose amplitude as the hour approaches, and the jumper has to hold the disc firmly against shocks.",
+    "history": "Jumping hours became possible in wearable form with Josef Pallweber's patents of 1883, which were licensed to makers such as IWC and Cortébert for 'digital' pocket watches. The 1920s and 1930s art deco era produced jump-hour wristwatches, including the Cartier Tank à Guichets of 1928. The display fell out of fashion until quartz-era revivals, and it has since become a favourite of designer brands and independents, from the Audemars Piguet Starwheel's wandering variant to affordable Christopher Ward and Sea-Gull-powered pieces.",
+    "invented": {
+      "year": 1883,
+      "by": "Josef Pallweber"
+    },
+    "difficulty": 5,
+    "difficultyLabel": "Advanced",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 1500,
+    "usefulness": 5,
+    "usefulnessType": "aesthetic",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 10–30 extra components",
+    "funFact": "Cartier's Tank à Guichets hid its jumping hour behind a solid dial with just two tiny windows.",
+    "famousExamples": [
+      {
+        "brand": "Cartier",
+        "brandId": "cartier",
+        "model": "Tank à Guichets"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Tribute to Pallweber"
+      },
+      {
+        "brand": "Christopher Ward",
+        "brandId": "christopher-ward",
+        "model": "C9 Jumping Hour"
+      }
+    ],
+    "pairsWith": [
+      "retrograde-display",
+      "mechanical-digital-display",
+      "small-seconds"
+    ],
+    "sources": [
+      "https://timeandtidewatches.com/best-jump-hour-watches/",
+      "https://www.gearpatrol.com/watches/a609826/found-vintage-jump-hour-digital-watches/"
+    ]
+  },
+  {
+    "id": "wandering-hour",
+    "name": "Wandering hour",
+    "aka": [
+      "Heure vagabonde",
+      "Satellite hour"
+    ],
+    "category": "time-display",
+    "tagline": "The hour numeral itself travels across an arc to point at the minutes.",
+    "summary": "Instead of hands, a small numeral for the current hour glides along a minute scale. Where the numeral sits on the arc tells you the minutes; when it leaves the arc, the next hour's numeral takes over.",
+    "howItWorks": "A central carrier, driven by the minute train, turns once every hour or more. It holds several small satellite discs, each printed with hour numerals. As the carrier turns, the active satellite sweeps across a 120° or 180° window marked with minutes, so the numeral acts as its own minute hand. When a satellite exits the window, a fixed star or pin steps it on by several numbers, so that when it comes round again it shows the correct hour. The hardest parts are the indexing geometry, keeping the satellites in phase, and making a relatively heavy rotating assembly light and balanced enough for the movement to drive.",
+    "history": "The idea comes from the 'night clocks' made for Pope Alexander VII by the Campani brothers in Rome around 1656, in which lamp-lit, pierced numerals travelled across a semicircle so the time could be read silently in the dark. The display was revived for the wrist by Audemars Piguet's Star Wheel in 1991, then made iconic by Urwerk from 1997 with its rotating-satellite designs. Vacheron Constantin's Métiers d'Art pieces and affordable Miyota-based designs from microbrands have spread it further.",
+    "invented": {
+      "year": 1656,
+      "by": "Campani brothers (night clock)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 1200,
+    "usefulness": 4,
+    "usefulnessType": "aesthetic",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 30–60 extra components",
+    "funFact": "The original wandering-hour clocks were built for a pope who hated the ticking of clocks while he slept.",
+    "famousExamples": [
+      {
+        "brand": "Audemars Piguet",
+        "brandId": "audemars-piguet",
+        "model": "Star Wheel"
+      },
+      {
+        "brand": "Urwerk",
+        "brandId": "urwerk",
+        "model": "UR-103"
+      },
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Métiers d'Art Mécaniques Ajourées"
+      }
+    ],
+    "pairsWith": [
+      "jumping-hour",
+      "retrograde-display"
+    ],
+    "sources": [
+      "https://www.gearpatrol.com/watches/a36651794/wandering-hour-watch/",
+      "https://wornandwound.com/review/hands-on-with-the-atowak-ettore-drift-an-affordable-wandering-hour-watch/"
+    ]
+  },
+  {
+    "id": "retrograde-display",
+    "name": "Retrograde display",
+    "aka": [
+      "Rétrograde",
+      "Retrograde hand"
+    ],
+    "category": "time-display",
+    "tagline": "A hand sweeps along an arc, then flies back to zero in an instant.",
+    "summary": "A retrograde hand travels along a fan-shaped scale instead of a full circle. When it reaches the end, it snaps back to the start and begins again. It is used for minutes, seconds, dates or days of the week.",
+    "howItWorks": "The hand is mounted on a toothed rack that is pushed along by a snail-shaped cam. As the cam turns, its rising edge gradually lifts a feeler on the rack, moving the hand across the arc. A return spring keeps the feeler pressed against the cam. At the end of the cycle the feeler drops off the steepest part of the snail and the spring pulls the rack and hand back to zero in a split second. The engineering challenges are making the flyback crisp without bouncing, preventing the snapping hand from shocking the rest of the movement, and ensuring the extra spring force does not rob the balance of energy.",
+    "history": "Retrograde indications appear on 18th-century clocks and pocket watches; Abraham-Louis Breguet and other makers used retrograde calendar and seconds hands around 1800. The display was a playful rarity until the 1990s, when brands looking for distinctive dials revived it, notably Breguet, Jaquet Droz, Pierre Kunz and Franck Muller. Today retrograde dates and seconds are common on modules added to standard movements, while ambitious pieces such as the Parmigiani Toric and Vacheron Constantin's Patrimony Retrograde Day-Date combine several retrograde hands.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 5,
+    "difficultyLabel": "Advanced",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 1000,
+    "usefulness": 4,
+    "usefulnessType": "aesthetic",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 10–25 extra components",
+    "funFact": "A retrograde hand snapping back can move faster than any other part of the watch, so dampening that return is a design problem of its own.",
+    "famousExamples": [
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Patrimony Retrograde Day-Date"
+      },
+      {
+        "brand": "Breguet",
+        "brandId": "breguet",
+        "model": "Classique 7137 (retrograde date)"
+      }
+    ],
+    "pairsWith": [
+      "jumping-hour",
+      "pointer-date",
+      "day-date"
+    ],
+    "sources": [
+      "https://www.the1916company.com/blog/your-ultimate-guide-to-unusual-unconventional-and-downright-surreal-ways-to-display-the-time.html",
+      "https://beuwatches.com/alternative-watch-displays-guide/"
+    ]
+  },
+  {
+    "id": "regulator-dial",
+    "name": "Regulator dial",
+    "aka": [
+      "Régulateur"
+    ],
+    "category": "time-display",
+    "tagline": "Hours, minutes and seconds each get their own separate hand and dial.",
+    "summary": "On a regulator dial the long central hand shows only minutes, while hours and seconds are shown on smaller sub-dials. The layout comes from the precision clocks that watchmakers once used to set other timepieces.",
+    "howItWorks": "In a normal watch the hour and minute hands share one axis, geared together by the motion works. A regulator separates them: the minute hand stays in the centre, driven directly by the cannon pinion, while the hour wheel's motion is carried by extra gearing to its own post, usually at 12 o'clock, and the seconds are taken from the fourth wheel, typically at 6. There is no fundamentally new mechanism, but the dial layout, wheel placement and hand alignment have to be re-engineered, and setting the hands must still move hour and minute together. The result reduces the chance of misreading the minute, which is why workshops relied on it.",
+    "history": "Precision 'regulator' clocks with separated hands appeared in 18th-century workshops and observatories, where reading minutes and seconds without ambiguity mattered more than looks; the reduced motion works also helped accuracy. Pocket-watch versions followed in the 19th century. Chronoswiss made the layout a modern wristwatch icon with its Régulateur of 1987, often described as the first serially produced regulator wristwatch, and brands from Louis Erard and Montblanc to Habring2 have kept the style alive.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 1500,
+    "usefulness": 5,
+    "usefulnessType": "aesthetic",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 3–10 extra components",
+    "funFact": "Clock-makers' regulators were the reference timepieces used to set every other clock in the workshop.",
+    "famousExamples": [
+      {
+        "brand": "Chronoswiss",
+        "brandId": "chronoswiss",
+        "model": "Régulateur"
+      },
+      {
+        "brand": "Louis Erard",
+        "brandId": "louis-erard",
+        "model": "Excellence Régulateur"
+      },
+      {
+        "brand": "Habring²",
+        "brandId": "habring2",
+        "model": "Josef Regulator"
+      }
+    ],
+    "pairsWith": [
+      "deadbeat-seconds",
+      "power-reserve",
+      "small-seconds"
+    ],
+    "sources": [
+      "https://monochrome-watches.com/habring2-josef-regulator-dead-beat-seconds-power-reserve-cushion-shape-introducing-specs-price/",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "mechanical-digital-display",
+    "name": "Mechanical digital display",
+    "aka": [
+      "Digital mechanical",
+      "Heure sautante numérique"
+    ],
+    "category": "time-display",
+    "tagline": "Hours and minutes shown as numerals on jumping discs, with no hands at all.",
+    "summary": "Both hours and minutes appear as numbers in windows, like a digital watch, but driven entirely by gears and springs. The best versions jump every minute, changing all digits at once.",
+    "howItWorks": "Separate discs or rings carry the hour numerals and the minute tens and units. In the best designs a separate energy store, a remontoir, is wound by the going train and released once a minute to advance the minute discs; at the top of the hour the same release also drives the hour disc. Because jumping several large discs at once needs far more energy than moving hands, the remontoir protects the balance from sudden torque drops and keeps the rate stable. Cheaper designs use 'dragging' discs that turn continuously, so the numerals slide into place rather than snapping.",
+    "history": "Josef Pallweber's 1883 patents produced the first popular mechanical digital pocket watches, made under licence by IWC and others. Digital-display wristwatches enjoyed a vogue in the 1920s-30s and again with cheap 'jump hour' designs in the 1970s. The modern high point is A. Lange & Söhne's Zeitwerk of 2009, whose constant-force remontoir snaps three digit discs every minute. IWC revived the Pallweber name in 2018 for its 150th anniversary.",
+    "invented": {
+      "year": 1883,
+      "by": "Josef Pallweber"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 4,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 6,
+    "usefulnessType": "aesthetic",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "Zeitwerk calibre: 388 parts in total",
+    "funFact": "At midnight a Zeitwerk jumps all three discs at once, the most energy-hungry moment of its day.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Zeitwerk"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Tribute to Pallweber Edition 150 Years"
+      },
+      {
+        "brand": "Cartier",
+        "brandId": "cartier",
+        "model": "Tank à Guichets"
+      }
+    ],
+    "pairsWith": [
+      "jumping-hour",
+      "constant-force-escapement",
+      "power-reserve"
+    ],
+    "sources": [
+      "https://timeandtidewatches.com/best-mechanical-digital-watches/",
+      "https://quillandpad.com/2019/02/24/a-watch-nerds-7-favorite-mechanical-digital-watches-reprise/"
+    ]
+  },
+  {
+    "id": "power-reserve",
+    "name": "Power reserve indicator",
+    "aka": [
+      "Réserve de marche",
+      "Up/down indicator",
+      "Auf/Ab"
+    ],
+    "category": "indication",
+    "tagline": "A fuel gauge for the mainspring: how long until the watch stops.",
+    "summary": "A small hand or window shows how much energy is left in the mainspring, usually in hours or days. It tells you when a hand-wound watch needs winding or whether an automatic has been worn enough.",
+    "howItWorks": "The indicator needs to know the difference between how much the mainspring has been wound and how much it has let down. A differential gear does this: one input is connected to the barrel arbor, which turns when you wind, the other to the barrel drum, which turns as the spring unwinds into the train. The differential's output turns only by the difference, and a hand on that output moves up when winding and down as the watch runs. Simpler versions use a small planetary gear or a threaded screw that travels along a thread. The designer must keep this extra gearing light so it does not rob torque from the train.",
+    "history": "Up-and-down indicators were fitted to marine chronometers and precision pocket watches in the late 18th and 19th centuries, famously by Abraham-Louis Breguet, because an unwound chronometer at sea was a navigational disaster. On wristwatches the display flourished in the 1950s on automatics such as the Jaeger-LeCoultre Powermatic and was later made a signature of the Lange 1 (1994) and many German watches. Today it is widely available, from Seiko Presage and Orient Star to high watchmaking.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 450,
+    "usefulness": 7,
+    "usefulnessType": "daily-practical",
+    "commonness": 5,
+    "commonnessLabel": "Uncommon",
+    "partsCount": "~ 8–20 extra components",
+    "funFact": "German watchmakers traditionally label the gauge 'Auf' and 'Ab', meaning 'up' and 'down'.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Lange 1"
+      },
+      {
+        "brand": "Orient Star",
+        "brandId": "orient-star",
+        "model": "Classic Power Reserve"
+      },
+      {
+        "brand": "Seiko",
+        "brandId": "seiko",
+        "model": "Presage Power Reserve"
+      }
+    ],
+    "pairsWith": [
+      "small-seconds",
+      "big-date",
+      "moonphase"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://www.alange-soehne.com/us-en/timepieces/selections/the-constant-force-escapement"
+    ]
+  },
+  {
+    "id": "day-night-indicator",
+    "name": "Day/night (AM/PM) indicator",
+    "aka": [
+      "Jour/nuit",
+      "24-hour indicator"
+    ],
+    "category": "indication",
+    "tagline": "A sun-and-moon disc or 24-hour hand that tells morning from evening.",
+    "summary": "A 12-hour dial cannot tell you whether it is 3 am or 3 pm. A day/night indicator can, with a rotating disc painted with a sun and moon, a coloured half-disc, or a small 24-hour hand.",
+    "howItWorks": "The hour wheel turns twice a day. Gearing it down by a factor of two produces an output that turns once every 24 hours, and that output carries either a hand on a 24-hour scale or a disc painted half light and half dark, visible through a window. As the day passes the sun symbol slides away and the moon or dark half appears. Mechanically it is among the simplest additions to a watch, but it is useful: it prevents setting the date twelve hours out, which could otherwise lead the date to change at noon, and it tells a traveller whether it is day or night at home.",
+    "history": "Sun-and-moon indicators were common on 17th and 18th-century clocks and pocket watches, including 'sun and moon' dials in which a painted sun rose and set through an arched aperture. Twenty-four-hour indications became important in aviation and military watches in the 20th century. Today the complication ranges from inexpensive quartz multi-dials to the Lange 1 Time Zone, the Jaeger-LeCoultre Master Geographic and the Hermès Arceau L'heure de la lune.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 2,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 50,
+    "usefulness": 4,
+    "usefulnessType": "daily-practical",
+    "commonness": 4,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 2–5 extra components",
+    "funFact": "Many watchmakers insist you check the day/night indicator before setting the date so the date changes at midnight, not noon.",
+    "famousExamples": [
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Overseas Dual Time"
+      },
+      {
+        "brand": "Orient",
+        "brandId": "orient",
+        "model": "Sun and Moon"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Calatrava Pilot Travel Time 5524"
+      }
+    ],
+    "pairsWith": [
+      "gmt",
+      "dual-time",
+      "world-time"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "depth-gauge",
+    "name": "Depth gauge",
+    "aka": [
+      "Mechanical depth gauge",
+      "Profondimètre"
+    ],
+    "category": "indication",
+    "tagline": "A diver's watch that reads how deep you are from water pressure alone.",
+    "summary": "A mechanical depth gauge uses the pressure of the water around you to move a hand that shows your current depth. Many also record the maximum depth reached on the dive with a second, trailing hand.",
+    "howItWorks": "Water pressure rises by roughly one bar for every ten metres of depth. A mechanical gauge lets that pressure act on a flexible element. The IWC Deep One used a Bourdon tube, a curved hollow tube that straightens slightly as water is admitted, moving a lever; Blancpain's X Fathoms uses a Liquidmetal membrane that deforms under pressure and pushes a rack and pinion. The small movement is multiplied by gearing to drive a depth hand, and a second, drag-type hand can stay at the deepest reading. Calibrating a non-linear deformation into a linear scale, and keeping the watch water-resistant when water deliberately enters part of the case, are the key difficulties.",
+    "history": "Mechanical depth gauges existed as stand-alone diving instruments long before watches carried them. IWC's GST Deep One of 1999, conceived by Richard Habring, is widely cited as the first luxury wristwatch with a mechanical depth gauge. Jaeger-LeCoultre's Master Compressor Diving Pro Geographic, Blancpain's 2010 X Fathoms with twin gauges and Oris' Aquis Depth Gauge, which reads depth from water entering a groove in the crystal, followed. Electronic analog-digital depth watches from Citizen and Casio are far cheaper.",
+    "invented": {
+      "year": 1999,
+      "by": "IWC (Richard Habring) — first luxury mechanical depth-gauge wristwatch"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 400,
+    "usefulness": 3,
+    "usefulnessType": "sport-professional",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 20–50 extra components",
+    "funFact": "The Oris Aquis Depth Gauge measures depth by how far water is squeezed along a channel cut into its sapphire crystal.",
+    "famousExamples": [
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "X Fathoms"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "GST Deep One"
+      },
+      {
+        "brand": "Oris",
+        "brandId": "oris",
+        "model": "Aquis Depth Gauge"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "power-reserve"
+    ],
+    "sources": [
+      "https://monochrome-watches.com/guide-depth-gauge-watches-dive-watches/",
+      "https://revolutionwatch.com/a-giant-leap-in-dive-watch-revolution-the-gst-deep-one/"
+    ]
+  },
+  {
+    "id": "date",
+    "name": "Date",
+    "aka": [
+      "Quantième",
+      "Date window"
+    ],
+    "category": "calendar",
+    "tagline": "The day of the month, the most common complication of all.",
+    "summary": "A numbered disc under the dial shows the day of the month through a small window, or a hand points to it. It must be corrected by hand at the end of months shorter than 31 days.",
+    "howItWorks": "A date ring printed with 1 to 31 sits under the dial. The hour wheel drives a date-driving wheel that turns once every 24 hours; a finger on that wheel engages the teeth inside the date ring once a day and pushes it forward by one position, and a spring jumper clicks it precisely into place. In simpler 'dragging' dates the change happens gradually over a few hours around midnight; 'instantaneous' dates store energy in a spring and jump at midnight. The mechanism has no knowledge of month length, so after a 30-day month or February you must advance it, usually via a quick-set crown position.",
+    "history": "Calendar indications appear on some of the earliest portable clocks of the 16th century. On wristwatches, the date became a mass feature after World War II: Rolex's 1945 Datejust introduced an instantly changing date in a window at 3 o'clock, and the 1953 Cyclops magnifier made it easy to read. By the 1970s nearly every mechanical and quartz movement offered a date option, and the date window is now the default on most watches sold.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 1,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 20,
+    "usefulness": 9,
+    "usefulnessType": "daily-practical",
+    "commonness": 10,
+    "commonnessLabel": "Ubiquitous",
+    "partsCount": "~ 5–10 extra components",
+    "funFact": "Rolex's Cyclops lens, added in 1953, magnifies the date about two and a half times, reportedly inspired by Hans Wilsdorf's wife struggling to read it.",
+    "famousExamples": [
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Datejust"
+      },
+      {
+        "brand": "Omega",
+        "brandId": "omega",
+        "model": "Seamaster Aqua Terra"
+      },
+      {
+        "brand": "Seiko",
+        "brandId": "seiko",
+        "model": "5 Sports"
+      }
+    ],
+    "pairsWith": [
+      "day-date",
+      "moonphase",
+      "chronograph"
+    ],
+    "sources": [
+      "https://italianwatchspotter.com/the-very-first-complication-the-date/?lang=en",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "big-date",
+    "name": "Big (outsize) date",
+    "aka": [
+      "Grande date",
+      "Panorama date",
+      "Outsize date"
+    ],
+    "category": "calendar",
+    "tagline": "An oversize date shown on two side-by-side discs for easy reading.",
+    "summary": "A normal date disc has to fit all 31 numbers on one ring, which keeps them small. A big date splits the job between a units disc and a tens cross or disc, so the numerals can be several times larger.",
+    "howItWorks": "Two separate components sit side by side under a double window. A units disc carries the digits 0 to 9 and advances every day. A tens element, often a cross or small disc, carries blank, 1, 2 and 3 and advances only at the change from 9 to 10, 19 to 20, 29 to 30, and at the end of the month. A program wheel with cams coordinates them, and because two discs sometimes have to jump together at midnight, many designs use a spring that is loaded during the evening and released instantly. The extra energy demand and the need to keep both discs flush with the dial make a good big date harder than it looks.",
+    "history": "Two-disc date displays appeared in the 20th century, but the modern icon is A. Lange & Söhne's 'Outsize date' introduced on the Lange 1 in 1994, inspired by the five-minute clock in the Semper Opera House in Dresden. Glashütte Original's Panorama Date, IWC's Big Date and countless quartz and mechanical versions followed, from Seiko to Montblanc, and the big date is now one of the most popular calendar upgrades on everyday watches.",
+    "invented": {
+      "year": 1994,
+      "by": "A. Lange & Söhne popularised the modern outsize date"
+    },
+    "difficulty": 4,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 150,
+    "usefulness": 8,
+    "usefulnessType": "daily-practical",
+    "commonness": 5,
+    "commonnessLabel": "Uncommon",
+    "partsCount": "~ 15–40 extra components",
+    "funFact": "Lange's outsize date was inspired by the digital five-minute clock above the stage of Dresden's Semper Opera House, built in 1841.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Lange 1"
+      },
+      {
+        "brand": "Glashütte Original",
+        "brandId": "glashutte-original",
+        "model": "Senator Panorama Date"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Big Pilot's Watch Big Date"
+      }
+    ],
+    "pairsWith": [
+      "power-reserve",
+      "moonphase",
+      "annual-calendar"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://www.phillips.com/detail/a-lange-sohne/CH080524/26"
+    ]
+  },
+  {
+    "id": "pointer-date",
+    "name": "Pointer date",
+    "aka": [
+      "Date à aiguille",
+      "Hand date"
+    ],
+    "category": "calendar",
+    "tagline": "A dedicated hand points to the date on a 1-to-31 scale round the dial.",
+    "summary": "Instead of a window, a slim hand, often with a crescent tip, points to the date printed around the dial's edge. It is a vintage look that frees the dial from a cut-out.",
+    "howItWorks": "The mechanism is almost identical to a window date. A date star wheel with 31 teeth is advanced once a day by a finger on a 24-hour wheel, and a jumper spring holds it in place. Instead of carrying a printed ring, the star wheel's arbor is brought up through the centre (or to a sub-dial) and fitted with a hand. Because the hand must be coaxial with the hour and minute hands in a central layout, an extra tube is added to the stack of hand posts, and the hand must be carefully aligned so it points exactly at each date.",
+    "history": "Pointer dates were used on clocks and pocket watches for centuries, and the central pointer date became a feature of 1940s and 1950s triple-calendar wristwatches with moon phase, from Universal Genève, Movado and Patek Philippe to many smaller Swiss makers. Window dates largely displaced it after the 1950s, but it returned with vintage-inspired designs, and it remains common on Chinese and Japanese calendar watches and modern retro pieces.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 2,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 100,
+    "usefulness": 6,
+    "usefulnessType": "daily-practical",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 5–10 extra components",
+    "funFact": "Pointer dates often end in a small crescent so they can't be confused with the seconds hand sweeping past.",
+    "famousExamples": [
+      {
+        "brand": "Universal Genève",
+        "brandId": "universal-geneve",
+        "model": "Tri-Compax"
+      },
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Master Collection Moonphase Chronograph"
+      },
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Master Control Calendar"
+      }
+    ],
+    "pairsWith": [
+      "complete-calendar",
+      "moonphase",
+      "chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://wristler.eu/insights/watch-calendar-types-explained-from-triple-perpetual-complications"
+    ]
+  },
+  {
+    "id": "day-date",
+    "name": "Day-date",
+    "aka": [
+      "Jour-date"
+    ],
+    "category": "calendar",
+    "tagline": "Shows the day of the week as well as the date, often spelled out in full.",
+    "summary": "A day-date adds the day of the week, in a second window or on a hand, beside the date. It is one of the most practical everyday calendar displays.",
+    "howItWorks": "A second disc printed with the seven days sits under the dial alongside the date ring. The same 24-hour wheel that pushes the date ring forward also advances the day disc through a star wheel with seven (or fourteen, for bilingual discs) teeth, held in place by its own jumper spring. Instant-change versions store energy through the evening and release both discs together at midnight. A quick-set function, usually by turning the crown back and forth in one position, lets you correct the day independently.",
+    "history": "Day indications have long existed on clocks and pocket watches. For wristwatches the landmark was the Rolex Day-Date of 1956, the first wristwatch to spell out the day of the week in full in a window at 12 o'clock, and later offered in dozens of languages. In the 1960s and 1970s day-date movements became standard in affordable automatics such as the Seiko 5, and today almost every quartz and mechanical calibre family has a day-date version.",
+    "invented": {
+      "year": 1956,
+      "by": "Rolex (first wristwatch with day spelled out in full)"
+    },
+    "difficulty": 2,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 40,
+    "usefulness": 8,
+    "usefulnessType": "daily-practical",
+    "commonness": 8,
+    "commonnessLabel": "Common",
+    "partsCount": "~ 8–15 extra components",
+    "funFact": "The Rolex Day-Date has been offered with day discs in more than 25 languages, including Hebrew and Amharic.",
+    "famousExamples": [
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Day-Date (the 'President')"
+      },
+      {
+        "brand": "Seiko",
+        "brandId": "seiko",
+        "model": "5 (SNK series)"
+      },
+      {
+        "brand": "Grand Seiko",
+        "brandId": "grand-seiko",
+        "model": "Heritage Collection Day-Date"
+      }
+    ],
+    "pairsWith": [
+      "date",
+      "complete-calendar",
+      "chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rolex_Day-Date",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "week-number",
+    "name": "Week number",
+    "aka": [
+      "Weekly calendar",
+      "Numéro de semaine",
+      "ISO week"
+    ],
+    "category": "calendar",
+    "tagline": "Shows which of the year's 52 or 53 weeks it is, for planners and project managers.",
+    "summary": "A hand or window shows the ISO week number, the numbering used across European business and logistics. It is common on digital watches and very rare on mechanical ones.",
+    "howItWorks": "Mechanically, a week hand must advance once every seven days, on a Monday, which means it has to be driven from the day-of-the-week mechanism rather than the date. A finger on the weekday star advances a 52-or-53-step wheel once per cycle. Because the ISO system sometimes has 53 weeks and weeks do not align with months, a mechanical watch cannot stay perfectly in sync without adjustment, so the dial scale and correction method must be thought through carefully. Patek Philippe's 5212A patented a new drive for its central week hand. In quartz and digital watches the week number is simply calculated by the microchip.",
+    "history": "Week-number calendars became a business convention in Europe, standardised as ISO 8601 in 1988. They were a common feature of digital and multifunction quartz watches from the 1980s on, but mechanical examples remained scarce. Patek Philippe's Calatrava Weekly Calendar 5212A, presented at Baselworld 2019, was the brand's first and only mechanical weekly calendar and brought the complication wide attention; a handful of chronographs, such as Maurice Lacroix's Les Classiques, also show it.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 4,
+    "difficultyLabel": "Moderate",
+    "costTier": 3,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 5,
+    "usefulnessType": "situational",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "Some years have 53 ISO weeks, so Patek's 5212A dial is printed with 53 week markers.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Calatrava Weekly Calendar 5212A"
+      },
+      {
+        "brand": "Maurice Lacroix",
+        "brandId": "maurice-lacroix",
+        "model": "Les Classiques Chronographe"
+      }
+    ],
+    "pairsWith": [
+      "day-date",
+      "complete-calendar"
+    ],
+    "sources": [
+      "https://monochrome-watches.com/patek-philippe-calatrava-weekly-calendar-5212a-steel-review-price/",
+      "https://collectability.com/learn/the-story-behind-patek-philippe-ref-5212a/"
+    ]
+  },
+  {
+    "id": "complete-calendar",
+    "name": "Complete (triple) calendar",
+    "aka": [
+      "Triple calendar",
+      "Quantième complet",
+      "Full calendar"
+    ],
+    "category": "calendar",
+    "tagline": "Day, date and month together, usually crowned with a moon phase.",
+    "summary": "A complete calendar shows the day of the week, the date and the month. It does not know how long each month is, so it needs correcting about five times a year.",
+    "howItWorks": "Three indications run from one daily impulse. A 24-hour wheel advances the date ring or pointer each night and the day disc through its own star wheel. The month is advanced once per month when the date passes from 31 to 1, typically by a finger on the date wheel pushing the month star forward. Because all months are treated as 31 days long, the owner must advance the date manually at the end of shorter months. A moon-phase disc is often added, driven by the same daily impulse, which is why the combination is often called a triple calendar moon phase.",
+    "history": "Full calendars with day, date and month were built into clocks and pocket watches from the 16th and 17th centuries onward. The triple calendar moon phase became a classic wristwatch layout in the 1940s and 1950s, when Patek Philippe, Audemars Piguet, Universal Genève, Movado and Jaeger-LeCoultre produced elegant examples. The mechanical-watch revival brought it back through the Valjoux 7751 chronograph and many modern references, and quartz versions are now very inexpensive.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 100,
+    "usefulness": 7,
+    "usefulnessType": "daily-practical",
+    "commonness": 4,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 20–40 extra components",
+    "funFact": "A triple calendar needs about five manual corrections a year, one for each month shorter than 31 days.",
+    "famousExamples": [
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Villeret Quantième Complet"
+      },
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Master Collection Moonphase"
+      },
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Master Control Calendar"
+      }
+    ],
+    "pairsWith": [
+      "moonphase",
+      "chronograph",
+      "pointer-date"
+    ],
+    "sources": [
+      "https://wristler.eu/insights/watch-calendar-types-explained-from-triple-perpetual-complications",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "annual-calendar",
+    "name": "Annual calendar",
+    "aka": [
+      "Quantième annuel",
+      "Jahreskalender"
+    ],
+    "category": "calendar",
+    "tagline": "Knows 30- and 31-day months; needs a correction only once a year, on 1 March.",
+    "summary": "An annual calendar automatically handles months of 30 and 31 days. Only February fools it, so it needs one manual correction each year, at the start of March.",
+    "howItWorks": "A standard calendar treats every month as 31 days long. An annual calendar adds a month program, typically a wheel or cam with notches for the months, that tells the date mechanism when a month has only 30 days. At the end of such a month the mechanism advances the date twice in one night, from 30 to 1. Patek Philippe's 1996 design used a clever set of wheels and pinions rather than the complex lever system of a perpetual calendar. February is not programmed, so after the 28th or 29th the owner advances the date to the 1st manually. This makes it much simpler, cheaper and more robust than a perpetual calendar while covering eleven months of the year.",
+    "history": "The annual calendar is a surprisingly recent invention. Patek Philippe introduced it in 1996 with the reference 5035, protected by patents, and it won the Watch of the Year title in Switzerland that year. After the patents expired other brands followed, including Longines' Master Collection Annual Calendar in 2019 at around $2,500, Omega, IWC, Baume & Mercier and Rolex, whose Sky-Dweller of 2012 uses its own 'Saros' annual calendar.",
+    "invented": {
+      "year": 1996,
+      "by": "Patek Philippe (ref. 5035)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 2500,
+    "usefulness": 7,
+    "usefulnessType": "daily-practical",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 30–80 extra components",
+    "funFact": "Rolex's Sky-Dweller shows the month not with a hand but by highlighting one of twelve small windows around the dial's edge.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Annual Calendar 5035 / 5205"
+      },
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Sky-Dweller"
+      },
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Master Collection Annual Calendar"
+      }
+    ],
+    "pairsWith": [
+      "moonphase",
+      "gmt",
+      "chronograph"
+    ],
+    "sources": [
+      "https://teddybaldassarre.com/blogs/watches/annual-calendar-watches",
+      "https://www.watchuseek.com/threads/looking-for-reasonably-priced-annual-calendar.4007514/"
+    ]
+  },
+  {
+    "id": "perpetual-calendar",
+    "name": "Perpetual calendar",
+    "aka": [
+      "Quantième perpétuel",
+      "QP",
+      "Ewiger Kalender"
+    ],
+    "category": "calendar",
+    "tagline": "Tracks every month and leap year; no correction needed until 2100.",
+    "summary": "A perpetual calendar knows the length of every month, including February in leap years, and shows the correct date without adjustment for decades. The next correction on most is in 2100, which the Gregorian calendar skips as a leap year.",
+    "howItWorks": "The key part is the 48-month program wheel, which turns once every four years and has notches of different depths for each month: shallow for 31-day months, deeper for 30-day months, deepest for February, and a special notch for February in a leap year. Near the end of each month a spring-loaded feeler lever drops into the current notch, and the depth decides how many days the date must skip at midnight. A grand lever then advances the date, month and often leap-year indicator together. All of this is driven by one nightly impulse, so the energy, timing and hundreds of tiny tolerances have to be carefully managed. Setting it wrongly with the crown can damage the mechanism.",
+    "history": "Thomas Mudge built a perpetual calendar pocket watch around 1762, and Abraham-Louis Breguet refined the concept. Patek Philippe completed the first perpetual calendar wristwatch in 1925, by converting a ladies' pendant movement, and began serial production with the ref. 1526 in 1941. In 1985 IWC's Da Vinci, designed by Kurt Klaus, offered a crown-set perpetual calendar with a four-digit year, and Frederique Constant later brought a mechanical perpetual under $10,000.",
+    "invented": {
+      "year": 1762,
+      "by": "Thomas Mudge"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 9995,
+    "usefulness": 6,
+    "usefulnessType": "daily-practical",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 100–250 extra components",
+    "funFact": "Most perpetual calendars will be wrong on 1 March 2100, because 2100 is not a leap year and they will think it is.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "5320G Perpetual Calendar"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Portugieser Perpetual Calendar"
+      },
+      {
+        "brand": "Audemars Piguet",
+        "brandId": "audemars-piguet",
+        "model": "Royal Oak Perpetual Calendar"
+      },
+      {
+        "brand": "Frederique Constant",
+        "brandId": "frederique-constant",
+        "model": "Slimline Perpetual Calendar Manufacture"
+      }
+    ],
+    "pairsWith": [
+      "moonphase",
+      "chronograph",
+      "minute-repeater",
+      "tourbillon"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://www.exquisitetimepieces.com/blog/cheapest-perpetual-calendar-watches/",
+      "https://www.bobswatches.com/rolex-blog/resources/5-affordable-perpetual-calendars.html"
+    ]
+  },
+  {
+    "id": "chinese-calendar",
+    "name": "Chinese traditional calendar",
+    "aka": [
+      "Calendrier chinois traditionnel",
+      "Lunisolar calendar"
+    ],
+    "category": "calendar",
+    "tagline": "Follows the lunisolar Chinese calendar, with zodiac animals, elements and leap months.",
+    "summary": "This complication tracks the traditional Chinese calendar, which follows both the moon and the sun. It shows the Chinese hour, day and month, leap months, the zodiac animal, the five elements and the heavenly stems, alongside the Western date.",
+    "howItWorks": "The Chinese calendar is lunisolar: months follow the moon's cycle of about 29.5 days, so they last 29 or 30 days, and a leap month is inserted about seven times in every 19 years to stay aligned with the seasons. There is no simple arithmetic rule, so a mechanical watch must rely on program wheels and a 60-year cycle of zodiac animals, elements and stems stepped once per Chinese new year. Blancpain's calibre 3638 layers this on top of a Gregorian date and moon phase, with a leap-month indicator driven by its own cam. Because the leap-month pattern is irregular, the owner must still correct some indications manually according to published tables, making it more complicated than a perpetual calendar.",
+    "history": "Chinese astronomical clocks, such as Su Song's great tower clock of 1092, tracked lunisolar time centuries ago. In wristwatches, Blancpain's Villeret Traditional Chinese Calendar of 2012 was a world first, the result of five years' development aimed at the Chinese market. It has since been issued each year with a new zodiac animal, and in 2024 entered its second twelve-year cycle with the Year of the Dragon.",
+    "invented": {
+      "year": 2012,
+      "by": "Blancpain (first wristwatch)"
+    },
+    "difficulty": 9,
+    "difficultyLabel": "Grand complication",
+    "costTier": 4,
+    "typicalEntryPriceUSD": 87800,
+    "usefulness": 3,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "Blancpain's movement shows the traditional Chinese double hours, which divide the day into twelve two-hour periods.",
+    "famousExamples": [
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Villeret Traditional Chinese Calendar"
+      },
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Villeret Traditional Chinese Calendar Year of the Dragon (2024)"
+      }
+    ],
+    "pairsWith": [
+      "moonphase",
+      "perpetual-calendar",
+      "date"
+    ],
+    "sources": [
+      "https://www.blancpain.com/en/news/blancpain-villeret-traditional-chinese-calendar-enters-its-second-12-year-cycle",
+      "https://robbreport.com/style/watch-collector/this-87800-blancpain-watch-is-an-ode-to-the-chinese-calendar-year-of-the-rat-2891514/",
+      "https://escapementmagazine.com/articles/blancpain-calendrier-chinois-traditionnel/"
+    ]
+  },
+  {
+    "id": "moonphase",
+    "name": "Moon phase",
+    "aka": [
+      "Phase de lune",
+      "Mondphase"
+    ],
+    "category": "astronomical",
+    "tagline": "A painted moon that waxes and wanes in a window, following the lunar month.",
+    "summary": "A disc painted with two moons turns slowly under a small window shaped with two humps. The visible moon grows and shrinks just like the real one over each lunar month of about 29.5 days.",
+    "howItWorks": "The moon disc usually has 59 teeth and carries two moon images. Once a day a finger on the 24-hour wheel pushes it forward by one tooth, so it turns a full revolution every 59 days, which is two lunar cycles of 29.5 days. The humped window hides and reveals the moon to simulate its phases. The real synodic month is 29 days, 12 hours and 44 minutes, so this simple system gains about 44 minutes per month and drifts a full day out every two years and seven or eight months. Adjusting it means pushing a corrector until a full moon appears and then advancing by the days since the last real full moon.",
+    "history": "Moon indications are among the oldest astronomical displays, found on astronomical clocks and early pocket watches for navigation, tides and agriculture. On wristwatches, moon phases were popular in the 1940s triple calendars of Patek Philippe, Audemars Piguet and Universal Genève, faded with quartz, and returned strongly in the 1980s mechanical revival. Today they appear everywhere from inexpensive quartz watches to haute horlogerie, largely for their romantic appeal.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 80,
+    "usefulness": 2,
+    "usefulnessType": "aesthetic",
+    "commonness": 6,
+    "commonnessLabel": "Uncommon",
+    "partsCount": "~ 3–6 extra components",
+    "funFact": "A standard 59-tooth moon phase drifts by one day roughly every two years and seven months.",
+    "famousExamples": [
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Master Ultra Thin Moon"
+      },
+      {
+        "brand": "Omega",
+        "brandId": "omega",
+        "model": "Speedmaster Moonphase"
+      },
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Villeret Quantième Complet"
+      }
+    ],
+    "pairsWith": [
+      "complete-calendar",
+      "perpetual-calendar",
+      "chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://en.wikipedia.org/wiki/Lunar_phase"
+    ]
+  },
+  {
+    "id": "astronomical-moonphase",
+    "name": "Precision (astronomical) moon phase",
+    "aka": [
+      "Astronomical moon",
+      "High-precision moon phase"
+    ],
+    "category": "astronomical",
+    "tagline": "A moon phase so accurate it drifts one day only every century or more.",
+    "summary": "A precision moon phase uses a much finer gear ratio than the standard 59-tooth disc. It keeps pace with the real moon for 100 years or far longer before needing a one-day correction.",
+    "howItWorks": "The synodic month is about 29.530589 days. A standard moon disc approximates it as 29.5 days. Precision versions use a disc with more teeth, often 135, plus an intermediate reduction gear, so the effective ratio is much closer: a common design gives an error of about one day in 122.6 years. More ambitious trains stack further wheels to push the error to one day in 577 years (IWC), in 1,027 years (H. Moser & Cie) or, in special pieces, to millions of years. The design problem is purely one of finding gear-tooth combinations that approximate an irrational ratio, then fitting them in a thin, low-torque train that is still easy to set.",
+    "history": "Watchmakers have long used continued-fraction arithmetic to approximate astronomical cycles, and 18th and 19th-century astronomical pocket watches and clocks already had highly accurate lunations. In modern wristwatches, the 122-year moon became a popular upgrade in the 1990s and 2000s, used by A. Lange & Söhne, Glashütte Original and many Swiss makers; IWC's Portugieser Perpetual Calendar offers 577-year accuracy, and Andreas Strehler's Sauterelle à Lune Perpétuelle set a record of about one day in two million years.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 5,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 2,
+    "usefulnessType": "astronomical-curiosity",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 5–10 extra components",
+    "funFact": "Andreas Strehler's precision moon is calculated to drift one day in about 2 million years, longer than humans have existed.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Lange 1 Moon Phase"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Portugieser Perpetual Calendar (577-year moon)"
+      },
+      {
+        "brand": "H. Moser & Cie",
+        "brandId": "h-moser-cie",
+        "model": "Endeavour Perpetual Moon"
+      }
+    ],
+    "pairsWith": [
+      "perpetual-calendar",
+      "celestial-chart",
+      "tide-indicator"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lunar_phase",
+      "https://www.klaauw.com/eng/cvdk-real-moon-tides-ckrs3324"
+    ]
+  },
+  {
+    "id": "equation-of-time",
+    "name": "Equation of time",
+    "aka": [
+      "Équation du temps",
+      "Zeitgleichung"
+    ],
+    "category": "astronomical",
+    "tagline": "Shows how far the real Sun runs ahead of or behind clock time today.",
+    "summary": "Clocks use an average day of exactly 24 hours, but the real solar day varies through the year. An equation-of-time display shows the difference, which swings between about 16 minutes ahead and 14 minutes behind.",
+    "howItWorks": "Because Earth's orbit is elliptical and its axis is tilted, true solar noon drifts against clock noon over the year, by a known, repeatable amount each day. A watch reproduces this curve with a kidney-shaped cam that turns once a year, driven from the calendar. A feeler lever rests on the cam's edge and moves a hand, or a rack, according to the cam's profile. In a simple display the hand shows the difference in minutes on a plus/minus scale. In a 'running' equation, a differential adds the offset continuously to a second minute hand, so the watch shows both mean time and true solar time directly. Shaping the cam accurately and linking it to a reliable annual or perpetual calendar are the challenges.",
+    "history": "The equation of time mattered greatly when clocks were set by sundials. English makers of the late 17th and early 18th centuries, including Daniel Quare and Joseph Williamson, built equation clocks, and complicated pocket watches later carried the indication. Wristwatch examples appeared in the late 20th century from Breguet, Blancpain, Audemars Piguet and Martin Braun, and Panerai's Luminor Equation of Time, at about $21,600, is among the least expensive ways to own one.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 4,
+    "typicalEntryPriceUSD": 21600,
+    "usefulness": 2,
+    "usefulnessType": "astronomical-curiosity",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 20–60 extra components",
+    "funFact": "Only on four days a year, around mid-April, mid-June, early September and late December, do sundial time and clock time agree.",
+    "famousExamples": [
+      {
+        "brand": "Audemars Piguet",
+        "brandId": "audemars-piguet",
+        "model": "Jules Audemars Equation of Time"
+      },
+      {
+        "brand": "Breguet",
+        "brandId": "breguet",
+        "model": "Marine Équation Marchante 5887"
+      },
+      {
+        "brand": "Panerai",
+        "brandId": "panerai",
+        "model": "Luminor 1950 Equation of Time"
+      }
+    ],
+    "pairsWith": [
+      "perpetual-calendar",
+      "sunrise-sunset",
+      "annual-calendar"
+    ],
+    "sources": [
+      "https://revolutionwatch.com/10-equation-of-time-watches/",
+      "https://wristreview.com/wristreviews-top-5-equation-of-time-watches/",
+      "https://quillandpad.com/2018/04/24/equation-of-time-what-is-it-and-whats-the-attraction-in-a-watch/"
+    ]
+  },
+  {
+    "id": "sidereal-time",
+    "name": "Sidereal time",
+    "aka": [
+      "Temps sidéral",
+      "Star time"
+    ],
+    "category": "astronomical",
+    "tagline": "Keeps time by the stars, whose day is about 3 minutes 56 seconds shorter.",
+    "summary": "Sidereal time measures Earth's rotation against the distant stars rather than the Sun. A sidereal day lasts about 23 hours 56 minutes 4 seconds, and astronomers use it to know where stars will be in the sky.",
+    "howItWorks": "Because Earth also travels around the Sun, it must rotate a little further each day to bring the Sun back overhead. Measured against the stars, one rotation is shorter by about 3 minutes 56 seconds. A watch can show sidereal time either with a second, differently geared set of hands driven from the main train through a precisely calculated ratio, or with a separate going train. The required ratio, about 1.0027379, has to be approximated by carefully chosen wheel-tooth counts, just like a precision moon phase. The results are often combined with a star chart, since sidereal time tells you which part of the sky is overhead.",
+    "history": "Observatories kept sidereal clocks from the 18th century onward for telescope work, and grand-complication pocket watches such as Patek Philippe's Henry Graves Supercomplication (1933) carried celestial displays. In wristwatches, Patek Philippe's Sky Moon Tourbillon 5002 (2001) showed sidereal time on its reverse; IWC's Portugieser Sidérale Scafusia (2011) combined solar and sidereal time; and Vacheron Constantin's Celestia and Patek's 2026 Celestial Sunrise and Sunset include it.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "astronomical-curiosity",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "A sidereal clock gains a full day on a normal clock every year.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Sky Moon Tourbillon 5002"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Portugieser Sidérale Scafusia"
+      },
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Les Cabinotiers Celestia Astronomical Grand Complication 3600"
+      }
+    ],
+    "pairsWith": [
+      "celestial-chart",
+      "equation-of-time",
+      "tourbillon"
+    ],
+    "sources": [
+      "https://bobbywatch.com/watch-complications-the-sidereal-time/",
+      "https://en.wikipedia.org/wiki/Sidereal_time",
+      "https://www.gearpatrol.com/watches/a36744470/astronomical-watch-complications/"
+    ]
+  },
+  {
+    "id": "celestial-chart",
+    "name": "Celestial (sky) chart",
+    "aka": [
+      "Sky chart",
+      "Carte du ciel",
+      "Planisphere"
+    ],
+    "category": "astronomical",
+    "tagline": "A rotating map of the night sky showing which stars are overhead now.",
+    "summary": "A sky chart turns a map of the stars under the dial at the sidereal rate. An oval frame marks the part of the sky visible from a given latitude, so the watch shows the night sky as it is at that moment.",
+    "howItWorks": "The star map, printed or enamelled on a sapphire or metal disc, is driven through gearing that makes one turn per sidereal day of about 23 h 56 min rather than every 24 hours, so the stars drift slightly against clock time through the year exactly as in reality. A fixed ellipse printed on the crystal or an upper disc outlines the horizon for the chosen city's latitude, since the chart is computed for one latitude. Often the moon's position and phase, and sometimes the Milky Way, are shown on additional layers turning at their own rates. Stacking and driving several discs without friction and with correct ratios is the main difficulty.",
+    "history": "Rotating star maps go back to astrolabes and medieval astronomical clocks. Patek Philippe's Star Calibre 2000 pocket watch paved the way for the Celestial ref. 5102, launched in 2002, which showed the night sky over Geneva and won the Aiguille d'Or. Patek's Sky Moon Tourbillon, Van Cleef & Arpels' poetic Midnight Planétarium and Vacheron Constantin's Celestia further developed the idea.",
+    "invented": {
+      "year": 2002,
+      "by": "Patek Philippe (ref. 5102, first series sky-chart wristwatch)"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "astronomical-curiosity",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "The Patek 5102's sky is only correct for Geneva's latitude; buyers in other cities see a slightly wrong horizon.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Celestial 5102 / 6102"
+      },
+      {
+        "brand": "Van Cleef & Arpels",
+        "brandId": "van-cleef-arpels",
+        "model": "Midnight Planétarium"
+      },
+      {
+        "brand": "Jacob & Co.",
+        "brandId": "jacob-and-co",
+        "model": "Astronomia Sky"
+      }
+    ],
+    "pairsWith": [
+      "sidereal-time",
+      "astronomical-moonphase",
+      "sunrise-sunset"
+    ],
+    "sources": [
+      "https://www.phillips.com/article/122914813/understanding-the-patek-philippe-celestial-series",
+      "https://www.the1916company.com/blog/the-patek-philippe-5102-sky-moon-celestial.html"
+    ]
+  },
+  {
+    "id": "sunrise-sunset",
+    "name": "Sunrise / sunset",
+    "aka": [
+      "Lever et coucher du soleil",
+      "Day-length indicator"
+    ],
+    "category": "astronomical",
+    "tagline": "Shows today's sunrise and sunset times for a chosen place.",
+    "summary": "Two hands or shutters show when the sun rises and sets at a particular location, changing through the seasons. The watch is usually calibrated for one city, chosen by the owner.",
+    "howItWorks": "Day length depends on latitude and the date. Most mechanical versions encode one location's yearly sunrise and sunset curve in a cam or pair of cams that turn once a year from the calendar mechanism. Feeler levers read the cam profile and move two hands, or two shutters over a 24-hour dial, so the lit portion matches daylight hours. Because the curve is specific to a latitude and longitude, the cams are cut for the owner's chosen city. Krayon's Everywhere is an exception: it lets the wearer set latitude and longitude and computes the times mechanically with a far more complex system of cams and differentials.",
+    "history": "Sunrise and sunset indications were built into astronomical clocks and grand-complication pocket watches, including Patek Philippe's Star Calibre 2000. The German watchmaker Martin Braun presented the EOS around 2000, credited as the first wristwatch with a sunrise and sunset display. Krayon's Everywhere (2017) made it universal for any location, and Patek Philippe added its first sunrise-sunset wristwatch, the Celestial ref. 6105G, at Watches & Wonders 2026.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 4,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 4,
+    "usefulnessType": "astronomical-curiosity",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "Krayon's Everywhere movement is described as computing sunrise and sunset for any point on Earth set via the crown.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Celestial Sunrise and Sunset 6105G"
+      },
+      {
+        "brand": "Krayon",
+        "brandId": null,
+        "model": "Everywhere"
+      },
+      {
+        "brand": "Martin Braun",
+        "brandId": null,
+        "model": "EOS"
+      }
+    ],
+    "pairsWith": [
+      "equation-of-time",
+      "celestial-chart",
+      "day-night-indicator"
+    ],
+    "sources": [
+      "https://watchesbysjx.com/2019/01/krayon-everywhere-explained.html",
+      "https://www.calibremagazine.com/story/sunrise-sunset/",
+      "https://www.the1916company.com/blog/watches-wonders-2026-patek-philippe-launches-the-ref-6105g-001-celestial-sunrise-and-sunset.html"
+    ]
+  },
+  {
+    "id": "tide-indicator",
+    "name": "Tide indicator",
+    "aka": [
+      "Marée",
+      "Tide graph"
+    ],
+    "category": "astronomical",
+    "tagline": "Tracks the rhythm of high and low tide from the moon's cycle.",
+    "summary": "A tide indicator estimates the time of the next high and low tide, or shows spring and neap tides, by following the moon. It was designed for sailors, surfers and anglers.",
+    "howItWorks": "Tides are mainly driven by the moon, and high tide at a given place returns about 50 minutes later each day, roughly twice per lunar day of 24 hours 50 minutes. A mechanical tide indicator therefore gears a hand or disc to that lunar-day rate. The owner sets it to a known high tide at their harbour, and it then shows the tide's progress. Some versions instead show tidal strength across the month, with spring tides at full and new moon and neap tides between, simply by reading the moon-phase position. Local geography makes real tides irregular, so these displays are approximate; digital watches from Casio and others compute tide graphs electronically for chosen ports.",
+    "history": "Tide dials appeared on 17th and 18th-century English clocks and pocket watches, set for London Bridge or other ports. Heuer's 1950s Mareograph and the Seafarer chronographs sold by Abercrombie & Fitch combined a chronograph with a tide indicator for sailors and anglers. In modern watches it remains rare, with pieces such as Christiaan van der Klaauw's Real Moon Tides, while digital tide graphs appear on inexpensive surf watches.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 4,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 150,
+    "usefulness": 4,
+    "usefulnessType": "situational",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 5–15 extra components",
+    "funFact": "Heuer's tide-indicator chronograph was sold under the Abercrombie & Fitch name, back when the retailer outfitted explorers and anglers.",
+    "famousExamples": [
+      {
+        "brand": "Heuer",
+        "brandId": "tag-heuer",
+        "model": "Seafarer / Mareograph"
+      },
+      {
+        "brand": "Christiaan van der Klaauw",
+        "brandId": null,
+        "model": "Real Moon Tides"
+      },
+      {
+        "brand": "G-Shock",
+        "brandId": "g-shock",
+        "model": "G-Lide (tide graph)"
+      }
+    ],
+    "pairsWith": [
+      "moonphase",
+      "chronograph",
+      "astronomical-moonphase"
+    ],
+    "sources": [
+      "https://www.analogshift.com/blogs/transmissions/strange-and-innovative-watch-complications",
+      "https://www.klaauw.com/eng/cvdk-real-moon-tides-ckrs3324"
+    ]
+  },
+  {
+    "id": "chronograph",
+    "name": "Chronograph",
+    "aka": [
+      "Stopwatch",
+      "Chrono"
+    ],
+    "category": "timing",
+    "tagline": "A built-in stopwatch you start, stop and reset with pushers.",
+    "summary": "A chronograph adds a stopwatch to the watch. One pusher starts and stops the timing seconds hand, another resets it, and sub-dials count elapsed minutes and often hours.",
+    "howItWorks": "The chronograph is a second gear train that can be connected to the running watch on demand. When you press start, a clutch links it to the movement: either a lateral clutch, where a coupling wheel swings into mesh, or a vertical clutch, where a friction disc engages. A column wheel or a cheaper cam lever controls the sequence of start, stop and reset. Stopping applies a brake to hold the hands; resetting drops hammers onto heart-shaped cams on each counter, whose shape always returns the hand to zero whatever its position. Minute and hour counters are advanced by fingers from the seconds wheel. The complexity lies in the coordination of levers, springs and clutches.",
+    "history": "Louis Moinet built a 'compteur de tierces', measuring to one sixtieth of a second, in 1816, and Nicolas Rieussec patented an ink-marking chronograph in 1821. Adolphe Nicole's heart-cam reset of 1844 made the modern stopwatch possible. Wristwatch chronographs appeared around 1910-1915, Breitling added a separate reset pusher, and 1969 brought the first automatic chronographs from Zenith, Seiko and the Heuer-Breitling-Hamilton consortium.",
+    "invented": {
+      "year": 1816,
+      "by": "Louis Moinet"
+    },
+    "difficulty": 5,
+    "difficultyLabel": "Advanced",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 60,
+    "usefulness": 6,
+    "usefulnessType": "situational",
+    "commonness": 8,
+    "commonnessLabel": "Common",
+    "partsCount": "~ 100–250 extra components",
+    "funFact": "Omega's Speedmaster Professional was the chronograph NASA chose in 1965 for its astronauts after testing, and it went to the Moon in 1969.",
+    "famousExamples": [
+      {
+        "brand": "Omega",
+        "brandId": "omega",
+        "model": "Speedmaster Professional"
+      },
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Cosmograph Daytona"
+      },
+      {
+        "brand": "Zenith",
+        "brandId": "zenith",
+        "model": "El Primero"
+      },
+      {
+        "brand": "Seiko",
+        "brandId": "seiko",
+        "model": "Speedtimer"
+      }
+    ],
+    "pairsWith": [
+      "tachymeter",
+      "complete-calendar",
+      "perpetual-calendar",
+      "flyback-chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chronograph",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "monopusher-chronograph",
+    "name": "Monopusher chronograph",
+    "aka": [
+      "Single-button chronograph",
+      "Monopoussoir"
+    ],
+    "category": "timing",
+    "tagline": "Start, stop and reset, all from a single pusher.",
+    "summary": "A monopusher chronograph uses one button, often built into the crown, to cycle through start, stop and reset in turn. It is the original chronograph layout and gives a very clean case profile.",
+    "howItWorks": "With only one pusher, the watch needs a mechanism that remembers what the next press should do. A column wheel with a ratchet does this: each press rotates it one step, and its columns lift or drop the levers for the clutch, the brake and the reset hammers in sequence. Press once to engage the clutch and start; again to disengage and brake; a third time to lift the brake and drop the hammers onto the heart cams to reset. The drawback is that you cannot stop and restart to add up intervals without resetting, and the column wheel sequence must be perfectly timed so that no press leaves the mechanism half-engaged.",
+    "history": "The first chronographs were monopushers: Adolphe Nicole's 1844 reset mechanism and the early 20th-century wrist chronographs of Longines, Universal Genève and others all used a single button. In 1915 Gaston Breitling introduced a separate pusher at 2 o'clock, and two-pusher designs from the 1930s gradually replaced it. The monopusher returned as a connoisseur's style in the 2000s from Lange, Patek Philippe and Montblanc, and now even affordable brands such as Farer and Studio Underd0g offer it.",
+    "invented": {
+      "year": 1844,
+      "by": "Adolphe Nicole (reset heart cam)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 700,
+    "usefulness": 5,
+    "usefulnessType": "situational",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 100–250 extra components",
+    "funFact": "Longines' Master Collection Monopusher of 2026 undercut rival monopushers at about $3,900.",
+    "famousExamples": [
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Master Collection Monopusher"
+      },
+      {
+        "brand": "Montblanc",
+        "brandId": "montblanc",
+        "model": "1858 Monopusher Chronograph"
+      },
+      {
+        "brand": "Hermès",
+        "brandId": "hermes",
+        "model": "H08 Monopusher Chronograph"
+      },
+      {
+        "brand": "Studio Underd0g",
+        "brandId": "studio-underd0g",
+        "model": "Monopusher"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "pulsometer",
+      "split-seconds-chronograph"
+    ],
+    "sources": [
+      "https://timeandtidewatches.com/best-monopusher-chronographs/",
+      "https://wornandwound.com/guide-from-hanhart-to-journe-a-look-at-12-great-monopusher-chronographs/",
+      "https://www.gearpatrol.com/watches/longines-master-collection-monopusher-chrono/"
+    ]
+  },
+  {
+    "id": "flyback-chronograph",
+    "name": "Flyback chronograph",
+    "aka": [
+      "Retour en vol",
+      "Flyback"
+    ],
+    "category": "timing",
+    "tagline": "One press resets the running stopwatch and immediately starts timing again.",
+    "summary": "On a normal chronograph you must stop, reset and restart, which takes three presses. A flyback lets you press reset while it is running: the hands snap to zero and start again at once, ideal for timing consecutive legs.",
+    "howItWorks": "In an ordinary chronograph the reset pusher is blocked while timing is running, to protect the mechanism. A flyback removes that block and adds linkage so that pressing reset does three things in one motion: it briefly disengages the clutch, drops the hammers onto the heart cams to send the hands to zero, and, as soon as the pusher is released, lifts the hammers and re-engages the clutch. The brake must also be kept away from the wheel during the operation. Getting the timing of these interactions right so that hands neither bounce nor lose a fraction of a second on restart makes flybacks considerably trickier to adjust.",
+    "history": "Longines released the first flyback wristwatch chronographs around 1934-35 and was granted a patent for the function on 16 June 1936, aimed at pilots who needed to time successive navigation legs. Military flybacks followed, notably the Type 20 chronographs made for the French military by Breguet, Dodane and others in the 1950s. Today flybacks are widely made, from Zenith's El Primero-based pieces and Blancpain's Air Command to Longines' Spirit Flyback.",
+    "invented": {
+      "year": 1936,
+      "by": "Longines (patent)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 5000,
+    "usefulness": 5,
+    "usefulnessType": "sport-professional",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 5–15 components beyond a standard chronograph",
+    "funFact": "In French, the function is called 'retour en vol', literally 'return in flight'.",
+    "famousExamples": [
+      {
+        "brand": "Breguet",
+        "brandId": "breguet",
+        "model": "Type XX / Type XX Aéronavale"
+      },
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Spirit Flyback"
+      },
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Air Command"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "gmt",
+      "regatta-timer"
+    ],
+    "sources": [
+      "https://www.europastar.com/the-watch-files/archives-heritage/1004115974-when-longines-patented-the-flyback-a-90-year.html",
+      "https://www.hautehorlogerie.org/en/watches-and-culture/watchmaking-knowledge/encyclopedia/flyback-chronograph",
+      "https://www.swatchgroup.com/en/services/archive/2023/longines-spirit-flyback"
+    ]
+  },
+  {
+    "id": "split-seconds-chronograph",
+    "name": "Split-seconds (rattrapante) chronograph",
+    "aka": [
+      "Rattrapante",
+      "Doppelchronograph",
+      "Split-seconds"
+    ],
+    "category": "timing",
+    "tagline": "Two stopwatch hands: stop one for a lap time, then let it catch up.",
+    "summary": "A split-seconds chronograph has two superimposed seconds hands. Press the split button and one stops to record an intermediate time while the other keeps running; press again and the stopped hand leaps to rejoin it.",
+    "howItWorks": "The second chronograph hand sits on its own wheel above the normal chronograph seconds wheel. A small heart cam on the chronograph arbor and a spring-loaded arm on the split wheel keep the two hands aligned as they run together. Pressing the split pusher closes a pair of clamps, the isolator and brake, around the split wheel, holding its hand still while the main hand runs on and the arm rides round the heart cam. Releasing the clamps lets the spring snap the arm back to the lowest point of the heart, so the split hand jumps back to the running hand. Getting the brake to hold without dragging the chronograph and preventing wear on the tiny heart are notoriously hard.",
+    "history": "Joseph Thaddäus Winnerl is credited with the split-seconds mechanism in 1831. Rattrapante pocket watches were used for timing races and scientific experiments through the 19th century, and Patek Philippe built one of the first rattrapante wristwatches in the 1920s. Richard Habring's IWC Doppelchronograph of 1992 used a simplified module on the Valjoux 7750 and made the complication far more accessible, while Lange's Double Split (2004) and Patek's 5370 represent the classic high end.",
+    "invented": {
+      "year": 1831,
+      "by": "Joseph Thaddäus Winnerl"
+    },
+    "difficulty": 9,
+    "difficultyLabel": "Grand complication",
+    "costTier": 4,
+    "typicalEntryPriceUSD": 11000,
+    "usefulness": 4,
+    "usefulnessType": "sport-professional",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 30–60 components beyond a standard chronograph",
+    "funFact": "Lange's Double Split added a second split hand for the minutes, allowing split timing of events up to 30 minutes long.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Double Split"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "5370P Split-Seconds Chronograph"
+      },
+      {
+        "brand": "IWC",
+        "brandId": "iwc-schaffhausen",
+        "model": "Pilot's Watch Doppelchronograph"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "perpetual-calendar",
+      "monopusher-chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chronograph",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "tachymeter",
+    "name": "Tachymeter scale",
+    "aka": [
+      "Tachometer scale",
+      "Tachymètre"
+    ],
+    "category": "timing",
+    "tagline": "A scale for turning a stopwatch reading into a speed, like km/h or mph.",
+    "summary": "Printed on the bezel or dial rim, the tachymeter scale converts the seconds taken to cover a known distance into a speed. Time one kilometre or mile with the chronograph and the seconds hand points to the speed.",
+    "howItWorks": "The scale is simply the function 3600 divided by elapsed seconds, printed next to the seconds track. If a car takes 30 seconds to cover one kilometre, the hand points to 120 on the scale, meaning 120 km/h. It works for any unit: count production items, for example, to get units per hour. There are no moving parts beyond the chronograph itself. The scale only covers events lasting between about 7 and 60 seconds, so very slow speeds cannot be read, and the unit of distance has to be exactly known. In practice it is rarely used, but it has become an icon of motor-racing design.",
+    "history": "Tachymeter scales appeared on chronograph dials in the early 20th century, often in a spiral for greater range. Moving the scale onto the bezel was a design breakthrough popularised by the Omega Speedmaster in 1957 and the Rolex Daytona, which freed the dial and made the scale larger. Today it is standard decoration on countless chronographs, from Casio and Seiko to Omega and Rolex.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 1,
+    "difficultyLabel": "Basic",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 60,
+    "usefulness": 2,
+    "usefulnessType": "situational",
+    "commonness": 7,
+    "commonnessLabel": "Common",
+    "partsCount": "0 (a printed scale)",
+    "funFact": "The Speedmaster went to the Moon carrying a tachymeter bezel, which is of little use without a road.",
+    "famousExamples": [
+      {
+        "brand": "Omega",
+        "brandId": "omega",
+        "model": "Speedmaster Professional"
+      },
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Cosmograph Daytona"
+      },
+      {
+        "brand": "TAG Heuer",
+        "brandId": "tag-heuer",
+        "model": "Carrera Chronograph"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "pulsometer",
+      "telemeter"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tachymeter_(watch)",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "pulsometer",
+    "name": "Pulsometer scale",
+    "aka": [
+      "Pulsomètre",
+      "Pulsation scale"
+    ],
+    "category": "timing",
+    "tagline": "A doctor's scale that reads heart rate from a count of 15 or 30 beats.",
+    "summary": "A pulsometer scale lets you measure pulse with a chronograph. Start timing, count a set number of beats (often 30), stop, and the seconds hand points to beats per minute.",
+    "howItWorks": "The scale is printed so that the chronograph seconds hand indicates beats per minute after a fixed number of beats. The dial states the basis, for example 'gradué pour 30 pulsations'. If 30 beats take 24 seconds, the hand points at 75. The scale is the function 60 × 30 ÷ seconds, printed around the dial's edge. Like the tachymeter it adds no mechanism, but it depends on a reliable chronograph with good reset; monopusher designs were favoured by doctors because one button suits a free hand holding a patient's wrist.",
+    "history": "Pulsometer dials appeared on pocket chronographs in the late 19th century, when physicians took the pulse by hand, and on wrist chronographs from the 1920s through the 1950s, particularly from Longines, Universal Genève and Heuer. Electronic heart-rate monitors made them obsolete, but the scale survives on vintage-inspired designs and medical-themed watches, often in red print, from Longines' single-button Pulsometer Chronograph to Sinn's EZM 12 for medical rescue crews.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 1,
+    "difficultyLabel": "Basic",
+    "costTier": 2,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 2,
+    "usefulnessType": "situational",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "0 (a printed scale)",
+    "funFact": "Smartwatches have made this scale redundant, but it was once one of the most useful things a doctor could wear.",
+    "famousExamples": [
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Pulsometer Chronograph"
+      },
+      {
+        "brand": "Sinn",
+        "brandId": "sinn",
+        "model": "EZM 12"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "monopusher-chronograph",
+      "tachymeter"
+    ],
+    "sources": [
+      "https://timeandtidewatches.com/best-pulsometer-watches/",
+      "https://watchesbysjx.com/2015/07/hands-on-with-the-longines-pulsometer-single-button-chronograph-with-original-photos-pricing.html",
+      "https://www.fratellowatches.com/top-5-watches-pulsometers/"
+    ]
+  },
+  {
+    "id": "telemeter",
+    "name": "Telemeter scale",
+    "aka": [
+      "Télémètre"
+    ],
+    "category": "timing",
+    "tagline": "Measures how far away a lightning strike or artillery gun is by the sound's delay.",
+    "summary": "A telemeter scale converts the time between seeing an event and hearing it into distance. Start the chronograph at the flash, stop it at the sound, and read the distance in kilometres or miles.",
+    "howItWorks": "Light arrives almost instantly, while sound travels at about 343 metres per second in air. The telemeter scale is printed so that the chronograph seconds hand points directly to the distance: after about 3 seconds it shows 1 km, after 30 seconds about 10 km. It needs no extra mechanism, only a reliable chronograph. Accuracy depends on temperature and humidity, since the speed of sound varies slightly with conditions, and on the wearer's reaction time. Scales are usually printed around the dial's outer edge, sometimes alongside a tachymeter and pulsometer, and they only work over short ranges of a few kilometres.",
+    "history": "Telemeter scales on timers date back to the mid-19th century, and they became essential for artillery officers in the First World War, who estimated the distance of enemy guns from the muzzle flash; military chronographs from Longines, Universal Genève, Omega and Doxa carried them into the 1940s. Later they were marketed for storm spotting. Modern vintage-inspired chronographs, such as Tissot's Telemeter 1938 of 2022, which pairs a blue telemeter track with a spiral tachymeter, reuse the scale for its period look.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 1,
+    "difficultyLabel": "Basic",
+    "costTier": 2,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "situational",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "0 (a printed scale)",
+    "funFact": "Count to three between the lightning and the thunder and the storm is about a kilometre away.",
+    "famousExamples": [
+      {
+        "brand": "Tissot",
+        "brandId": "tissot",
+        "model": "Telemeter 1938"
+      },
+      {
+        "brand": "Longines",
+        "brandId": "longines",
+        "model": "Telemeter Chronograph (L688)"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "5975 (175th anniversary)"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "tachymeter",
+      "pulsometer"
+    ],
+    "sources": [
+      "https://www.acollectedman.com/blogs/journal/five-favourite-chronograph-scales",
+      "https://monochrome-watches.com/tissot-telemeter-1938-chronograph-heritage-collection-hands-on-review-specs-price/"
+    ]
+  },
+  {
+    "id": "regatta-timer",
+    "name": "Regatta countdown timer",
+    "aka": [
+      "Regatta chronograph",
+      "Yachting timer",
+      "Countdown"
+    ],
+    "category": "timing",
+    "tagline": "Counts down the final minutes to a yacht race start.",
+    "summary": "Sailing races begin with a countdown, often five or ten minutes, marked by flags and horns. A regatta timer shows that countdown clearly so a skipper can cross the start line at full speed the instant the race begins.",
+    "howItWorks": "Mechanical regatta timers are modified chronographs. Instead of counting up, the minute counter is printed or geared to count down, typically with five or ten coloured segments that fill or empty as the start approaches. Some rotate a disc so that coloured windows change each minute; others, like Rolex's Yacht-Master II, use a programmable countdown with a memory function. The key feature is resynchronisation: if the skipper starts a moment late, the timer can be snapped back to the nearest whole minute so it stays aligned with the official signals. That synchronisation link between chronograph and minute counter is what makes it demanding.",
+    "history": "Berna registered a mechanical yachting countdown chronograph in 1913 and Gallet made early regatta timers. The first wristwatch with true regatta functionality is usually credited to the Aquastar Régate, patented in 1961, followed by Heuer, Breitling and Memosail designs. Modern mechanical examples include the Rolex Yacht-Master II of 2007, Panerai's Luminor Regatta and Ulysse Nardin's Marine Regatta; electronic sailing watches have made the function common among racers.",
+    "invented": {
+      "year": 1913,
+      "by": "Berna Watch Co. (yachting countdown chronograph)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 3,
+    "usefulnessType": "sport-professional",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "The Rolex Yacht-Master II's countdown is set through a rotating 'Ring Command' bezel that talks to the movement.",
+    "famousExamples": [
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "Yacht-Master II"
+      },
+      {
+        "brand": "Aquastar",
+        "brandId": "aquastar",
+        "model": "Régate"
+      },
+      {
+        "brand": "Ulysse Nardin",
+        "brandId": "ulysse-nardin",
+        "model": "Marine Regatta"
+      },
+      {
+        "brand": "Panerai",
+        "brandId": "panerai",
+        "model": "Luminor Regatta"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "flyback-chronograph"
+    ],
+    "sources": [
+      "https://www.everestbands.com/blogs/bezel-barrel/all-you-need-to-know-about-regatta-timers",
+      "https://wornandwound.com/yachting-timers-watches/",
+      "https://www.watchtime.com/wristwatch-industry-news/watches/regatta-yachting-watches/"
+    ]
+  },
+  {
+    "id": "gmt",
+    "name": "GMT (second time zone hand)",
+    "aka": [
+      "GMT",
+      "24-hour hand",
+      "Dual time (GMT)"
+    ],
+    "category": "travel",
+    "tagline": "A fourth hand that shows a second time zone on a 24-hour scale.",
+    "summary": "A GMT watch adds a hand that makes one turn every 24 hours, read against a 24-hour bezel or dial ring. It shows home time or a second zone alongside local time, and with a rotating bezel even a third.",
+    "howItWorks": "The GMT hand is geared from the hour wheel to turn once a day instead of twice. In a 'traveller's GMT', the local hour hand can be jumped independently in one-hour steps via the crown without stopping the watch, leaving the 24-hour hand on home time. In an 'office' or 'caller' GMT, it is the 24-hour hand that jumps independently. Either way, an extra wheel with a friction or jumper-spring coupling allows one hand to be moved in hour steps while the rest of the train runs. A rotatable 24-hour bezel lets the wearer read a third zone by offsetting the bezel.",
+    "history": "Glycine's Airman of 1953 was among the first wristwatches with a 24-hour hand for pilots, and in 1954 Rolex introduced the GMT-Master, developed with Pan American Airways so crews on transatlantic flights could track Greenwich Mean Time. Its two-tone 'Pepsi' bezel became an icon. Since the 2010s 'true' travel GMTs with independent hour hands have spread widely, including affordable models from Seiko, Tudor and Christopher Ward.",
+    "invented": {
+      "year": 1954,
+      "by": "Rolex (GMT-Master, with Pan Am)"
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 475,
+    "usefulness": 7,
+    "usefulnessType": "travel",
+    "commonness": 6,
+    "commonnessLabel": "Uncommon",
+    "partsCount": "~ 5–15 extra components",
+    "funFact": "The original GMT-Master's red and blue bezel helped pilots tell day hours from night hours at a glance.",
+    "famousExamples": [
+      {
+        "brand": "Rolex",
+        "brandId": "rolex",
+        "model": "GMT-Master II"
+      },
+      {
+        "brand": "Tudor",
+        "brandId": "tudor",
+        "model": "Black Bay GMT"
+      },
+      {
+        "brand": "Grand Seiko",
+        "brandId": "grand-seiko",
+        "model": "Spring Drive GMT"
+      },
+      {
+        "brand": "Seiko",
+        "brandId": "seiko",
+        "model": "5 Sports GMT"
+      }
+    ],
+    "pairsWith": [
+      "day-night-indicator",
+      "annual-calendar",
+      "chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rolex_GMT_Master_II",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "dual-time",
+    "name": "Dual time (two dials)",
+    "aka": [
+      "Dual time",
+      "Double fuseau",
+      "Travel time"
+    ],
+    "category": "travel",
+    "tagline": "A second full set of hands or a second dial for home time.",
+    "summary": "A dual-time watch shows two time zones on separate hour and minute displays. The second zone may sit on a sub-dial, on the reverse side of the case, or on a second, independently set hour hand.",
+    "howItWorks": "There are several approaches. A sub-dial with its own 12-hour hand, set independently via a pusher or crown, is common, with the minutes shared from the main hand for zones that differ by whole hours. Some watches use two separate movements, one for each zone. Patek Philippe's Travel Time uses two overlapping hour hands, one of which is advanced or retarded in one-hour jumps by pushers on the case. Jaeger-LeCoultre's Reverso Duo shows the second zone on a second dial on the reverse, driven by the same movement. A day/night indicator is usually added to avoid 12-hour confusion.",
+    "history": "Dual-time pocket watches with two dials were made in the 19th century for travellers and colonial officers. Patek Philippe patented a two-hour-hand travel time mechanism in 1959 (the Calatrava Travel Time lineage), and Jaeger-LeCoultre's Reverso Duoface of 1994 exploited the flip case. Two-dial watches are now common at every price, including very inexpensive quartz models, and remain popular with frequent travellers who prefer a full second dial to a 24-hour hand.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 3,
+    "difficultyLabel": "Moderate",
+    "costTier": 1,
+    "typicalEntryPriceUSD": 60,
+    "usefulness": 6,
+    "usefulnessType": "travel",
+    "commonness": 4,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 5–20 extra components",
+    "funFact": "The Reverso Duoface shows a second time zone on the back dial, so you flip the case over to see home time.",
+    "famousExamples": [
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Reverso Tribute Duoface"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Calatrava Travel Time 5224"
+      },
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Overseas Dual Time"
+      }
+    ],
+    "pairsWith": [
+      "day-night-indicator",
+      "gmt",
+      "world-time"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Complication_(horology)",
+      "https://www.geckota.com/blogs/news/every-watch-complication-explained"
+    ]
+  },
+  {
+    "id": "world-time",
+    "name": "World time",
+    "aka": [
+      "Heure universelle",
+      "Worldtimer"
+    ],
+    "category": "travel",
+    "tagline": "Shows the hour in all 24 time zones at once, with a ring of city names.",
+    "summary": "A world-time watch surrounds the dial with a ring of city names, one per time zone, and a rotating 24-hour ring beside it. At a glance you can read the current hour in every city on the ring.",
+    "howItWorks": "In the classic design devised by Louis Cottier, a 24-hour ring turns once a day, counter-clockwise, driven from the hour wheel. A city ring outside it lists one representative city per time zone. When the local city is set at 12 o'clock and the watch shows local time, the hour opposite every other city on the 24-hour ring is that city's time. Travelling means pressing a pusher or turning the crown so the city ring and the hour hand both jump by one-hour steps, without disturbing the minute hand or the running of the watch. Coordinating the two rings, the hour hand and the jump correction in a thin movement is the main challenge; half-hour zones such as India's cannot be shown on a simple ring.",
+    "history": "Geneva watchmaker Louis Cottier developed his world-time system in 1931, and Patek Philippe, Vacheron Constantin, Agassiz and Rolex used it in the 1930s-1950s; vintage Patek world timers are among the most valuable watches at auction. The complication was revived by Patek in 2000 with the ref. 5110, and today versions range from inexpensive quartz and simple-bezel models to Frederique Constant, Montblanc, Vacheron Constantin and Patek Philippe.",
+    "invented": {
+      "year": 1931,
+      "by": "Louis Cottier"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 2,
+    "typicalEntryPriceUSD": 500,
+    "usefulness": 6,
+    "usefulnessType": "travel",
+    "commonness": 4,
+    "commonnessLabel": "Rare",
+    "partsCount": "~ 20–60 extra components",
+    "funFact": "A world-time city ring is never final: brands revise it whenever countries change their time zones or cities change their names.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "World Time 5230"
+      },
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Overseas World Time"
+      },
+      {
+        "brand": "Frederique Constant",
+        "brandId": "frederique-constant",
+        "model": "Classic Worldtimer Manufacture"
+      },
+      {
+        "brand": "Montblanc",
+        "brandId": "montblanc",
+        "model": "1858 Geosphere"
+      }
+    ],
+    "pairsWith": [
+      "day-night-indicator",
+      "gmt",
+      "chronograph"
+    ],
+    "sources": [
+      "https://millenarywatches.com/best-affordable-world-time-watches/",
+      "https://en.wikipedia.org/wiki/Complication_(horology)"
+    ]
+  },
+  {
+    "id": "alarm",
+    "name": "Mechanical alarm",
+    "aka": [
+      "Réveil",
+      "Alarm watch",
+      "Wecker"
+    ],
+    "category": "striking",
+    "tagline": "A mechanical buzz on the wrist, set with a second crown and its own hand.",
+    "summary": "A mechanical alarm watch has an extra hand to set a wake-up or reminder time. When the time arrives, a small hammer vibrates rapidly against a membrane or the case, making a loud buzzing noise, with no battery.",
+    "howItWorks": "An alarm watch needs its own energy supply, so most have a second mainspring barrel, wound through its own crown. The alarm setting hand is linked to a cam that turns with the hour wheel; when the cam's notch aligns with a lever at the set time, the lever drops and releases the alarm train. A small hammer then oscillates very quickly, like a miniature electric bell, striking a pin on the case back or a membrane. Vulcain's Cricket uses a double case back with a resonating membrane to amplify the sound, while Jaeger-LeCoultre's Memovox strikes a pin. The designer must avoid disturbing the time-keeping train and fit two barrels into a wristwatch.",
+    "history": "Alarm clocks existed for centuries, and small alarm pocket watches appeared in the 17th century. Eterna patented an alarm calibre in 1908 and presented the first alarm wristwatch in 1914, though its brief ring was weak. Vulcain's Cricket of 1947, with separate barrels for movement and alarm, made the wrist alarm practical and famous; it was worn by US presidents from Truman onwards. Jaeger-LeCoultre's Memovox (1950) and the automatic Memovox (1956) followed.",
+    "invented": {
+      "year": 1908,
+      "by": "Eterna (first alarm wristwatch patent)"
+    },
+    "difficulty": 6,
+    "difficultyLabel": "Advanced",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 4500,
+    "usefulness": 5,
+    "usefulnessType": "daily-practical",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 40–80 extra components",
+    "funFact": "For decades, White House correspondents presented new US presidents with a Vulcain Cricket.",
+    "famousExamples": [
+      {
+        "brand": "Vulcain",
+        "brandId": "vulcain",
+        "model": "Cricket"
+      },
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Memovox"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Alarm Travel Time 5520P"
+      }
+    ],
+    "pairsWith": [
+      "gmt",
+      "dual-time",
+      "power-reserve"
+    ],
+    "sources": [
+      "https://wornandwound.com/the-audible-joy-of-alarm-watches/",
+      "https://monochrome-watches.com/hands-on-return-of-emblematic-vulcain-cricket-alarm-watch-new-collection-2022-price/",
+      "https://en.wikipedia.org/wiki/Eterna"
+    ]
+  },
+  {
+    "id": "quarter-repeater",
+    "name": "Quarter repeater",
+    "aka": [
+      "Répétition à quarts",
+      "Viertelrepetition"
+    ],
+    "category": "striking",
+    "tagline": "Chimes the hours and quarter-hours on demand at the touch of a slide.",
+    "summary": "Press the pusher or slide and the watch strikes the time: first the hours on a low gong, then the quarter-hours past with a double 'ding-dong' note. It tells time to the nearest quarter hour, even in the dark.",
+    "howItWorks": "Operating the slide winds a small spring and sets a rack moving. The rack's travel is stopped by a stepped cam, the hour snail, which turns with the hour hand: the further round, the farther the rack moves and the more hammer blows result. A second rack reads the quarter snail on the cannon pinion. As the spring unwinds, teeth on the racks lift the hammers so they strike the gongs the correct number of times, while a governor, usually a small centrifugal or anchor regulator, controls the pace so the chime sounds even and unhurried. An all-or-nothing piece prevents the watch striking the wrong time if the slide is only partly pushed.",
+    "history": "Repeating clocks appeared in England after Edward Barlow invented rack striking in 1676. In 1687 Daniel Quare was granted precedence by King James II for a repeating watch that struck hours and quarters, ahead of a rival design by Barlow. Quarter repeaters were practical for telling time in the dark before electric light and remained common in pocket watches through the 19th century. In wristwatches they are rare; Chronoswiss's Répétition à Quarts, based on its C.126 calibre, is a well-known modern example.",
+    "invented": {
+      "year": 1687,
+      "by": "Daniel Quare"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 4,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 2,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 100–200 extra components",
+    "funFact": "King James II had to judge between Quare and Barlow's rival repeating watches, and preferred Quare's simpler single-push design.",
+    "famousExamples": [
+      {
+        "brand": "Chronoswiss",
+        "brandId": "chronoswiss",
+        "model": "Répétition à Quarts"
+      },
+      {
+        "brand": "Chronoswiss",
+        "brandId": "chronoswiss",
+        "model": "Q-Repeater"
+      },
+      {
+        "brand": "Daniel Quare",
+        "brandId": null,
+        "model": "Repeating pocket watch (c. 1690s)"
+      }
+    ],
+    "pairsWith": [
+      "regulator-dial",
+      "moonphase",
+      "perpetual-calendar"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Repeater_(horology)",
+      "https://monochrome-watches.com/chronoswiss-q-repeater-collection-quarter-repeater-vintage-movement-restored-introducing-specs-price/",
+      "https://escapementmagazine.com/articles/chronoswiss-sirius-repetition-quarts/"
+    ]
+  },
+  {
+    "id": "minute-repeater",
+    "name": "Minute repeater",
+    "aka": [
+      "Répétition minutes",
+      "Minutenrepetition"
+    ],
+    "category": "striking",
+    "tagline": "Strikes the exact time to the minute on tiny gongs, on demand.",
+    "summary": "Pull a slide and the watch chimes the hours on a low gong, the quarters as double tones, then the minutes on a high gong. It is often called the most difficult classic complication, prized for its sound.",
+    "howItWorks": "Moving the slide winds a dedicated spring. Three stepped cams, called snails, turn with the hands: one for hours, one for quarters, one for minutes. Racks fall against the snails, and the depth of each step determines how many blows the hammers deliver. As the spring unwinds, a governor controls the pace while teeth on the racks lift the hammers against hardened steel gongs coiled around the movement. All-or-nothing safety ensures the watch never chimes a wrong time. Much of the difficulty is acoustic: the gongs' metal, length and attachment, the case material and the hammer force must all be tuned by hand for a clear, loud, harmonious sound.",
+    "history": "Minute repeaters were developed in the 18th century after Quare's quarter repeater of 1687; Thomas Mudge is credited with an early minute repeater around 1755, and Abraham-Louis Breguet introduced coiled wire gongs around 1783, making watches thinner and louder. The complication thrived in pocket watches before electric light, but nearly vanished after World War II until the 1980s revival. Today Patek Philippe, Audemars Piguet, Vacheron Constantin and Jaeger-LeCoultre are known for them.",
+    "invented": {
+      "year": 1755,
+      "by": "Thomas Mudge"
+    },
+    "difficulty": 10,
+    "difficultyLabel": "Grand complication",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 3,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 250–400 extra components",
+    "funFact": "Patek Philippe's long-time president Philippe Stern was known for personally listening to each new minute repeater before it could be delivered.",
+    "famousExamples": [
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Grandmaster Chime 6300"
+      },
+      {
+        "brand": "Audemars Piguet",
+        "brandId": "audemars-piguet",
+        "model": "Royal Oak Concept Supersonnerie"
+      },
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Master Grande Tradition Gyrotourbillon Westminster Perpétuel"
+      },
+      {
+        "brand": "Vacheron Constantin",
+        "brandId": "vacheron-constantin",
+        "model": "Patrimony Ultra-Thin Minute Repeater"
+      }
+    ],
+    "pairsWith": [
+      "perpetual-calendar",
+      "tourbillon",
+      "grande-sonnerie",
+      "split-seconds-chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Repeater_(horology)",
+      "https://www.watchonista.com/articles/sound-time-origins-minute-repeater",
+      "https://www.exquisitetimepieces.com/blog/cheapest-minute-repeater-watches/"
+    ]
+  },
+  {
+    "id": "grande-sonnerie",
+    "name": "Grande sonnerie",
+    "aka": [
+      "Grande et petite sonnerie",
+      "Grand strike"
+    ],
+    "category": "striking",
+    "tagline": "Chimes the hours and quarters automatically, like a clock tower on the wrist.",
+    "summary": "A grande sonnerie strikes the time by itself, in passing: at every quarter hour it chimes the hour and the quarters. A petite sonnerie mode strikes only the hour on the hour, and a silent mode stops it. It usually includes a minute repeater too.",
+    "howItWorks": "A grande sonnerie combines a repeater mechanism with an automatic trigger. Every quarter hour, a star wheel releases the striking train, which reads the hour and quarter snails and strikes accordingly, all without the wearer touching anything. Because it strikes 96 times a day, often with over 900 hammer blows daily, the striking train needs its own mainspring barrel, which is often wound together with the going train through the crown. Selector levers switch between grande, petite and silent modes, and safety devices prevent strikes when the strike barrel is nearly empty or while the time is being set. Fitting two barrels, the strike train and dozens of safety interlocks into a wristwatch makes it among the hardest complications to design, build and adjust.",
+    "history": "Clock-watches that struck automatically were made from the 16th century, and grande sonneries appeared in fine carriage clocks and pocket watches through the 18th and 19th centuries. Philippe Dufour, who had made five sonnerie pocket watches for Audemars Piguet between 1982 and 1988, spent two and a half years miniaturising the mechanism and presented the first grande and petite sonnerie wristwatch at Baselworld 1992. Gérald Genta, Patek Philippe, Greubel Forsey and F.P. Journe have since made notable examples.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 10,
+    "difficultyLabel": "Grand complication",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 2,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 400–1,000+ components in total",
+    "funFact": "Philippe Dufour's grande sonnerie was the first ever made for the wrist, and only a handful exist.",
+    "famousExamples": [
+      {
+        "brand": "Philippe Dufour",
+        "brandId": "philippe-dufour",
+        "model": "Grande et Petite Sonnerie"
+      },
+      {
+        "brand": "Patek Philippe",
+        "brandId": "patek-philippe",
+        "model": "Grandmaster Chime 6300"
+      },
+      {
+        "brand": "Greubel Forsey",
+        "brandId": "greubel-forsey",
+        "model": "Grande Sonnerie"
+      },
+      {
+        "brand": "F.P. Journe",
+        "brandId": "fp-journe",
+        "model": "Sonnerie Souveraine"
+      }
+    ],
+    "pairsWith": [
+      "minute-repeater",
+      "perpetual-calendar",
+      "tourbillon"
+    ],
+    "sources": [
+      "https://watchesbysjx.com/2015/09/a-detailed-look-at-the-magnificent-philippe-dufour-grande-and-petite-sonnerie-wristwatch.html",
+      "https://en.wikipedia.org/wiki/Philippe_Dufour",
+      "https://en.wikipedia.org/wiki/Repeater_(horology)"
+    ]
+  },
+  {
+    "id": "tourbillon",
+    "name": "Tourbillon",
+    "aka": [
+      "Whirlwind"
+    ],
+    "category": "regulation",
+    "tagline": "The balance and escapement spin in a cage to average out gravity's errors.",
+    "summary": "In a tourbillon, the escapement and balance wheel sit in a rotating cage, usually turning once a minute. By constantly changing the position of the balance, it averages out timing errors caused by gravity, and it is mesmerising to watch.",
+    "howItWorks": "A pocket watch spends much of its day upright in one position, so any imbalance in the balance wheel pulls the rate in one direction. In a tourbillon, the balance, hairspring, escape wheel and pallet fork are mounted in a very light cage fixed to the fourth wheel. The escape wheel pinion rolls around a fixed wheel, so the whole cage rotates, typically once per minute, while the escapement runs. Any positional error is spread over a full rotation and largely cancels out. The cage must be extremely light, often under half a gram, and perfectly balanced, and the extra inertia makes regulation delicate. In wristwatches, which change position constantly, the benefit is debated.",
+    "history": "Abraham-Louis Breguet invented the tourbillon around 1795 and patented it in Paris on 26 June 1801, and he sold fewer than 40 during his lifetime. The device became a test piece for chronometry competitions in the 19th and 20th centuries. Wristwatch tourbillons appeared in prototypes in the 1940s and in series from 1986 with Audemars Piguet's automatic tourbillon. Since the 2000s, Chinese makers such as Sea-Gull have produced tourbillons for a fraction of Swiss prices, while TAG Heuer lowered Swiss entry prices to about $15,000.",
+    "invented": {
+      "year": 1801,
+      "by": "Abraham-Louis Breguet"
+    },
+    "difficulty": 7,
+    "difficultyLabel": "Expert",
+    "costTier": 3,
+    "typicalEntryPriceUSD": 2000,
+    "usefulness": 1,
+    "usefulnessType": "prestige",
+    "commonness": 3,
+    "commonnessLabel": "Rare",
+    "partsCount": "cage of ~ 40–80 parts, often weighing under 0.5 g",
+    "funFact": "Breguet's tourbillon patent was granted in the ninth year of the French Revolutionary calendar, dated 7 Messidor An IX.",
+    "famousExamples": [
+      {
+        "brand": "Breguet",
+        "brandId": "breguet",
+        "model": "Classique Tourbillon Extra-Plat"
+      },
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Tourbillon Pour le Mérite"
+      },
+      {
+        "brand": "Audemars Piguet",
+        "brandId": "audemars-piguet",
+        "model": "Royal Oak Tourbillon"
+      },
+      {
+        "brand": "Sea-Gull",
+        "brandId": "sea-gull",
+        "model": "Tourbillon (ST8000 family)"
+      }
+    ],
+    "pairsWith": [
+      "perpetual-calendar",
+      "minute-repeater",
+      "fusee-and-chain"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tourbillon",
+      "https://timeandtidewatches.com/best-affordable-tourbillon-watches/",
+      "https://www.exquisitetimepieces.com/blog/cheapest-tourbillon-watches/"
+    ]
+  },
+  {
+    "id": "flying-tourbillon",
+    "name": "Flying tourbillon",
+    "aka": [
+      "Tourbillon volant",
+      "Fliegendes Tourbillon"
+    ],
+    "category": "regulation",
+    "tagline": "A tourbillon supported only from below, with no bridge above the cage.",
+    "summary": "A flying tourbillon has no upper bridge: the cage is held only from underneath, so it appears to float in the dial opening. It performs the same job as a tourbillon, but shows the rotating cage in full.",
+    "howItWorks": "A normal tourbillon cage is held between two pivots, one in the mainplate and one in a bridge on top. A flying tourbillon removes the top bridge and supports the cage on a single cantilevered bearing underneath, usually a large ball bearing or a long, precisely fitted arbor. Everything else, the fixed fourth wheel, escape wheel rolling around it and the balance in the rotating cage, works as in a classic tourbillon. The challenge is rigidity: with one bearing, the cage can wobble and the escapement geometry can shift, especially after shocks, so tolerances and bearing quality must be exceptional. The reward is an unobstructed, dramatic view.",
+    "history": "Alfred Helwig, a teacher at the German watchmaking school in Glashütte, developed the flying tourbillon in 1920. It remained a school showpiece for decades until Glashütte makers and Swiss brands adopted it for wristwatches from the 1990s. It has since become the most common high-end tourbillon style, and TAG Heuer's Carrera Heuer 02T of 2015, priced at about $15,000, made it the most affordable Swiss certified tourbillon at the time.",
+    "invented": {
+      "year": 1920,
+      "by": "Alfred Helwig"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 4,
+    "typicalEntryPriceUSD": 15000,
+    "usefulness": 1,
+    "usefulnessType": "prestige",
+    "commonness": 2,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "cage of ~ 50–80 parts",
+    "funFact": "Helwig's flying tourbillon was created as a teaching exercise at the Glashütte watchmaking school.",
+    "famousExamples": [
+      {
+        "brand": "TAG Heuer",
+        "brandId": "tag-heuer",
+        "model": "Carrera Heuer 02T"
+      },
+      {
+        "brand": "Glashütte Original",
+        "brandId": "glashutte-original",
+        "model": "Alfred Helwig Tourbillon 1920 Limited Edition"
+      },
+      {
+        "brand": "Cartier",
+        "brandId": "cartier",
+        "model": "Rotonde de Cartier Flying Tourbillon"
+      }
+    ],
+    "pairsWith": [
+      "chronograph",
+      "tourbillon",
+      "power-reserve"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tourbillon",
+      "https://www.forbes.com/sites/carolbesler/2021/03/22/tag-heuer-carrera-heuer-02t-the-most-affordable-swiss-tourbillon-now-all-titanium/",
+      "https://www.ablogtowatch.com/tag-heuer-carrera-heuer-02t-tourbillon-chronograph-watch-review/"
+    ]
+  },
+  {
+    "id": "multi-axis-tourbillon",
+    "name": "Multi-axis tourbillon",
+    "aka": [
+      "Double-axis tourbillon",
+      "Triple-axis tourbillon",
+      "Gyrotourbillon"
+    ],
+    "category": "regulation",
+    "tagline": "A tourbillon cage spinning inside another cage, turning on two or three axes.",
+    "summary": "A multi-axis tourbillon mounts one rotating cage inside another, so the balance wheel tumbles through every orientation in three dimensions. It is one of the most spectacular displays in watchmaking.",
+    "howItWorks": "A single-axis tourbillon averages positional errors only in the vertical plane. A double-axis tourbillon places the inner cage, carrying the balance and escapement, on an axle mounted inside an outer cage, which itself rotates on a perpendicular axis. The inner cage might rotate every 30 seconds while the outer turns every minute or more, so the balance passes through all positions. Triple- and even quadruple-axis designs nest further cages. Each extra cage multiplies the mass and inertia to be driven, so designers use titanium and aluminium alloys and extremely light parts, and must transmit drive through several rotating frames while keeping the escapement stable, which makes adjustment extremely difficult.",
+    "history": "Anthony Randall invented the double-axis tourbillon in 1977; Richard Good built the first working example in 1978. Thomas Prescher made the first double-axis tourbillon wristwatch in 2003 and later a triple-axis version. Jaeger-LeCoultre's Gyrotourbillon I of 2004 brought the concept to a major brand, followed by Greubel Forsey's inclined Double and Quadruple Tourbillons and Jacob & Co's Astronomia, in which the tourbillon orbits the dial.",
+    "invented": {
+      "year": 1977,
+      "by": "Anthony Randall"
+    },
+    "difficulty": 10,
+    "difficultyLabel": "Grand complication",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "Anthony Randall's first full-size double-axis tourbillon, made in 1980, went into a carriage clock rather than a watch.",
+    "famousExamples": [
+      {
+        "brand": "Jaeger-LeCoultre",
+        "brandId": "jaeger-lecoultre",
+        "model": "Gyrotourbillon"
+      },
+      {
+        "brand": "Greubel Forsey",
+        "brandId": "greubel-forsey",
+        "model": "Double Tourbillon 30°"
+      },
+      {
+        "brand": "Jacob & Co.",
+        "brandId": "jacob-and-co",
+        "model": "Astronomia Tourbillon"
+      },
+      {
+        "brand": "Girard-Perregaux",
+        "brandId": "girard-perregaux",
+        "model": "Tri-Axial Tourbillon"
+      }
+    ],
+    "pairsWith": [
+      "tourbillon",
+      "perpetual-calendar",
+      "equation-of-time"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tourbillon",
+      "https://revolutionwatch.com/the-complete-story-of-the-multi-axis-tourbillon/"
+    ]
+  },
+  {
+    "id": "carrousel",
+    "name": "Karrusel / carrousel",
+    "aka": [
+      "Karrusel",
+      "Carrousel"
+    ],
+    "category": "regulation",
+    "tagline": "The tourbillon's slower cousin: a rotating escapement driven by a separate wheel.",
+    "summary": "Like a tourbillon, a karrusel rotates the balance and escapement to average out gravity's effects. The difference is how the cage is driven, which makes it cheaper to make and less delicate than a tourbillon, though it turns much more slowly.",
+    "howItWorks": "In a tourbillon, the escapement's own energy turns the cage, because the escape pinion rolls around a fixed wheel. In a karrusel, the cage is mounted on a separate wheel driven directly by the third wheel of the train, while the fourth wheel passes through the middle to drive the escapement. The rotation of the cage and the running of the escapement are therefore powered by two separate paths. Bonniksen's original karrusel turned once every 52.5 minutes. Because a stoppage or shock to the cage does not stop the escapement, the design is sturdier and tolerances are more forgiving, though a karrusel still demands a light, well-balanced carriage.",
+    "history": "Bahne Bonniksen, a Danish watchmaker working in Coventry, England, patented the karrusel in 1892 as a cheaper, more robust alternative to the tourbillon, and it was used in English pocket watches that performed well at Kew observatory trials. It virtually disappeared with the decline of English watchmaking until Blancpain reintroduced it in a wristwatch in 2008 with the Carrousel Volant Une Minute, later combining a tourbillon and a karrusel in one watch in 2013.",
+    "invented": {
+      "year": 1892,
+      "by": "Bahne Bonniksen"
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 50–100 parts in the cage assembly",
+    "funFact": "Bonniksen's karrusel rotated only once every 52.5 minutes, very slowly compared with a one-minute tourbillon.",
+    "famousExamples": [
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "Villeret Carrousel Volant Une Minute"
+      },
+      {
+        "brand": "Blancpain",
+        "brandId": "blancpain",
+        "model": "L-Evolution Tourbillon Carrousel"
+      }
+    ],
+    "pairsWith": [
+      "tourbillon",
+      "minute-repeater",
+      "flyback-chronograph"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karrusel",
+      "https://timetransformed.com/2014/08/04/blancpain-and-the-carrousel/",
+      "https://monochrome-watches.com/blancpain-tourbillon-carrousel-review-price/"
+    ]
+  },
+  {
+    "id": "constant-force-escapement",
+    "name": "Constant-force mechanism / remontoir",
+    "aka": [
+      "Remontoir d'égalité",
+      "Constant-force escapement",
+      "Échappement à force constante"
+    ],
+    "category": "regulation",
+    "tagline": "Feeds the balance a steady, measured push, however wound the mainspring is.",
+    "summary": "A mainspring pushes hard when fully wound and weakly when nearly unwound, which affects accuracy. A constant-force device stores a small, precise amount of energy in a secondary spring and passes it to the escapement in equal doses.",
+    "howItWorks": "The mainspring's torque falls as it unwinds, and the balance's amplitude falls with it, changing the rate. A remontoir d'égalité adds an intermediate spring, often a fine hairspring or leaf spring, between the gear train and the escapement. The gear train rewinds this small spring at regular intervals, typically every second or every few seconds, while the escapement runs from its constant, gentle torque. Some designs, like Girard-Perregaux's Constant Escapement, put a buckling silicon blade inside the escapement itself. A lock and release mechanism, often a star wheel and detent, controls the rewinding. The difficulty is keeping the extra parts light and low-friction so they do not cost more energy than they save.",
+    "history": "Jost Bürgi used a remontoir in clocks in the late 16th century, and John Harrison built one into his marine timekeepers in the 18th century. In wristwatches, the idea was revived in the 1990s and 2000s: A. Lange & Söhne's Lange 31 and Zeitwerk, F.P. Journe's Tourbillon Souverain and Chronomètre Optimum, and Grönefeld's 1941 Remontoire, from about $76,000. Girard-Perregaux presented its silicon Constant Escapement in 2008 and a production watch in 2013.",
+    "invented": {
+      "year": null,
+      "by": "Jost Bürgi (early remontoir, late 16th century)"
+    },
+    "difficulty": 9,
+    "difficultyLabel": "Grand complication",
+    "costTier": 4,
+    "typicalEntryPriceUSD": 76000,
+    "usefulness": 2,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "~ 10–40 extra components",
+    "funFact": "Girard-Perregaux's Constant Escapement uses a silicon blade just 14 microns thick, about a fifth the width of a human hair.",
+    "famousExamples": [
+      {
+        "brand": "Girard-Perregaux",
+        "brandId": "girard-perregaux",
+        "model": "Constant Escapement L.M."
+      },
+      {
+        "brand": "F.P. Journe",
+        "brandId": "fp-journe",
+        "model": "Chronomètre Optimum"
+      },
+      {
+        "brand": "Grönefeld",
+        "brandId": "gronefeld",
+        "model": "1941 Remontoire"
+      },
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Lange 31"
+      }
+    ],
+    "pairsWith": [
+      "tourbillon",
+      "deadbeat-seconds",
+      "mechanical-digital-display"
+    ],
+    "sources": [
+      "https://revolutionwatch.com/the-complete-guide-to-constant-force-remontoir-degalite/",
+      "https://watchesbysjx.com/2024/01/girard-perregaux-neo-constant-escapement-review.html",
+      "https://www.coveted.com/discover/gronefeld-1941-remontoire-watches"
+    ]
+  },
+  {
+    "id": "fusee-and-chain",
+    "name": "Fusée and chain",
+    "aka": [
+      "Fusee",
+      "Fusée-chaîne",
+      "Kette und Schnecke"
+    ],
+    "category": "regulation",
+    "tagline": "A cone-shaped pulley and tiny bicycle-style chain that evens out the mainspring.",
+    "summary": "The fusée is a cone-shaped pulley linked to the mainspring barrel by a miniature chain. As the spring weakens, the chain pulls on a wider part of the cone, giving it more leverage, so the force reaching the movement stays nearly constant.",
+    "howItWorks": "When the watch is wound, the chain is drawn from the barrel onto the fusée's spiral groove, ending at the narrow top. A fully wound mainspring is strong, so it pulls from the small radius, which gives it little leverage. As the watch runs down and the spring weakens, the chain unwinds from ever wider radii of the cone, increasing leverage just enough to compensate. The result is nearly constant torque to the gear train. The chain itself, made of hundreds of tiny riveted links, is the showpiece and the difficulty; a winding stop and a maintaining power device, which keeps the watch running during winding, are also usually needed.",
+    "history": "The fusée appears in 15th-century spring-driven clocks, and drawings by Leonardo da Vinci around 1490 show one. Chains replaced gut cords in the 17th century, and the fusée was standard in English watches and marine chronometers into the 19th century before improved mainsprings made it obsolete. A. Lange & Söhne's Tourbillon Pour le Mérite of 1994 was the first wristwatch with a fusée and chain, and Lange, Breguet, Zenith and Romain Gauthier have since used it.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "prestige",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": "Lange Pour le Mérite chain: 636 parts",
+    "funFact": "The chain in Lange's Pour le Mérite is made of 636 individual parts, and assembling it by hand takes a watchmaker hours.",
+    "famousExamples": [
+      {
+        "brand": "A. Lange & Söhne",
+        "brandId": "a-lange-sohne",
+        "model": "Tourbillon Pour le Mérite"
+      },
+      {
+        "brand": "Zenith",
+        "brandId": "zenith",
+        "model": "Academy Georges Favre-Jacot"
+      },
+      {
+        "brand": "Romain Gauthier",
+        "brandId": "romain-gauthier",
+        "model": "Logical One"
+      },
+      {
+        "brand": "Breguet",
+        "brandId": "breguet",
+        "model": "Tradition Tourbillon Fusée 7047"
+      }
+    ],
+    "pairsWith": [
+      "tourbillon",
+      "constant-force-escapement",
+      "power-reserve"
+    ],
+    "sources": [
+      "https://watchesbysjx.com/2018/02/explaining-the-microscopic-chain-inside-the-a-lange-sohne-pour-le-merite.html",
+      "https://quillandpad.com/2018/11/21/the-fusee-and-chain-from-function-to-fashion-in-4-wristwatches-from-a-lange-sohne-breguet-zenith-and-romain-gauthier/",
+      "https://www.alange-soehne.com/us-en/timepieces/richard-lange/richard-lange-pour-le-merite"
+    ]
+  },
+  {
+    "id": "automaton",
+    "name": "Automaton",
+    "aka": [
+      "Automate",
+      "Animated dial"
+    ],
+    "category": "artistic",
+    "tagline": "Tiny mechanical figures that move on the dial, like a miniature theatre.",
+    "summary": "An automaton watch has small figures, animals or scenes on the dial that move mechanically. They perform continuously, on the hour or when the owner presses a button, sometimes together with a chime.",
+    "howItWorks": "The figures are driven by the movement or by a separate barrel, through cams, levers and racks hidden under the dial. A cam's profile defines each motion: a lever riding on it might raise an arm, turn a head or swing a pendulum. Complex automata stack several cams on one arbor to choreograph multiple figures in sequence. When the animation is on demand or linked to a repeater, a separate spring stores the energy so the timekeeping is not disturbed. Beyond engineering, the craft is artistic: figures are engraved, enamelled or sculpted in gold and must be extremely light so the movement can move them smoothly.",
+    "history": "Automata date back to antiquity, and 18th-century makers such as Pierre Jaquet-Droz and Henri Maillardet built famous writing and drawing automata. Pocket watches with animated scenes, often with a repeater, were made in Geneva in the late 18th and 19th centuries. Modern wristwatch automata have been revived by Jaquet Droz, Ulysse Nardin, Van Cleef & Arpels, Blancpain and Christophe Claret, often combined with minute repeaters.",
+    "invented": {
+      "year": null,
+      "by": null
+    },
+    "difficulty": 8,
+    "difficultyLabel": "Expert",
+    "costTier": 5,
+    "typicalEntryPriceUSD": null,
+    "usefulness": 1,
+    "usefulnessType": "aesthetic",
+    "commonness": 1,
+    "commonnessLabel": "Exceedingly rare",
+    "partsCount": null,
+    "funFact": "Van Cleef & Arpels' Lady Arpels Pont des Amoureux shows two lovers who move across a bridge towards each other through the day, meeting at noon and midnight.",
+    "famousExamples": [
+      {
+        "brand": "Van Cleef & Arpels",
+        "brandId": "van-cleef-arpels",
+        "model": "Lady Arpels Pont des Amoureux"
+      },
+      {
+        "brand": "Ulysse Nardin",
+        "brandId": "ulysse-nardin",
+        "model": "Hourstriker"
+      },
+      {
+        "brand": "Christophe Claret",
+        "brandId": "christophe-claret",
+        "model": "Margot"
+      }
+    ],
+    "pairsWith": [
+      "minute-repeater",
+      "grande-sonnerie"
+    ],
+    "sources": [
+      "https://timeandtidewatches.com/best-automaton-watches/",
+      "https://katerinaperez.com/articles/6-best-automaton-watches-2026",
+      "https://en.wikipedia.org/wiki/Automaton"
+    ]
+  }
+]

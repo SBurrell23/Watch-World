@@ -10,6 +10,7 @@ const ICONS = {
   groups: '<circle cx="20" cy="11" r="5"/><circle cx="9" cy="29" r="5"/><circle cx="31" cy="29" r="5"/><path d="m17 15-5 10M23 15l5 10M14 29h12"/>',
   network: '<circle cx="10" cy="10" r="3"/><circle cx="30" cy="12" r="3"/><circle cx="20" cy="22" r="4"/><circle cx="9" cy="31" r="3"/><circle cx="31" cy="31" r="3"/><path d="m12 12 5 7M28 14l-5 6M17 25l-6 4M23 25l6 4M13 10h14"/>',
   models: '<rect x="13" y="3" width="14" height="34" rx="4"/><circle cx="20" cy="20" r="9" fill="var(--bg-elev)"/><path d="M20 14v6l4 2"/>',
+  complications: '<circle cx="20" cy="20" r="15"/><circle cx="20" cy="20" r="11.5" stroke-dasharray="1 2.2"/><circle cx="20" cy="27" r="4"/><path d="M20 20V9M20 20l6 3"/><path d="M12.5 12.5a10.5 10.5 0 0 1 4-2.8"/>',
   finder: '<circle cx="17" cy="17" r="10"/><path d="m24.5 24.5 9 9M17 11v6h5"/>',
   learn: '<path d="M6 10c5-2 10-2 14 1 4-3 9-3 14-1v22c-5-2-10-2-14 1-4-3-9-3-14-1z"/><path d="M20 11v22"/>',
   compare: '<path d="M20 5v30M10 35h20M7 12h26M11 12l-5 11a5 5 0 0 0 10 0zm18 0-5 11a5 5 0 0 0 10 0z"/>',
@@ -96,7 +97,7 @@ export default {
 
 <section class="section wrap" aria-labelledby="h-sections">
   <div class="section-head reveal">
-    <div><p class="eyebrow">Ten ways in</p><h2 class="h2" id="h-sections">Choose your <em>complication</em></h2></div>
+    <div><p class="eyebrow">Eleven ways in</p><h2 class="h2" id="h-sections">Choose your <em>complication</em></h2></div>
   </div>
   <div class="tiles reveal">
     ${SECTIONS().map((s, i) => `<a class="tile" href="#/${s.id}">
@@ -201,6 +202,7 @@ function SECTIONS() {
     { id: 'groups', label: 'Groups', blurb: 'Who owns whom: Swatch, Richemont, LVMH and the independents.' },
     { id: 'network', label: 'Network', blurb: 'Owners, movement suppliers, designers and lineages, connected.' },
     { id: 'models', label: 'Models', blurb: 'A gallery of iconic references, rendered in fine line.' },
+    { id: 'complications', label: 'Complications', blurb: 'From the humble date to the minute repeater: 48 mechanisms, illustrated.' },
     { id: 'finder', label: 'Watch Finder', blurb: 'Answer a few questions and meet your next watch.' },
     { id: 'learn', label: 'Learn', blurb: 'Movements, complications and the vocabulary of horology.' },
     { id: 'compare', label: 'Compare', blurb: 'Put up to four houses side by side on one chart.' },

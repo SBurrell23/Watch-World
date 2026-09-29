@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Complication art 3 harness</title>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/complications-art.css">
+<style>
+  body { margin: 0; padding: 16px; background: var(--bg); color: var(--text); font-family: var(--font-body); }
+  header { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
+  button { background: none; border: 1px solid var(--border); color: var(--text); border-radius: 99px; padding: 4px 12px; cursor: pointer; }
+  .grid { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 20px; }
+  figure { margin: 0; padding: 8px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); text-align: center; }
+  figcaption { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+  .s160 .cx-art { width: 160px; } .s90 .cx-art { width: 90px; }
+  #status { font-size: 12px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+<header>
+  <button id="theme">Toggle theme</button>
+  <span id="status"></span>
+</header>
+<div class="grid s160" id="g160"></div>
+<div class="grid s90" id="g90"></div>
+<script type="module">
+  import art from '../js/complications/art-3.js';
+  const ids = ['sunrise-sunset', 'tide-indicator', 'chronograph', 'monopusher-chronograph', 'flyback-chronograph', 'split-seconds-chronograph', 'tachymeter', 'pulsometer', 'telemeter', 'regatta-timer', 'gmt', 'dual-time'];
+  let seq = 0;
+  const sizes = [];
+  const big = +new URLSearchParams(location.search).get('big');
+  if (big) { document.getElementById('g90').style.display = 'none'; document.querySelector('.s160').style.setProperty('--w', big + 'px'); document.querySelectorAll('.s160 .cx-art'); document.head.insertAdjacentHTML('beforeend', '<style>.s160 .cx-art{width:' + big + 'px}</style>'); }
+  for (const g of ['g160', 'g90']) {
+    document.getElementById(g).innerHTML = ids.map((id) => {
+      const s = art[id]({ uid: `cx${++seq}` });
+      if (g === 'g160') sizes.push(`${id}:${s.length}`);
+      return `<figure><div class="cx-art">${s}</div><figcaption>${id}</figcaption></figure>`;
+    }).join('');
+  }
+  const all = [...document.querySelectorAll('[id]')].map((e) => e.id);
+  const dups = all.filter((x, i) => all.indexOf(x) !== i);
+  const missing = ids.filter((id) => !art[id]);
+  document.getElementById('status').textContent = `${Object.keys(art).length} drawings · missing: ${missing.join(',') || 'none'} · duplicate ids: ${dups.join(',') || 'none'} · max ${Math.max(...sizes.map((s) => +s.split(':')[1]))} B`;
+  window.__sizes = sizes;
+  document.getElementById('theme').onclick = () => {
+    const h = document.documentElement;
+    if (h.dataset.theme === 'light') delete h.dataset.theme; else h.dataset.theme = 'light';
+  };
+</script>
+</body>
+</html>
